@@ -6,5 +6,4 @@ Repository about Software Fundament
 [LIS-UADY](https://www.matematicas.uady.mx/planes-de-estudio/licenciaturas/licenciatura-en-ingenieria-de-software)
 <br>
 [LIS-ITSON](https://itson.mx/oferta/isw/Paginas/isw.aspx)
-<br>
-<h3>Hello World</h3>
+
