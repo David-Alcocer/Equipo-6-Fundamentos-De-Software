@@ -6,7 +6,7 @@ Por otro lado, para un alumno avanzado con más de 180 créditos, la plataforma 
 
 ---
 
-## 👥 Usuarios
+## 👥 Usuarios/clientes
 
 ### Primarios
 
