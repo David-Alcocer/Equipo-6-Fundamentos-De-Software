@@ -1,13 +1,7 @@
 # Competencias Genericas
-##  ¿Que son las competencias genericas?
+##  ¿De qué forma se promueven las competencias genéricas?
   
-Son habilidades personales que se pueden aplicar en cualquier campo profesional, tanto asi como en el Desarollo de Software
+- Las competencias genericas se promueven en el uso de Herramientas como Discord, Whatsapp o inclusive en las reuniones que se llevan a cabo de forma presencial.
+- El uso de estas herramientas dan como resultado las bitacoras(Artefactos)
 
----
-## ¿Cuales son un ejemplo de estas?
-
-- Liderazgo: Capacidad para dirigir proyectos y equipos de desarrollo.
-- Pensamiento crítico: Habilidad para analizar problemas y proponer soluciones creativas y flexibles. 
-- Ética profesional: Actuar con responsabilidad y apego a normas éticas en la práctica profesional. 
-- Trabajo en equipo: Habilidad para comunicarse y colaborar en equipos interdisciplinarios. 
-- Responsabilidad social: Considerar el impacto social y económico de las soluciones de software. 
+- Gracias al uso de estas herramientas se fortalecen las habilidades personales asi como la Comunicacion entre todos los miembros del equipo, el trabajo en equipo, la resolucion de problemas e inclusive la toma de decisiones se vuelve aun mas precisa gracias al trabajo en equipo.
