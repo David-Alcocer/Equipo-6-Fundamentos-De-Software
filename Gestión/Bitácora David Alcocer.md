@@ -10,7 +10,7 @@ Este proyecto se enfoca en el **producto de software** y el diseño de la herram
 
 | ID | Objetivo | Estatus | Fecha de Término Estimada |
 | :---: | :--- | :---: | :---: |
-| O-01 | **Dominar el flujo de trabajo Git/GitHub** | **En Progreso** | 30/09/2025 |
+| O-01 | **Dominar el flujo de trabajo Git/GitHub** | **En Progreso** | 4/11/2025 |
 | O-02 | Completar la **Recolección y Análisis de Requisitos** | ✅ Completado | 24/09/2025 |
 | O-03 | Definir la **Priorización de Requisitos** | ✅ Completado | 24/09/2025 |
 
@@ -62,5 +62,18 @@ Este proyecto se enfoca en el **producto de software** y el diseño de la herram
 > La priorización es crucial en el **proceso de software** ya que define la ruta de desarrollo. Se utilizó un método de priorización (ej. MoSCoW, KANO, etc.) para asegurar que las características más críticas sean abordadas primero.
 
 ---
+## 📌 Principio de Responsabilidad y Supervisión
 
+Hemos adoptado un principio fundamental de gestión que es crucial para garantizar que todas las tareas y requerimientos del proyecto **PeerHive** se ejecuten con éxito:
+
+> **Una orden dada sin supervisión es pura ilusión.**
+
+### ✅ El Rol del Supervisor/Verificador
+
+En el flujo de trabajo, la **supervisión** no se trata de auditar cada detalle de la actividad ejecutada, sino de:
+
+1.  **Verificar la Ejecución:** Asegurarse de que la actividad asignada fue **realmente completada**.
+2.  **Confirmar Resultados:** Chequear si los **resultados esperados** se obtuvieron correctamente.
+
+Este principio nos recuerda que la **responsabilidad** es compartida y que la **verificación** al final de cada tarea es esencial para la coherencia y el avance del proyecto.
 
