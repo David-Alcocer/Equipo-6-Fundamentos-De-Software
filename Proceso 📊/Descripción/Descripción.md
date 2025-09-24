@@ -1,27 +1,48 @@
-📅 Sprint Semanal #1 (22 al 25 de septiembre)
-📄 Descripción General del Sprint
-Durante este sprint, el equipo se enfocó en la planificación estratégica y el refinamiento del backlog del producto. Se realizaron tareas clave para definir el alcance del proyecto y alinear los objetivos con las expectativas de las partes interesadas.
+# 📅 Sprint Semanal #1 (22 al 25 de septiembre)
 
-🚀 Avances Detallados
-Lunes, 22 de septiembre: Se celebró una reunión de alineación con el Product Owner (coordinador). El objetivo principal fue recopilar y validar los requisitos funcionales y no funcionales para la integración de métricas de rendimiento de los consultores, asegurando que los KPIs (Key Performance Indicators) del proyecto estuvieran en línea con los objetivos organizacionales.
+## 📄 Descripción General del Sprint
+Durante este sprint, el equipo se enfocó en la planificación estratégica y el refinamiento del backlog del producto.  
+Se realizaron tareas clave para definir el alcance del proyecto y alinear los objetivos con las expectativas de las partes interesadas.
 
-Martes, 23 de septiembre: Se mantuvo una sesión técnica con el SME (Subject Matter Expert), el profesor Cambranes, para restringir el alcance del proyecto. La decisión fue acotar el dominio a un conjunto de asignaturas específicas de la Licenciatura en Ingeniería de Software, lo que permitió una reducción de la complejidad y una mayor granularidad en el análisis.
+---
 
-Miércoles, 24 de septiembre: Se completó la documentación detallada de los procesos del sistema. Se elaboraron diagramas de flujo de trabajo y se definieron los casos de uso para cada una de las funcionalidades principales, lo que sentó las bases para el desarrollo futuro.
+## 🚀 Avances Detallados
 
-Jueves, 25 de septiembre: Se finalizó la producción del video de presentación. Este artefacto audiovisual tiene como objetivo proveer un resumen conciso y de alto nivel del MVP (Minimum Viable Product), destacando el valor propuesto y el impacto esperado del proyecto.
+### Lunes, 22 de septiembre
+- Reunión de alineación con el Product Owner (coordinador).  
+- Objetivo: recopilar y validar los requisitos funcionales y no funcionales para la integración de métricas de rendimiento de los consultores.  
+- Resultado: asegurar que los KPIs (Key Performance Indicators) estén en línea con los objetivos organizacionales.
 
-🎯 Actividades Completadas
-Refinamiento y Delimitación del Alcance: Se logró una definición precisa del problema, reduciendo el área de enfoque y facilitando la priorización del backlog.
+### Martes, 23 de septiembre
+- Sesión técnica con el SME (Subject Matter Expert), profesor Cambranes.  
+- Decisión: restringir el alcance del proyecto a un conjunto de asignaturas específicas de la **Licenciatura en Ingeniería de Software**.  
+- Beneficio: reducción de la complejidad y mayor granularidad en el análisis.
 
-Documentación de Requerimientos: Se capturaron y documentaron los requisitos del cliente y las especificaciones técnicas del proyecto.
+### Miércoles, 24 de septiembre
+- Documentación detallada de los procesos del sistema.  
+- Creación de **diagramas de flujo de trabajo** y definición de **casos de uso** para funcionalidades principales.  
+- Resultado: bases sólidas para el desarrollo futuro.
 
-Creación de Artefactos de Comunicación: Se produjo un video que servirá como una herramienta clave para la comunicación del progreso y la presentación del proyecto a stakeholders.
+### Jueves, 25 de septiembre
+- Finalización de la producción del **video de presentación**.  
+- Propósito: proveer un resumen conciso y de alto nivel del **MVP (Minimum Viable Product)**.  
+- Enfoque: destacar el valor propuesto y el impacto esperado del proyecto.
 
+---
 
-El reparto de puntos refleja la responsabilidad de cada integrante en las diferentes etapas del proyecto.
-David concentra la mayor carga en requisitos (30%).
-Leo se enfoca en presentación y repositorio (20%).
-Rodrigo aporta principalmente en proceso y artefactos (18%).
-Javier trabaja en producto y metodologías (16%).
-Harold participa en gestión, competencias y guion (16%).
+## 🎯 Actividades Completadas
+- **Refinamiento y Delimitación del Alcance:** definición precisa del problema, reduciendo el área de enfoque y facilitando la priorización del backlog.  
+- **Documentación de Requerimientos:** captura y documentación de requisitos del cliente y especificaciones técnicas.  
+- **Creación de Artefactos de Comunicación:** producción de un video para comunicación del progreso y presentación a stakeholders.
+
+---
+
+## 👥 Reparto de Responsabilidades
+
+| Integrante | Responsabilidad Principal                | % de Participación |
+|------------|------------------------------------------|---------------------|
+| **David**  | Requisitos                               | 30% |
+| **Leo**    | Presentación y repositorio               | 20% |
+| **Rodrigo**| Procesos y artefactos                    | 18% |
+| **Javier** | Producto y metodologías                  | 16% |
+| **Harold** | Gestión, competencias y guion            | 16% |.
