@@ -43,7 +43,7 @@ Repository about Software Fundament
    - [Imagenes]()
    - [ Artefactos ]()
  
-Extra- [📑 Artefactos generales]()
+Extra- [📑 Artefactos generales](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Imagenes)
   - [Diagramas UML]()
   - [Paginas]()
   - [Archivos ]()
