@@ -8,8 +8,8 @@ Repository about Software Fundament
   
 1- [📖 Producto](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96)
   - [Descripción]()
-  - [Objetivos]()
   - [Usuarios/clientes]()
+  - [Objetivos]()
   - [Propuesta de valor]()
   - [Artefactos]()
  
