@@ -36,7 +36,7 @@ Repository about Software Fundament
    - [Imagenes]()
    - [ Artefactos ]()
  
-5- [⭐ Competencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Competencias%20%E2%AD%90)
+5- [⭐ Competencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Competencias%E2%AD%90)
    - [Video]()
    - [Material]()
    - [Audio]()
