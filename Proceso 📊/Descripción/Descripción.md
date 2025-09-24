@@ -1,12 +1,15 @@
 # 📅 Sprint Semanal #1 (22 al 25 de septiembre)
 
+
 ## 📄 Descripción General del Sprint
 Durante este sprint, el equipo se enfocó en la planificación estratégica y el refinamiento del backlog del producto.  
 Se realizaron tareas clave para definir el alcance del proyecto y alinear los objetivos con las expectativas de las partes interesadas.
 
 ---
 
+
 ## 🚀 Avances Detallados
+
 
 ### Lunes, 22 de septiembre
 - Reunión de alineación con el Product Owner (coordinador).  
@@ -31,6 +34,8 @@ Se realizaron tareas clave para definir el alcance del proyecto y alinear los ob
 ---
 
 ## 🎯 Actividades Completadas
+
+
 - **Refinamiento y Delimitación del Alcance:** definición precisa del problema, reduciendo el área de enfoque y facilitando la priorización del backlog.  
 - **Documentación de Requerimientos:** captura y documentación de requisitos del cliente y especificaciones técnicas.  
 - **Creación de Artefactos de Comunicación:** producción de un video para comunicación del progreso y presentación a stakeholders.
