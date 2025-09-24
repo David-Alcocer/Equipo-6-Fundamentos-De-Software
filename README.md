@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 =======
 # Equipo-6-Fundamentos-De-Software
