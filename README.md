@@ -5,10 +5,8 @@
 # Equipo-6-Fundamentos-De-Software
 Repository about Software Fundament 
 
-# Proyecto de Fundamentos de Software: PeerHive
+# 📌 Proyecto de Fundamentos de Software: PeerHive
 ![Imagen](Imagenes/PeerHiveLogo.png)
-
-# 📌 Proyecto SOF – PeerHive
 ---
 # 📂 Tabla de Contenido
   
