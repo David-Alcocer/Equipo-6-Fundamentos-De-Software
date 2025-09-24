@@ -1,4 +1,4 @@
-### Propuesta de Valor
+### Propuesta de Valor 🎯
 
 Enfoque en Gestión y Flexibilidad
 
