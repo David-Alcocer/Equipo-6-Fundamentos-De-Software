@@ -19,8 +19,8 @@ Repository about Software Fundament
   - [Priorización]()
   - [Artefactos]()
     
-3- [📊 Proceso]()
-   - [Métrica de contribución individual ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Proceso%20%F0%9F%93%8A)
+3- [📊 Proceso](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Proceso%20%F0%9F%93%8A)
+   - [Métrica de contribución individual ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Gesti%C3%B3n/M%C3%A9trica%20de%20evaluaci%C3%B3n%20individual.md)
    - [Metodologia]()
    - [Bitacora de reuniones ]()
       - [ Herramientas ]()
