@@ -15,17 +15,24 @@ Registro diario de tareas y avances.
 ## 📅 Martes, 23 de septiembre de 2025
 ### 🎬 Actividades realizadas
 - [x] **Clase de FIS**  
-  - 🎨Comentarios con 
-  - 🔊 Modificación de audio  
+  - 🎨Comentarios con el profesor
+  - 🔊 Reunion de detalles
+      - Reasignación de roles de tareas
+      - discusión sobre el estado del proyecto y como adoptar las metodologias
+- [x] **Video reunión de equipo en discord
+    - [ ]   **    
 
 ---
 
 ## 📅 Miércoles, 24 de septiembre de 2025
 ### 🎬 Actividades realizadas
-- [X] (Pendiente por registrar)
+- [X] **realizacion de lluvias de ideas para el guion**
 
 ---
 
 ## 📅 Jueves, 25 de septiembre de 2025
 ### 🎬 Actividades realizadas
-- [ ] (Pendiente por registrar)
+- [ ] **Grabacion de video**
+- [ ] **reunion grupal**
+- [ ] **Edicion de video**
+- [ ] **grabacion de audio**
