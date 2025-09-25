@@ -68,3 +68,27 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 * **Prueba Piloto:** El proyecto tiene la opción de realizar una **prueba piloto** real si el producto de software que se entrega cumple con los altos estándares de estructura y calidad requeridos para un producto formal.
 
 ---
+### 4. Sesión de Trabajo: Organización y Planificación con GitHub Projects
+
+**Fecha:** 24 de Septiembre de 2025
+**Horario:** 9:50 a.m. - 11:15 a.m.
+**Lugar:** Biblioteca (Sesión de Trabajo en Equipo)
+
+#### ✅ Tareas Ejecutadas
+
+* **Revisión de Pendientes:** Se evaluó el progreso general del proyecto y las actividades restantes necesarias.
+* **Organización del Repositorio:** Se trabajó en la limpieza y orden del repositorio de GitHub.
+* **Implementación de GitHub Projects:** Se configuró y comenzó a utilizar la herramienta **GitHub Projects** para la gestión ágil de tareas.
+
+#### 🛠️ Herramienta de Gestión
+
+Se definió el flujo de trabajo del tablero **Projects** con las siguientes columnas, siguiendo una metodología *Kanban*:
+1.  **To Do:** Tareas por iniciar.
+2.  **In Progress:** Tareas en ejecución.
+3.  **Done:** Tareas completadas.
+
+#### 🎬 Tarea Programada
+
+* **Grabación de Video:** Se acordó la hora para grabar el video del proyecto a las **1:30 p.m.** del 25 de Septiembre de 3035.
+
+---
