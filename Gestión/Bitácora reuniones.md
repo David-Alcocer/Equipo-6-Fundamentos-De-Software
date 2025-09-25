@@ -89,6 +89,6 @@ Se definió el flujo de trabajo del tablero **Projects** con las siguientes colu
 
 #### 🎬 Tarea Programada
 
-* **Grabación de Video:** Se acordó la hora para grabar el video del proyecto a las **1:30 p.m.** del 25 de Septiembre de 3035.
+* **Grabación de Video:** Se acordó la hora para grabar el video del proyecto a las **1:30 p.m.** del 25 de Septiembre de 2025.
 
 ---
