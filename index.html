@@ -1,12 +1,821 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>PeerHive — Plataforma de Asesorías (Maqueta)</title>
+<meta name="description" content="Maqueta frontend de PeerHive: registro, tickets, agendamiento, check-in/out y reportes." />
+<style>
+  :root{
+    --bg:#0f1724; --card:#0b1220; --muted:#9aa6bd; --accent:#6ee7b7; --accent-2:#60a5fa;
+    --glass: rgba(255,255,255,0.03);
+    --card-2:#0e1622; --success:#10b981; --danger:#ef4444;
+    --max-width:1100px;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:linear-gradient(180deg,#071025 0%, #071625 100%); color:#e6eef8;
+    -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:24px;
+    display:flex; justify-content:center;
+  }
+  .container{width:100%; max-width:var(--max-width);}
+  header{display:flex; align-items:center; gap:20px; margin-bottom:20px}
+  .brand{display:flex; gap:12px; align-items:center}
+  .logo{width:46px; height:46px; border-radius:8px; background:linear-gradient(135deg,var(--accent),var(--accent-2)); display:flex; align-items:center; justify-content:center; font-weight:700; color:#033; box-shadow:0 6px 18px rgba(6,11,20,0.6)}
+  h1{font-size:20px; margin:0}
+  p.lead{margin:0; color:var(--muted); font-size:13px}
+  nav{margin-left:auto; display:flex; gap:8px}
+  button, .btn{background:var(--accent); color:#032; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; font-weight:700}
+  .btn-outline{background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--muted); padding:9px 12px}
+  main{display:grid; grid-template-columns: 320px 1fr; gap:20px;}
+  /* Sidebar */
+  .card{background:linear-gradient(180deg,var(--card),var(--card-2)); border-radius:12px; padding:16px; box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+  .sidebar .profile{display:flex; gap:12px; align-items:center}
+  .avatar{width:56px; height:56px; border-radius:10px; background:linear-gradient(180deg,var(--accent-2),var(--accent)); display:flex; align-items:center; justify-content:center; color:#012; font-weight:800}
+  .muted{color:var(--muted); font-size:13px}
+  .small{font-size:13px}
+  .menu{margin-top:16px; display:flex; flex-direction:column; gap:8px}
+  .menu button{background:transparent; color:var(--muted); text-align:left; padding:10px; border-radius:8px; border:none; cursor:pointer}
+  .menu button.active{background:var(--glass); color:#e6eef8}
+  /* Content */
+  .content-area{display:flex; flex-direction:column; gap:16px}
+  .grid-2{display:grid; grid-template-columns:repeat(2,1fr); gap:12px}
+  label{display:block; font-size:13px; color:var(--muted); margin-bottom:6px}
+  input[type="text"], input[type="email"], input[type="password"], select, textarea, input[type="datetime-local"], input[type="number"]{
+    width:100%; padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:inherit;
+  }
+  textarea{min-height:100px}
+  .card h2{margin:0 0 8px 0; font-size:16px}
+  table{width:100%; border-collapse:collapse}
+  th, td{padding:8px; text-align:left; border-bottom:1px dashed rgba(255,255,255,0.03); font-size:13px}
+  .pill{display:inline-block; padding:6px 8px; border-radius:999px; background:rgba(255,255,255,0.03); font-size:12px}
+  .note{font-size:13px; color:var(--muted)}
+  footer{margin-top:20px; color:var(--muted); font-size:13px}
+  /* responsive */
+  @media (max-width:900px){
+    main{grid-template-columns:1fr; }
+    .sidebar{order:2}
+  }
+  /* small badges */
+  .badge{background:rgba(255,255,255,0.04); padding:6px 8px; border-radius:8px; font-size:12px; color:var(--muted)}
+  /* notification toast */
+  .toast{position:fixed; right:20px; bottom:20px; background:#062032; padding:12px 16px; border-radius:10px; box-shadow:0 10px 30px rgba(2,6,23,0.6); color:#bfe7d6}
+  .hidden{display:none}
+  /* table action */
+  .actions button{margin-right:6px}
+  .small-muted{font-size:12px;color:var(--muted)}
+  /* timer */
+  .timer{font-weight:800; color:var(--accent)}
+  .danger{color:var(--danger)}
+  .success{color:var(--success)}
+  .file-info{font-size:12px;color:var(--muted); margin-top:6px}
+</style>
 </head>
 <body>
-    
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">PH</div>
+        <div>
+          <h1>PeerHive</h1>
+          <p class="lead">Maqueta: registro, tickets, sesiones y reportes</p>
+        </div>
+      </div>
+
+      <nav>
+        <button id="btnOpenRegister" class="btn-outline">Registrarse</button>
+        <button id="btnOpenLogin" class="btn">Iniciar sesión</button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SIDEBAR -->
+      <aside class="card sidebar">
+        <div class="profile">
+          <div class="avatar" id="avatarInitial">L</div>
+          <div>
+            <div id="sidebarName"><strong>Invitado</strong></div>
+            <div class="muted small" id="sidebarRole">No autenticado</div>
+          </div>
+        </div>
+
+        <div class="menu">
+          <button class="active" data-view="dashboard">Panel</button>
+          <button data-view="profile">Perfil</button>
+          <button data-view="tickets">Solicitudes</button>
+          <button data-view="calendar">Sesiones</button>
+          <button data-view="chat">Mensajería</button>
+          <button data-view="reports">Reportes</button>
+        </div>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.04); margin:12px 0" />
+        <div class="muted small">Conexión</div>
+        <div style="display:flex; gap:8px; margin-top:8px">
+          <div class="badge" id="statusConn">Desconectado</div>
+          <div class="badge" id="activeTickets">Activas 0</div>
+        </div>
+
+        <div style="margin-top:12px">
+          <div class="note">Nota: esta es una maqueta frontend. En producción debe existir un backend seguro.</div>
+        </div>
+      </aside>
+
+      <!-- CONTENT -->
+      <section class="content-area">
+        <!-- DASHBOARD -->
+        <div id="view-dashboard" class="card view">
+          <h2>Bienvenido a PeerHive (Maqueta)</h2>
+          <p class="note">Usa el botón "Registrarse" para crear una cuenta de prueba. Los correos deben pertenecer al dominio institucional <code>@alumnos.uady.mx</code>. La matrícula se valida según un patrón configurable.</p>
+
+          <div class="grid-2" style="margin-top:12px">
+            <div class="card">
+              <h2>Crear solicitud de ayuda</h2>
+              <form id="formCreateTicket">
+                <label>Materia</label>
+                <select id="ticketMateria" required>
+                  <option value="">-- Selecciona --</option>
+                  <option>Algoritmia</option>
+                  <option>Fundamentos de Software</option>
+                  <option>Programación Orientada a Objetos</option>
+                </select>
+                <label>Tema específico</label>
+                <input type="text" id="ticketTema" placeholder="Describe tu duda" required />
+                <label>Tiempo de respuesta esperado</label>
+                <select id="ticketPrioridad">
+                  <option value="hoy">Necesito ayuda hoy</option>
+                  <option value="3d">Ayuda en 3 días</option>
+                  <option value="7d">Ayuda en una semana</option>
+                </select>
+                <div style="display:flex; gap:8px; margin-top:10px">
+                  <button class="btn" type="submit">Crear solicitud</button>
+                  <button type="button" class="btn-outline" id="btnClearTickets">Cancelar todas</button>
+                </div>
+                <p class="file-info" style="margin-top:8px">Máximo solicitudes activas: <strong id="maxTickets">3</strong></p>
+              </form>
+            </div>
+
+            <div class="card">
+              <h2>Resumen rápido</h2>
+              <table>
+                <tr><td>Matrícula</td><td id="summaryMat">—</td></tr>
+                <tr><td>Email</td><td id="summaryEmail">—</td></tr>
+                <tr><td>Horas validadas</td><td id="summaryHours">0</td></tr>
+                <tr><td>Créditos (1 crédito = 16 h)</td><td id="summaryCredits">0</td></tr>
+              </table>
+              <div style="margin-top:12px">
+                <button class="btn" id="btnGenerateReport">Generar reporte (imprimir)</button>
+                <div class="note" style="margin-top:8px">El reporte incluye matrícula, total de horas y sesión detallada.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROFILE -->
+        <div id="view-profile" class="card view hidden">
+          <h2>Perfil</h2>
+          <form id="formProfile">
+            <div class="grid-2">
+              <div>
+                <label>Matrícula</label>
+                <input type="text" id="profileMat" placeholder="Ej. 20181234" required />
+                <label>Correo institucional</label>
+                <input type="email" id="profileEmail" placeholder="ejemplo@alumnos.uady.mx" required />
+                <label>Nombre completo</label>
+                <input type="text" id="profileName" placeholder="Nombre Apellido" required />
+              </div>
+              <div>
+                <label>Semestre</label>
+                <input type="number" id="profileSem" min="1" max="12" />
+                <label>Materias que ofrezco (separadas por coma)</label>
+                <input type="text" id="profileMaterias" placeholder="Algoritmia, POO, ..." />
+                <label>Rol</label>
+                <select id="profileRol">
+                  <option value="aprendiz">Aprendiz</option>
+                  <option value="asesor">Asesor</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="margin-top:12px; display:flex; gap:8px">
+              <button class="btn" type="submit">Guardar perfil</button>
+              <button type="button" id="btnLogout" class="btn-outline">Cerrar sesión</button>
+            </div>
+            <p class="note" style="margin-top:8px">RF-001a: la matrícula y el correo son validados localmente. En producción, valida en servidor y directorio institucional.</p>
+          </form>
+        </div>
+
+        <!-- TICKETS -->
+        <div id="view-tickets" class="card view hidden">
+          <h2>Solicitudes (Tickets)</h2>
+          <div style="display:flex; gap:12px; margin-bottom:12px">
+            <div style="flex:1">
+              <h3>Solicitudes activas</h3>
+              <table id="tableTickets">
+                <thead><tr><th>#</th><th>Materia</th><th>Tema</th><th>Estado</th><th>Acciones</th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div style="width:320px">
+              <h3>Calendario / Agendamiento</h3>
+              <form id="formSchedule">
+                <label>Solicitud</label>
+                <select id="selectTicketForSched"><option value="">-- Selecciona --</option></select>
+                <label>Fecha y hora</label>
+                <input type="datetime-local" id="schedDate" />
+                <label>Duración (minutos)</label>
+                <input type="number" id="schedDur" min="15" value="60" />
+                <div style="display:flex; gap:8px; margin-top:8px">
+                  <button class="btn" type="submit">Agendar</button>
+                  <button type="button" class="btn-outline" id="btnClearSched">Limpiar</button>
+                </div>
+              </form>
+
+              <div style="margin-top:12px">
+                <h4>Sesiones agendadas</h4>
+                <table id="tableSchedules"><thead><tr><th>Solicitud</th><th>Inicio</th><th>Dur</th><th>Acción</th></tr></thead><tbody></tbody></table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CALENDAR / SESSIONS -->
+        <div id="view-calendar" class="card view hidden">
+          <h2>Sesiones / Control de Tiempo (RF-003 / RF-005)</h2>
+
+          <div style="display:flex; gap:12px">
+            <div style="flex:1">
+              <h3>Sesiones programadas</h3>
+              <table id="tableSessions"><thead><tr><th>#</th><th>Inicio</th><th>Duración</th><th>Estado</th><th>Acciones</th></tr></thead><tbody></tbody></table>
+            </div>
+            <div style="width:320px">
+              <h3>Sessión activa</h3>
+              <div id="activeSessionBox" style="padding:10px; border-radius:8px; background:rgba(255,255,255,0.02)">
+                <div id="activeInfo" class="note">No hay sesión activa</div>
+                <div style="margin-top:8px; display:flex; gap:8px">
+                  <button id="btnCheckIn" class="btn">Check-In</button>
+                  <button id="btnCheckOut" class="btn-outline">Check-Out</button>
+                </div>
+                <div style="margin-top:10px">
+                  <div class="note">Temporizador: <span id="timerDisplay" class="timer">00:00:00</span></div>
+                </div>
+              </div>
+
+              <div style="margin-top:12px">
+                <h4>Logs (redundantes)</h4>
+                <div id="logsBox" class="note" style="max-height:180px; overflow:auto; background:rgba(255,255,255,0.02); padding:8px; border-radius:6px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHAT -->
+        <div id="view-chat" class="card view hidden">
+          <h2>Mensajería (RF-006)</h2>
+          <div style="display:flex; gap:12px">
+            <div style="flex:1">
+              <div style="height:360px; background:rgba(255,255,255,0.02); border-radius:8px; padding:10px; overflow:auto" id="chatBox"></div>
+              <form id="formChat" style="display:flex; gap:8px; margin-top:8px">
+                <input id="chatMsg" type="text" placeholder="Escribe un mensaje..." style="flex:1" />
+                <input id="chatFile" type="file" />
+                <button class="btn" type="submit">Enviar</button>
+              </form>
+              <div class="file-info">Archivos max: 5MB</div>
+            </div>
+            <div style="width:240px">
+              <h4>Conectividad</h4>
+              <div class="note">Estado: <span id="chatStatus" class="small-muted">Offline</span></div>
+              <div style="margin-top:8px">
+                <button id="btnSimNotify" class="btn-outline">Simular notificación</button>
+              </div>
+
+              <div style="margin-top:12px">
+                <h4>Denunciar</h4>
+                <div class="note">Acceso rápido al sistema de reportes desde el chat.</div>
+                <button id="btnReportUser" class="btn danger" style="background:var(--danger); color:white">Reportar conversación</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- REPORTS -->
+        <div id="view-reports" class="card view hidden">
+          <h2>Reportes</h2>
+          <div class="note">Reporte de horas acumuladas (RF-003b). Se imprimirá la vista actual como PDF.</div>
+          <div id="reportPrintable" style="margin-top:12px; background:rgba(255,255,255,0.02); padding:12px; border-radius:8px">
+            <h3 id="rName">—</h3>
+            <p class="small-muted">Matrícula: <span id="rMat">—</span> — Total horas: <span id="rHours">0</span> — Créditos: <span id="rCredits">0</span></p>
+
+            <table id="rTable" style="margin-top:8px">
+              <thead><tr><th>Inicio</th><th>Fin</th><th>Dur (min)</th><th>Confirmado</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+
+          <div style="margin-top:12px; display:flex; gap:8px">
+            <button class="btn" id="btnPrintReport">Imprimir / Guardar PDF</button>
+            <button class="btn-outline" id="btnExportCSV">Exportar CSV</button>
+          </div>
+        </div>
+
+        <footer class="muted">PeerHive — Maqueta UI · Para producción: integrar backend, seguridad y servicios reales.</footer>
+      </section>
+    </main>
+
+    <!-- toast -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+<script>
+/*
+  PeerHive - Maqueta frontend
+  - Implementa validaciones de RF en cliente para demostración.
+  - WARNING: No usar en producción sin backend seguro.
+*/
+
+/* ------------------ Utilidades ------------------ */
+const el = sel => document.querySelector(sel);
+const elAll = sel => Array.from(document.querySelectorAll(sel));
+const toast = (txt, time=3500) => {
+  const t = el('#toast'); t.textContent = txt; t.classList.remove('hidden');
+  setTimeout(()=> t.classList.add('hidden'), time);
+}
+
+/* ------------------ Estado simple (localStorage) ------------------ */
+const DB = {
+  get(key){ try{ return JSON.parse(localStorage.getItem(key) || 'null'); }catch(e){ return null; } },
+  set(key, val){ localStorage.setItem(key, JSON.stringify(val)); }
+}
+if(!DB.get('peer_users')) DB.set('peer_users', []);
+if(!DB.get('peer_state')) DB.set('peer_state', { currentUser: null, tickets: [], schedules: [], sessions: [], logs: [], chats: [] });
+
+/* ------------------ Helpers de validación (RF-001a) ------------------ */
+/*
+  Matricula pattern: configurable — para demo asumimos 8 dígitos o 9 (ej. 20181234)
+  Email: dominio '@alumnos.uady.mx' obligatorio
+*/
+function validMatricula(mat){
+  return /^\d{7,10}$/.test(mat.trim());
+}
+function validInstitutionalEmail(email){
+  return /^[^@]+@alumnos\.uady\.mx$/i.test(email.trim());
+}
+
+/* ------------------ UI y navegación ------------------ */
+const views = elAll('.view');
+function showView(name){
+  views.forEach(v => v.id === 'view-' + name ? v.classList.remove('hidden') : v.classList.add('hidden'));
+  // sidebar active
+  elAll('.menu button').forEach(b => b.dataset.view === name ? b.classList.add('active') : b.classList.remove('active'));
+}
+elAll('.menu button').forEach(b => b.addEventListener('click', ()=> showView(b.dataset.view)));
+
+/* ------------------ Auth (frontend demo) ------------------ */
+function openRegister(){
+  const email = prompt('Correo institucional (@alumnos.uady.mx):');
+  if(!email) return;
+  if(!validInstitutionalEmail(email)) return alert('Correo inválido. Debe ser del dominio @alumnos.uady.mx');
+  const mat = prompt('Matrícula (solo números):');
+  if(!mat) return;
+  if(!validMatricula(mat)) return alert('Matrícula inválida. Use solo dígitos (7-10).');
+
+  const users = DB.get('peer_users') || [];
+  if(users.find(u => u.matricula === mat)) return alert('Matrícula ya registrada');
+  if(users.find(u => u.email === email)) return alert('Correo ya registrado');
+
+  const pass = prompt('Crea una contraseña (se guardará en texto en esta maqueta — en producción usar hashing):');
+  if(!pass || pass.length < 6) return alert('Contraseña mínima 6 caracteres');
+
+  users.push({ matricula: mat, email: email.toLowerCase(), password: pass, name: '', sem: '', materias: [], role: 'aprendiz', hours: 0 });
+  DB.set('peer_users', users);
+  toast('Usuario registrado (maqueta). Ahora inicia sesión.');
+}
+function openLogin(){
+  const email = prompt('Correo institucional (@alumnos.uady.mx):');
+  if(!email) return;
+  const pass = prompt('Contraseña:');
+  const users = DB.get('peer_users') || [];
+  const u = users.find(x => x.email === email.toLowerCase() && x.password === pass);
+  if(!u) return alert('Credenciales inválidas');
+  const state = DB.get('peer_state');
+  state.currentUser = u.matricula;
+  DB.set('peer_state', state);
+  refreshUI();
+  toast('Inicio de sesión correcto');
+}
+function openRecover(){
+  const email = prompt('Ingresa tu correo institucional para recuperar contraseña:');
+  if(!email) return;
+  if(!validInstitutionalEmail(email)) return alert('Correo inválido');
+  // Simulación: mostrar mensaje y no enviar correo real
+  alert('Se ha enviado (simulado) un enlace de recuperación al correo: ' + email);
+}
+
+/* Buttons for register/login */
+el('#btnOpenRegister').addEventListener('click', openRegister);
+el('#btnOpenLogin').addEventListener('click', openLogin);
+
+/* ------------------ Profile form ------------------ */
+el('#formProfile').addEventListener('submit', (ev)=>{
+  ev.preventDefault();
+  const mat = el('#profileMat').value.trim();
+  const email = el('#profileEmail').value.trim().toLowerCase();
+  if(!validMatricula(mat)){ return alert('Matrícula inválida'); }
+  if(!validInstitutionalEmail(email)){ return alert('Correo institucional requerido'); }
+
+  let users = DB.get('peer_users') || [];
+  let user = users.find(u => u.matricula === mat);
+  if(!user){
+    // new user
+    const pass = prompt('Crea una contraseña para esta cuenta (demo):');
+    if(!pass) return alert('Se requiere contraseña');
+    user = { matricula: mat, email, password: pass, name: '', sem: '', materias: [], role: 'aprendiz', hours: 0 };
+    users.push(user);
+  }
+  user.name = el('#profileName').value.trim();
+  user.sem = +el('#profileSem').value || '';
+  user.materias = el('#profileMaterias').value.split(',').map(s=>s.trim()).filter(Boolean);
+  user.role = el('#profileRol').value;
+  DB.set('peer_users', users);
+  DB.set('peer_state', {...DB.get('peer_state'), currentUser: mat});
+  refreshUI();
+  toast('Perfil guardado');
+});
+
+/* Logout */
+el('#btnLogout').addEventListener('click', ()=>{
+  const s = DB.get('peer_state'); s.currentUser = null; DB.set('peer_state', s); refreshUI(); toast('Sesión cerrada');
+});
+
+/* ------------------ Create ticket (RF-004) and management (RF-004c,d) ------------------ */
+const MAX_ACTIVE = 3;
+el('#formCreateTicket').addEventListener('submit',(ev)=>{
+  ev.preventDefault();
+  const mat = currentMat();
+  if(!mat) return alert('Inicia sesión primero');
+  const tCount = activeTicketsFor(mat).length;
+  if(tCount >= MAX_ACTIVE) return alert('Has alcanzado el límite de solicitudes activas: ' + MAX_ACTIVE);
+  const materia = el('#ticketMateria').value;
+  const tema = el('#ticketTema').value.trim();
+  const prioridad = el('#ticketPrioridad').value;
+  if(!materia || !tema) return alert('Completa materia y tema');
+  const state = DB.get('peer_state');
+  const ticket = {
+    id: 'T' + Date.now(),
+    creador: mat,
+    materia, tema, prioridad,
+    estado: 'pendiente',
+    createdAt: new Date().toISOString()
+  };
+  state.tickets.push(ticket);
+  DB.set('peer_state', state);
+  toast('Solicitud creada');
+  refreshUI();
+});
+el('#btnClearTickets').addEventListener('click', ()=>{
+  if(!confirm('Cancelar todas tus solicitudes (demo)?')) return;
+  const mat = currentMat(); if(!mat) return alert('Inicia sesión');
+  let s = DB.get('peer_state'); s.tickets = s.tickets.filter(t => t.creador !== mat); DB.set('peer_state', s); refreshUI(); toast('Solicitudes canceladas');
+});
+
+/* Helper: current user */
+function currentMat(){ const s = DB.get('peer_state'); return s.currentUser; }
+function getUserByMat(mat){ return (DB.get('peer_users')||[]).find(u=>u.matricula===mat); }
+function activeTicketsFor(mat){ return (DB.get('peer_state').tickets||[]).filter(t=>t.creador===mat && (t.estado==='pendiente' || t.estado==='aceptada')); }
+
+/* Fill tableTickets */
+function renderTickets(){
+  const tbody = el('#tableTickets tbody'); tbody.innerHTML='';
+  const state = DB.get('peer_state');
+  state.tickets.forEach((t,i)=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${i+1}</td><td>${t.materia}</td><td>${t.tema}</td><td><span class="pill">${t.estado}</span></td>
+      <td class="actions">
+        ${t.estado === 'pendiente' ? `<button class="btn-outline" data-act="cancel" data-id="${t.id}">Cancelar</button><button class="btn" data-act="accept" data-id="${t.id}">Aceptar</button>` : `<button class="btn-outline" data-act="view" data-id="${t.id}">Ver</button>`}
+      </td>`;
+    tbody.appendChild(tr);
+  });
+  // action listeners
+  tbody.querySelectorAll('button').forEach(b=>{
+    b.addEventListener('click',()=> {
+      const id = b.dataset.id; const act = b.dataset.act;
+      if(act==='cancel'){ if(confirm('Cancelar solicitud?')) { updateTicket(id, {estado:'cancelado'}); } }
+      if(act==='accept'){ updateTicket(id, {estado:'aceptada'}); }
+      if(act==='view'){ alert('Ver ticket: ' + id); }
+    });
+  });
+
+  // fill select for schedule
+  const sel = el('#selectTicketForSched'); sel.innerHTML = '<option value="">-- Selecciona --</option>';
+  (state.tickets||[]).filter(t=>t.estado==='aceptada').forEach(t => {
+    const opt = document.createElement('option'); opt.value = t.id; opt.textContent = `${t.materia} — ${t.tema} (${t.id})`; sel.appendChild(opt);
+  });
+
+  // status badges
+  const mat = currentMat();
+  el('#activeTickets').textContent = 'Activas ' + (mat ? activeTicketsFor(mat).length : 0);
+  el('#maxTickets').textContent = MAX_ACTIVE;
+}
+
+/* update ticket helper */
+function updateTicket(id, changes){
+  const s = DB.get('peer_state');
+  const t = s.tickets.find(x=>x.id===id);
+  if(!t) return;
+  Object.assign(t, changes);
+  DB.set('peer_state', s);
+  toast('Ticket actualizado');
+  renderTickets();
+  renderSchedules(); renderSessions();
+}
+
+/* ------------------ Scheduling (RF-005) ------------------ */
+el('#formSchedule').addEventListener('submit', (ev)=>{
+  ev.preventDefault();
+  const sel = el('#selectTicketForSched').value;
+  if(!sel) return alert('Selecciona una solicitud aceptada');
+  const date = el('#schedDate').value;
+  const dur = +el('#schedDur').value || 60;
+  if(!date) return alert('Selecciona fecha/hora');
+  const s = DB.get('peer_state');
+  s.schedules.push({ id: 'S' + Date.now(), ticketId: sel, start: date, durationMin: dur, createdAt: new Date().toISOString() });
+  DB.set('peer_state', s);
+  toast('Sesión agendada');
+  renderSchedules(); renderSessions();
+});
+el('#btnClearSched').addEventListener('click', ()=>{ el('#selectTicketForSched').value=''; el('#schedDate').value=''; el('#schedDur').value='60'; });
+
+function renderSchedules(){
+  const tbody = el('#tableSchedules tbody'); tbody.innerHTML='';
+  const s = DB.get('peer_state');
+  s.schedules.forEach(sch=>{
+    const ticket = (s.tickets||[]).find(t=>t.id===sch.ticketId);
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${ticket? ticket.materia : '—'}</td><td>${new Date(sch.start).toLocaleString()}</td><td>${sch.durationMin}m</td><td><button class="btn-outline" data-id="${sch.id}" data-act="toSession">Ver</button></td>`;
+    tbody.appendChild(tr);
+  });
+  tbody.querySelectorAll('button').forEach(b=> b.addEventListener('click', ()=>{
+    const id=b.dataset.id; const act=b.dataset.act;
+    if(act==='toSession') {
+      // create a session from schedule (for demo)
+      const sdb = DB.get('peer_state');
+      const sch = sdb.schedules.find(x=>x.id===id);
+      if(!sch) return;
+      sdb.sessions.push({ id:'SS'+Date.now(), scheduleId:id, start:sch.start, durationMin:sch.durationMin, estado:'programada', checkIn:null, checkOut:null, confirmedByStudent:false, confirmedByAdvisor:false });
+      DB.set('peer_state', sdb);
+      toast('Sesión creada desde agendamiento');
+      renderSessions();
+    }
+  }));
+}
+
+/* ------------------ Sessions and Check-In/Out (RF-005b,c / RF-003a) ------------------ */
+let timerInterval = null;
+let activeSessionId = null;
+function renderSessions(){
+  const tbody = el('#tableSessions tbody'); tbody.innerHTML='';
+  const s = DB.get('peer_state');
+  s.sessions.forEach((ses,i)=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${i+1}</td><td>${new Date(ses.start).toLocaleString()}</td><td>${ses.durationMin} min</td><td>${ses.estado}</td>
+      <td>
+        <button class="btn" data-id="${ses.id}" data-act="start">Iniciar</button>
+        <button class="btn-outline" data-id="${ses.id}" data-act="end">Finalizar</button>
+      </td>`;
+    tbody.appendChild(tr);
+  });
+  tbody.querySelectorAll('button').forEach(b=> b.addEventListener('click', ()=>{
+    const id=b.dataset.id; const act=b.dataset.act;
+    if(act==='start'){ startSession(id); }
+    if(act==='end'){ endSession(id); }
+  }));
+
+  // fill session active box
+  const active = activeSessionId ? (s.sessions.find(x=>x.id===activeSessionId)) : null;
+  if(active){
+    el('#activeInfo').textContent = `Sesión activa: ${active.id}`;
+    el('#btnCheckIn').disabled = true;
+    el('#btnCheckOut').disabled = false;
+  }else{
+    el('#activeInfo').textContent = 'No hay sesión activa';
+    el('#btnCheckIn').disabled = false;
+    el('#btnCheckOut').disabled = true;
+  }
+
+  // logs
+  const logs = s.logs || [];
+  el('#logsBox').innerHTML = logs.slice().reverse().map(l=>`<div>[${new Date(l.ts).toLocaleString()}] ${l.msg}</div>`).join('');
+}
+
+/* Start session (Check-In) */
+function startSession(sessionId){
+  const s = DB.get('peer_state');
+  const ses = s.sessions.find(x=>x.id===sessionId);
+  if(!ses) return alert('Sesión no encontrada');
+  if(activeSessionId) return alert('Ya hay una sesión activa en curso');
+  ses.estado = 'activa';
+  ses.checkIn = new Date().toISOString();
+  s.logs.push({ ts: new Date().toISOString(), msg: `Check-In sesión ${ses.id}` });
+  DB.set('peer_state', s);
+  activeSessionId = ses.id;
+  startTimer();
+  renderSessions();
+  toast('Check-In registrado (simulado)');
+}
+/* End session (Check-Out) -> triggers confirmation RF-005c / RF-003a */
+function endSession(sessionId){
+  const s = DB.get('peer_state');
+  const ses = s.sessions.find(x=>x.id===sessionId);
+  if(!ses || !ses.checkIn) return alert('Sesión no iniciada o inválida');
+  ses.checkOut = new Date().toISOString();
+  ses.estado = 'finalizada';
+  // compute minutes
+  const diffMs = new Date(ses.checkOut) - new Date(ses.checkIn);
+  const diffMin = Math.round(diffMs / 60000);
+  s.logs.push({ ts: new Date().toISOString(), msg: `Check-Out sesión ${ses.id}. Duración: ${diffMin} min` });
+  // double confirmation required: simulate sending confirmation to student
+  ses.confirmedByStudent = false;
+  ses.confirmedByAdvisor = true; // advisor already ended -> advisor confirmation
+  // store sessions as confirmed only when both true
+  DB.set('peer_state', s);
+  stopTimer();
+  activeSessionId = null;
+  renderSessions();
+  // ask student to confirm (simulated prompt)
+  setTimeout(()=>{
+    const ans = confirm('Simulación: el estudiante confirma la duración de la sesión? (OK = confirmar)');
+    ses.confirmedByStudent = !!ans;
+    // if both confirmed -> count hours (RF-003)
+    if(ses.confirmedByStudent && ses.confirmedByAdvisor){
+      // add to advisor hours
+      const ticket = s.tickets.find(t => t.id === (s.schedules.find(sc => sc.id === ses.scheduleId)?.ticketId));
+      // for demo, we add to current user
+      const cur = currentMat();
+      if(cur){
+        const user = getUserByMat(cur);
+        if(user){
+          user.hours = (user.hours || 0) + (diffMin/60); // hours as decimal
+          // Add redundant log entry and audit trail (RNF-CBL01)
+          s.logs.push({ ts: new Date().toISOString(), msg: `Horas agregadas a ${user.matricula}: ${diffMin/60} h (suma)`});
+        }
+      }
+    }
+    DB.set('peer_state', s);
+    refreshUI();
+    toast('Confirmación procesada (simulada)');
+  }, 600);
+}
+
+/* Timer visual (simple) */
+let timerStart = null;
+function startTimer(){
+  timerStart = Date.now();
+  el('#timerDisplay').textContent = '00:00:00';
+  timerInterval = setInterval(()=>{
+    const diff = Date.now() - timerStart;
+    const h = String(Math.floor(diff/3600000)).padStart(2,'0');
+    const m = String(Math.floor((diff%3600000)/60000)).padStart(2,'0');
+    const s = String(Math.floor((diff%60000)/1000)).padStart(2,'0');
+    el('#timerDisplay').textContent = `${h}:${m}:${s}`;
+  }, 500);
+}
+function stopTimer(){ clearInterval(timerInterval); timerInterval = null; el('#timerDisplay').textContent='00:00:00'; timerStart = null; }
+
+/* Buttons on right panel */
+el('#btnCheckIn').addEventListener('click', ()=>{
+  // find next scheduled session for current user (demo)
+  const s = DB.get('peer_state');
+  const next = s.sessions.find(x=>x.estado==='programada' || x.estado==='activa');
+  if(!next) return alert('No hay sesión para iniciar');
+  startSession(next.id);
+});
+el('#btnCheckOut').addEventListener('click', ()=>{
+  const s = DB.get('peer_state');
+  const active = s.sessions.find(x=>x.estado==='activa');
+  if(!active) return alert('No hay sesión activa');
+  endSession(active.id);
+});
+
+/* ------------------ Chat (RF-006) basic demo */
+el('#formChat').addEventListener('submit', (ev)=>{
+  ev.preventDefault();
+  const msg = el('#chatMsg').value.trim();
+  const file = el('#chatFile').files[0];
+  if(file && file.size > 5*1024*1024) return alert('Archivo demasiado grande. Max 5MB');
+  if(!msg && !file) return;
+  const s = DB.get('peer_state');
+  s.chats.push({ id:'C'+Date.now(), from: currentMat()||'guest', text: msg, file: file ? { name: file.name, size: file.size } : null, ts: new Date().toISOString()});
+  DB.set('peer_state', s);
+  el('#chatMsg').value=''; el('#chatFile').value='';
+  renderChat();
+});
+el('#btnReportUser').addEventListener('click', ()=> alert('Reporte enviado (simulado). En producción, esto debe crear una incidencia administrable.'));
+el('#btnSimNotify').addEventListener('click', ()=> toast('Notificación simulada: nueva solicitud recibida'));
+
+/* render chat */
+function renderChat(){
+  const box = el('#chatBox'); box.innerHTML='';
+  const s = DB.get('peer_state');
+  s.chats.forEach(c=>{
+    const div = document.createElement('div'); div.style.marginBottom='8px';
+    div.innerHTML = `<div style="font-size:12px;color:var(--muted)">${c.from} · ${new Date(c.ts).toLocaleString()}</div>
+      <div style="padding:8px;border-radius:8px;background:rgba(255,255,255,0.02)">${c.text || ''}${c.file ? `<div class="file-info">Archivo: ${c.file.name} (${Math.round(c.file.size/1024)} KB)</div>` : ''}</div>`;
+    box.appendChild(div);
+  });
+  el('#chatStatus').textContent = s.chats.length ? 'Activo' : 'Offline';
+}
+
+/* ------------------ Reports (RF-003b) */
+el('#btnGenerateReport').addEventListener('click', ()=> {
+  showView('reports');
+  populateReport();
+});
+el('#btnPrintReport').addEventListener('click', ()=> {
+  window.print();
+});
+el('#btnExportCSV').addEventListener('click', ()=> {
+  const s = DB.get('peer_state');
+  const mat = currentMat();
+  const user = getUserByMat(mat);
+  const rows = (s.sessions||[]).filter(ss=>ss.checkIn && ss.checkOut).map(ss => {
+    const start = ss.checkIn; const end = ss.checkOut;
+    const mins = Math.round((new Date(end)-new Date(start))/60000);
+    return [start,end,mins,(ss.confirmedByStudent && ss.confirmedByAdvisor) ? 'Sí' : 'No'];
+  });
+  let csv = 'Inicio,Fin,Dur(min),Confirmado\n' + rows.map(r=> r.join(',')).join('\\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = `reporte_${mat||'anon'}.csv`; a.click();
+  URL.revokeObjectURL(url);
+});
+
+/* populate printable report view */
+function populateReport(){
+  const s = DB.get('peer_state');
+  const mat = currentMat();
+  const user = getUserByMat(mat) || { name:'—', matricula:'—', hours:0 };
+  el('#rName').textContent = user.name || '—';
+  el('#rMat').textContent = user.matricula || mat || '—';
+  const confirmed = (s.sessions||[]).filter(ss => ss.checkIn && ss.checkOut && ss.confirmedByStudent && ss.confirmedByAdvisor);
+  const totalMins = confirmed.reduce((acc,ss) => acc + Math.round((new Date(ss.checkOut)-new Date(ss.checkIn))/60000), 0);
+  el('#rHours').textContent = (totalMins/60).toFixed(2);
+  el('#rCredits').textContent = Math.floor((totalMins/60)/16);
+  const tbody = el('#rTable tbody'); tbody.innerHTML = '';
+  confirmed.forEach(ss=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${new Date(ss.checkIn).toLocaleString()}</td><td>${new Date(ss.checkOut).toLocaleString()}</td><td>${Math.round((new Date(ss.checkOut)-new Date(ss.checkIn))/60000)}</td><td>Sí</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+/* ------------------ Dashboard summary and general rendering ------------------ */
+function refreshUI(){
+  const s = DB.get('peer_state');
+  const mat = s.currentUser;
+  if(mat){
+    const user = getUserByMat(mat);
+    el('#sidebarName').innerHTML = `<strong>${user.name || user.matricula}</strong>`;
+    el('#sidebarRole').textContent = (user.role || '—') + ' · Sem ' + (user.sem || '—');
+    el('#avatarInitial').textContent = (user.name ? user.name.charAt(0).toUpperCase() : user.matricula.charAt(0));
+    el('#summaryMat').textContent = user.matricula;
+    el('#summaryEmail').textContent = user.email;
+    el('#summaryHours').textContent = (user.hours || 0).toFixed(2);
+    el('#summaryCredits').textContent = Math.floor((user.hours || 0)/16);
+    el('#statusConn').textContent = 'Conectado';
+  }else{
+    el('#sidebarName').innerHTML = `<strong>Invitado</strong>`;
+    el('#sidebarRole').textContent = 'No autenticado';
+    el('#avatarInitial').textContent = 'G';
+    el('#summaryMat').textContent = '—';
+    el('#summaryEmail').textContent = '—';
+    el('#summaryHours').textContent = '0';
+    el('#summaryCredits').textContent = '0';
+    el('#statusConn').textContent = 'Desconectado';
+  }
+  renderTickets(); renderSchedules(); renderSessions(); renderChat();
+}
+
+/* initial */
+refreshUI();
+
+/* ------------------ Small UX: show register/login via prompts */
+el('#btnOpenRegister').addEventListener('click', ()=>{
+  openRegister();
+});
+el('#btnOpenLogin').addEventListener('click', ()=>{
+  openLogin();
+});
+
+/* support loading of saved sample data for demo convenience */
+(function seedDemo(){
+  const users = DB.get('peer_users') || [];
+  if(users.length === 0){
+    users.push({ matricula:'20180001', email:'user1@alumnos.uady.mx', password:'demo123', name:'Leonardo', sem:6, materias:['Algoritmia','POO'], role:'asesor', hours:8 });
+    users.push({ matricula:'20180002', email:'user2@alumnos.uady.mx', password:'demo123', name:'Rodrigo', sem:4, materias:['Fundamentos de Software'], role:'aprendiz', hours:2 });
+    DB.set('peer_users', users);
+  }
+})();
+</script>
 </body>
 </html>

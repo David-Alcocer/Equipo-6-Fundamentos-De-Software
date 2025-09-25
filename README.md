@@ -1,19 +1,53 @@
-<<<<<<< HEAD
-
-
-=======
 # Equipo-6-Fundamentos-De-Software
 Repository about Software Fundament 
 
-### Links de las Universidades:
-
-[LIS-UADY](https://www.matematicas.uady.mx/planes-de-estudio/licenciaturas/licenciatura-en-ingenieria-de-software)
-
-[LIS-ITSON](https://itson.mx/oferta/isw/Paginas/isw.aspx)
-
-## Link del video: 
-[LIS-Video](https://alumnosuady-my.sharepoint.com/:v:/g/personal/a25216404_alumnos_uady_mx/EdsIXJIb4DJAhEu7L4IxdSoB8IwvTuVZEAXrVtjDIrR6vw?e=6oYpsO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-# Proyecto de Fundamentos de Software: PeerHive
+# 📌 Proyecto de Fundamentos de Software: PeerHive
 ![Imagen](Imagenes/PeerHiveLogo.png)
+<<<<<<< HEAD
 
+=======
+---
+# 📂 Tabla de Contenido
+  
+1- [📖 Producto](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96)
+  - [Descripción]()
+  - [Usuarios/clientes]()
+  - [Objetivos]()
+  - [Propuesta de valor]()
+  - [Artefactos]()
+ 
+2- [💻 Requisitos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB)
+  - [Requisitos Funcionales]()
+  - [Requisitos No Funcionales]()
+  - [Priorización]()
+  - [Artefactos]()
+    
+3- [📊 Proceso](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Proceso%20%F0%9F%93%8A)
+   - [Métrica de contribución individual ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Gesti%C3%B3n/M%C3%A9trica%20de%20evaluaci%C3%B3n%20individual.md)
+   - [Metodologia]()
+   - [Bitacora de reuniones ]()
+      - [ Herramientas ]()
+      - [ Artefactos ]()
+    
+4- [🧑‍🏫 Presentación](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Presentaci%C3%B3n%20%F0%9F%A7%91%E2%80%8D%F0%9F%8F%AB)
+   - [Video]()
+   - [Material]()
+   - [Audio]()
+   - [Imagenes]()
+   - [ Artefactos ]()
+ 
+5- [⭐ Competencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Competencias%E2%AD%90)
+   - [Video]()
+   - [Material]()
+   - [Audio]()
+   - [Imagenes]()
+   - [ Artefactos ]()
+ 
+Extra- [📑 Artefactos generales](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Imagenes)
+  - [Diagramas UML]()
+  - [Paginas]()
+  - [Archivos ]()
+  - [Videos ]()
+ 
+- [🙋 Contribuidores]()
+>>>>>>> 4a080ae52451809e3576c409b44b197a1c99f5f7
