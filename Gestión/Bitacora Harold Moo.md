@@ -14,7 +14,7 @@ Registro diario de tareas y avances.
 ## 📅 Miércoles, 24 de septiembre de 2025
 ###  Actividades realizadas
 - [X] Realizacion de Competencias
-
+  - Explicacion de Competencias Genericas o Especificas
 
 ---
 
