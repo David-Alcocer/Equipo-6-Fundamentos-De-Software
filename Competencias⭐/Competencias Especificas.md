@@ -3,34 +3,5 @@
 
 ## ¿Cómo se promueven las competencias específicas en el desarrollo de un producto de software?
 
-### Uso de herramientas de trabajo colaborativo
-
-- Se emplea GitHub para llevar un registro exacto de los cambios en el código.
-
-- Permite la colaboración simultánea, asegurando que todos los integrantes trabajen sobre la misma base actualizada.
-
-- Fomenta la disciplina en el manejo de repositorios y ramas.
-
-### Documentacion 
-
-- Cómo: Se elaboro documentos técnicos donde se explican objetivos, procesos, avances y uso del producto.
-
-- Por qué: La documentación aseguro que cualquier persona pueda comprender el funcionamiento y propósito del proyecto.
-
-- Resultado: Se desarrollo la capacidad de comunicación técnica y se dejo evidencia clara del trabajo realizado.
-
-### Distribución de tareas entre integrantes
-
-- Se asigna a cada miembro un rol definido: estructurar el HTML, documentar avances, y revisar el trabajo de otros.
-
-- Se practica la organización y la responsabilidad individual dentro del trabajo colectivo.
-
-- Favorece la eficiencia y el cumplimiento de plazos.
-
-### Resolución de conflictos en equipo
-
-- Se enfrentan y solucionan discrepancias en el código y la organización mediante comunicación y acuerdos.
-
-- Esto promueve el pensamiento crítico y la toma de decisiones.
-
-- Refuerza competencias de trabajo en equipo y liderazgo.
+### Las habilidades específicas en la carrera de Ingeniería de Software se desarrollan mediante la realización práctica y organizada de actividades que conectan directamente la teoría con la experiencia laboral.  En primer lugar, se estimula la explicación y la implementación de las etapas del desarrollo de software de forma sistemática, interactuando con fases organizadas de análisis, diseño, implementación y pruebas, utilizando herramientas colaborativas como Google Docs y GitHub, lo que facilita la planificación y ejecución de proyectos de variada magnitud y complejidad de manera ordenada. Además, se incentiva la utilización de herramientas para la especificación, diseño, verificación y validación de software a través de la creación de prototipos en Canva, y el manejo de versiones en GitHub, lo cual refuerza la capacidad del estudiante para escoger y aplicar la herramienta más apropiada en cada fase del desarrollo. 
+### Igualmente, el trabajo en grupos interdisciplinarios promueve la comunicación profesional y la especialización en áreas concretas mediante la asignación de roles como programador, diseñador, documentador o revisor, apoyados en plataformas de coordinación como Discord y WhatsApp. Al mismo tiempo, la mejora constante del proceso de desarrollo se consigue mediante la creación de documentación y bitácoras que registran progresos, fallos y soluciones, incentivando la reflexión crítica y la optimización de futuras prácticas. Por último, la integración de los conocimientos teóricos adquiridos en clase con la práctica en proyectos reales permite al graduado ofrecer soluciones innovadoras y robustas, contribuyendo al desarrollo de la Ingeniería de Software y enriqueciendo su trayectoria profesional.
