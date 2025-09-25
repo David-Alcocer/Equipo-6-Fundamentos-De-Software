@@ -3,11 +3,19 @@
 Registro diario de tareas y avances.  
 
 ---
+## 📅 Lunes, 22 de septiembre de 2025
+### 🎬 Actividades realizadas
+- [x] **Organización de proyecto**  
+  - 🎨 Asignación de roles para cada integrante  
+  - 🔊 Creación de grupos de carpetas
+- [X] Asesoramiento con el Product manager (coordinador de LIS)
+
+---
 
 ## 📅 Martes, 23 de septiembre de 2025
 ### 🎬 Actividades realizadas
-- [x] **Edición de video**  
-  - 🎨 Edición de animaciones  
+- [x] **Clase de FIS**  
+  - 🎨Comentarios con 
   - 🔊 Modificación de audio  
 
 ---
