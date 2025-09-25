@@ -1,4 +1,5 @@
-# 📓 Bitácora de Proyecto: PeerHive
+# 📓 Bitácora de Proyecto: PeerHive 
+### De David Alcocer
 
 ## 🚀 Meta General del Proyecto
 
