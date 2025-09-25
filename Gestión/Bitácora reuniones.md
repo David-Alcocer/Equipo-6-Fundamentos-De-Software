@@ -92,3 +92,21 @@ Se definió el flujo de trabajo del tablero **Projects** con las siguientes colu
 * **Grabación de Video:** Se acordó la hora para grabar el video del proyecto a las **1:30 p.m.** del 25 de Septiembre de 2025.
 
 ---
+## ⭐ Filosofía del Equipo
+
+El éxito de **PeerHive** se basa en un pilar fundamental de nuestra cultura de equipo, atribuido a Harry Truman:
+
+> 🌟 **"Es increíble lo que se puede lograr si no te importa quién se lleva el crédito."** 🌟
+
+### 🤝 Compromiso Central del Equipo
+
+Esta frase es el **pilar de nuestro compromiso** y define la forma en que trabajamos:
+* **Enfoque en el Objetivo Común:** Priorizamos los **objetivos finales** del proyecto por encima del reconocimiento individual.
+* **Trabajo Colaborativo:** Entendemos que nuestras tareas se **interrelacionan**, lo que hace que el éxito sea inherentemente grupal.
+
+### 💡 Nexo con la Supervisión Grupal
+
+Este principio justifica la necesidad de la supervisión:
+
+Si el éxito es **grupal**, la **verificación de resultados** debe ser una **responsabilidad compartida**. Por ello, la **supervisión grupal** es la herramienta que garantiza que el avance del equipo sea constante y coherente.
+
