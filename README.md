@@ -16,4 +16,4 @@ Repository about Software Fundament
 
 # Proyecto de Fundamentos de Software: PeerHive
 ![Imagen](Imagenes/PeerHiveLogo.png)
-g
+
