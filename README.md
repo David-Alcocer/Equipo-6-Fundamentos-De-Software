@@ -8,7 +8,7 @@ Repository about Software Fundament
 # 📂 Tabla de Contenido
   
 1- [📖 Producto](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96)
-  - [Descripción]()
+  - [Descripción](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Proceso%20📊/Descripción/Descripción.md)
   - [Usuarios/clientes]()
   - [Objetivos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Objetivos.md)
   - [Propuesta de valor](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Propuesta%20de%20valor.md)
