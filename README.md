@@ -8,7 +8,7 @@ Repository about Software Fundament
 # 📂 Tabla de Contenido
   
 1- [📖 Producto](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96)
-  - [Descripción](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Proceso%20📊/Descripción/Descripción.md)
+  - [Descripción](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Descripcion%20del%20producto.md)
   - [Objetivos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Objetivos.md)
   - [Propuesta de valor](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Propuesta%20de%20valor.md)
     
@@ -20,6 +20,7 @@ Repository about Software Fundament
     
     
 3- [📊 Proceso](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Proceso%20%F0%9F%93%8A)
+   - [Descripcion ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Proceso%20📊/Descripción/Descripción.md)
    - [Métrica de contribución individual ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Gesti%C3%B3n/M%C3%A9trica%20de%20evaluaci%C3%B3n%20individual.md)
    - [Metodologia](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Metodologia%20de%20calificacion.pdf)
    - [Bitacora de reuniones ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Metodologia%20de%20calificacion.pdf)
