@@ -1,68 +1,39 @@
-#   Competencias Genericas
---- 
-## ¿De qué forma se promueven las competencias genéricas?
-
-### Uso de herramientas de comunicación digital (Discord y WhatsApp)
-
-- Se utilizan para coordinar tareas, compartir avances y resolver dudas en tiempo real.
-
-- Facilitan la comunicación constante entre los integrantes, evitando retrasos y malentendidos.
-
-- Refuerzan la capacidad de expresar ideas de manera clara y efectiva.
-
-### Reuniones presenciales
-
-- Se llevan a cabo encuentros cara a cara para discutir avances y tomar decisiones importantes.
-
-- Promueven la interacción directa, fortaleciendo habilidades sociales y de negociación.
-
-- Permiten evaluar de manera conjunta el progreso del proyecto.
-
-### Elaboración de bitácoras como artefactos
-
-- A partir del uso de estas herramientas, se generan registros escritos (bitácoras) que documentan las actividades realizadas.
-
-- Estos documentos fortalecen la capacidad de organización y seguimiento del trabajo.
-
-- Sirven como evidencia concreta del proceso colaborativo.
-
-### Fortalecimiento de habilidades personales y sociales
-
-- Se potencia la comunicación efectiva, el trabajo en equipo y la capacidad de resolución de problemas.
-
-- La interacción constante fomenta la empatía y la adaptación a diferentes formas de trabajo.
-
-- La toma de decisiones se vuelve más precisa y consensuada gracias a la participación de todo el grupo.
+# 🧩 Competencias Genéricas (Soft Skills)
 ---
 
-### Uso de herramientas de trabajo colaborativo
+## 🎯 Medición de Soft Skills en el Trabajo en Equipo
 
-- Se emplea GitHub para llevar un registro exacto de los cambios en el código.
+La única manera de medir y desarrollar las **Competencias Genéricas** de un equipo (liderazgo, comunicación, adaptabilidad) es a través de la **interacción constante**, la **experiencia compartida**, y la **reflexión sobre cómo nos desenvolvemos**.
 
-- Permite la colaboración simultánea, asegurando que todos los integrantes trabajen sobre la misma base actualizada.
+Nuestra evidencia de estas habilidades se basa en la **comunicación efectiva** y el **producto colaborativo** que generamos.
 
-- Fomenta la disciplina en el manejo de repositorios y ramas.
+---
 
-### Documentacion 
+## ¿De qué forma se promueven las competencias genéricas?
 
-- Cómo: Se elaboro documentos técnicos donde se explican objetivos, procesos, avances y uso del producto.
+### 🗣️ Comunicación y Coordinación Estratégica
 
-- Por qué: La documentación aseguro que cualquier persona pueda comprender el funcionamiento y propósito del proyecto.
+| Mecanismo | Impacto en la Soft Skill | Descripción Detallada |
+| :--- | :--- | :--- |
+| **Herramientas de Comunicación Digital** | **Comunicación Efectiva y Agilidad** | Usamos **Discord y WhatsApp** para coordinar tareas, compartir avances y resolver dudas **en tiempo real**. Esto facilita la comunicación constante y refuerza la capacidad de **expresar ideas claras y concisas**, evitando malentendidos y retrasos. |
+| **Reuniones Presenciales** | **Negociación y Liderazgo Situacional** | Los encuentros cara a cara se usan para el **debate profundo** y la **toma de decisiones críticas**. Esto promueve la **interacción directa**, fortaleciendo las habilidades sociales, la **negociación activa** y la capacidad de evaluar el progreso conjunto del proyecto. |
+| **Documentación Técnica** | **Comunicación Técnica y Claridad** | Elaboramos documentos técnicos (objetivos, procesos, avances) para asegurar que cualquier stakeholder comprenda el proyecto. Esto desarrolla la **capacidad de comunicar técnicamente** y deja una evidencia clara del trabajo realizado. |
 
-- Resultado: Se desarrollo la capacidad de comunicación técnica y se dejo evidencia clara del trabajo realizado.
+---
 
-### Distribución de tareas entre integrantes
+### 🤝 Trabajo Colaborativo y Responsabilidad
 
-- Se asigna a cada miembro un rol definido: estructurar el HTML, documentar avances, y revisar el trabajo de otros.
+| Mecanismo | Impacto en la Soft Skill | Descripción Detallada |
+| :--- | :--- | :--- |
+| **Uso de Herramientas Colaborativas** | **Disciplina y Colaboración Simultánea** | Empleamos **GitHub** para el control de versiones, asegurando que todos trabajemos sobre una base de código actualizada. Esto fomenta la **disciplina en el manejo de repositorios** y facilita la **colaboración simultánea** en ramas específicas. |
+| **Distribución de Tareas (Roles)** | **Responsabilidad Individual y Organización** | Asignamos roles definidos (ej. estructurar HTML, documentar, revisar). Esto practica la **organización** y promueve la **responsabilidad individual** dentro de la meta colectiva, favoreciendo la **eficiencia** y el cumplimiento de plazos. |
+| **Resolución de Conflictos en Equipo** | **Pensamiento Crítico y Liderazgo** | Enfrentamos y solucionamos discrepancias de código u organización mediante **comunicación directa y acuerdos consensuados**. Esto promueve el **pensamiento crítico** y fortalece las competencias de **trabajo en equipo** y el **liderazgo** que emerge ante la adversidad. |
 
-- Se practica la organización y la responsabilidad individual dentro del trabajo colectivo.
+---
 
-- Favorece la eficiencia y el cumplimiento de plazos.
+### 🧠 Reflexión y Mejora Continua
 
-### Resolución de conflictos en equipo
-
-- Se enfrentan y solucionan discrepancias en el código y la organización mediante comunicación y acuerdos.
-
-- Esto promueve el pensamiento crítico y la toma de decisiones.
-
-- Refuerza competencias de trabajo en equipo y liderazgo.
+| Mecanismo | Impacto en la Soft Skill | Descripción Detallada |
+| :--- | :--- | :--- |
+| **Elaboración de Bitácoras** | **Organización y Auto-Reflexión** | Generamos registros escritos (bitácoras) que documentan el proceso, fallos y soluciones. Esto fortalece la capacidad de **organización, seguimiento** y, fundamentalmente, incentiva la **reflexión crítica** para la optimización de futuras prácticas. |
+| **Interacción Constante** | **Empatía y Adaptación** | La necesidad de interactuar constantemente con diferentes roles y personalidades en el equipo fomenta la **empatía** y la **adaptación** a diversos estilos de trabajo, haciendo que la toma de decisiones sea más precisa y consensuada. |
