@@ -13,7 +13,7 @@ Repository about Software Fundament
   - [Descripción]()
   - [Usuarios/clientes]()
   - [Objetivos]()
-  - [Propuesta de valor]()
+  - [Propuesta de valor](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Propuesta%20de%20valor.md)
   - [Artefactos]()
  
 2- [💻 Requisitos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB)
