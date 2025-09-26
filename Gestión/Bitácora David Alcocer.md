@@ -56,14 +56,8 @@ Este proyecto se enfoca en el **producto de software** y el diseño de la herram
 
 * **Rol:** Participación en la elaboración del video del proyecto.
 * **Aporte:** Enfocado en la **entonación de las oraciones** para transmitir sentimiento y claridad al mensaje del proyecto.
-
-#### ✅ Tareas Completadas
-
-* **Vinculación de VS Code con el repositorio** de GitHub de PeerHive (lograda mediante prueba y error).
-* **Inserción del logo** del proyecto en el repositorio (probablemente en el `README.md`).
-* **Comprensión didáctica del flujo Git/GitHub** (aproximadamente el 20% de su capacidad total).
-* **Realización de la Priorización de Requisitos** para el proyecto PeerHive. Esto incluyó categorizar los requisitos funcionales según su impacto y urgencia.
-* Análisis de **Stakeholders** clave para validar la importancia de los requisitos priorizados.
+  
+---
 
 #### 🧠 Auto-Evaluación (Soft Skills)
 
