@@ -9,43 +9,33 @@ Repository about Software Fundament
   
 1- [📖 Producto](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96)
   - [Descripción](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Proceso%20📊/Descripción/Descripción.md)
-  - [Usuarios/clientes]()
   - [Objetivos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Objetivos.md)
   - [Propuesta de valor](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Propuesta%20de%20valor.md)
-  - [Artefactos]()
+    
  
 2- [💻 Requisitos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB)
-  - [Requisitos Funcionales]()
-  - [Requisitos No Funcionales]()
-  - [Priorización](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB/Priorizaci%C3%B3n%20P1.pdf)
-  - [Artefactos]()
+  - [Requisitos Funcionales](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Requerimientos%20Funciones%20P1.pdf)
+  - [Requisitos No Funcionales](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Requerimientos%20No-Funcionales%20P1.pdf)
+  - [Priorización](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Priorización%20P1.pdf)
+    
     
 3- [📊 Proceso](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Proceso%20%F0%9F%93%8A)
    - [Métrica de contribución individual ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Gesti%C3%B3n/M%C3%A9trica%20de%20evaluaci%C3%B3n%20individual.md)
-   - [Metodologia]()
-   - [Bitacora de reuniones ]()
-      - [ Herramientas ]()
-      - [ Artefactos ]()
+   - [Metodologia](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Metodologia%20de%20calificacion.pdf)
+   - [Bitacora de reuniones ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Producto%20📖/Artefactos/Metodologia%20de%20calificacion.pdf)
+
+        
     
 4- [🧑‍🏫 Presentación](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Presentaci%C3%B3n%20%F0%9F%A7%91%E2%80%8D%F0%9F%8F%AB)
    - [Video]()
-   - [Material]()
-   - [Audio]()
-   - [Imagenes]()
-   - [ Artefactos ]()
+
+     
  
 5- [⭐ Competencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Competencias%E2%AD%90)
-   - [Video]()
-   - [Material]()
-   - [Audio]()
-   - [Imagenes]()
-   - [ Artefactos ]()
+   - [Genericas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Competencias⭐/Competencias%20Genericas.md)
+   - [Especificas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Competencias⭐/Competencias%20Especificas.md)
+6- [Gestión](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Gestión)
  
-Extra- [📑 Artefactos generales](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Imagenes)
-  - [Diagramas UML]()
-  - [Paginas]()
-  - [Archivos ]()
-  - [Videos ]()
  
 - [🙋 Contribuidores]()
 >>>>>>> 4a080ae52451809e3576c409b44b197a1c99f5f7
