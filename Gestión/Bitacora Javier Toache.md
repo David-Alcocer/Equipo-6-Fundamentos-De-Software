@@ -1,4 +1,5 @@
 📝 Bitácora Individual - Proyecto PeerHive
+
 -Habilidades y Metas de Crecimiento
 Dominio Técnico: Adquirir fluidez en el uso de herramientas colaborativas como GitHub, incluyendo la gestión de ramas, pull requests y el seguimiento de issues para optimizar el flujo de trabajo en equipo.
 
@@ -11,6 +12,7 @@ Liderazgo e Iniciativa: Tomar la delantera en las tareas asignadas y proponer so
 Gestión de Proyectos: Desarrollar habilidades de organización y priorización para asegurar que las tareas se completen en los plazos establecidos, evitando retrasos y manteniendo la fluidez del proyecto.
 
 -Registro de Actividades
+
 📌 Lunes 21 de septiembre de 2025 (12:00 - 14:00)
 Actividad: Organización inicial del repositorio y planeación del proyecto.
 
