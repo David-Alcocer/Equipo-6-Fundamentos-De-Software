@@ -17,7 +17,7 @@ Repository about Software Fundament
 2- [💻 Requisitos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB)
   - [Requisitos Funcionales]()
   - [Requisitos No Funcionales]()
-  - [Priorización]()
+  - [Priorización](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Primera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB/Priorizaci%C3%B3n%20P1.pdf)
   - [Artefactos]()
     
 3- [📊 Proceso](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Proceso%20%F0%9F%93%8A)
