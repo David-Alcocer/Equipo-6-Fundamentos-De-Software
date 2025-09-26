@@ -50,6 +50,7 @@ Este proyecto se enfoca en el **producto de software** y el diseño de la herram
 
 **Fecha:** 25 de Septiembre de 2025
 **Horario:** 1:30 p.m.
+---
 
 #### ✅ Participación y Desempeño
 
@@ -81,6 +82,8 @@ Este proyecto se enfoca en el **producto de software** y el diseño de la herram
 > **Solución:** Se utilizó el método de "prueba y error" (`test` hasta funcionar) para configurar la autenticación correctamente.
 > **Aprendizaje:** La práctica es fundamental para comprender herramientas como **Git**. Se dedicará más tiempo a ejercicios para alcanzar un dominio del 100%.
 > > La priorización es crucial en el **proceso de software** ya que define la ruta de desarrollo. Se utilizó un método de priorización (ej. MoSCoW, KANO, etc.) para asegurar que las características más críticas sean abordadas primero.
+
+---
 
 ## 📌 Principio de Responsabilidad y Supervisión
 
