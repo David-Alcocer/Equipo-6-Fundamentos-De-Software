@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PeerHive — Panel Principal</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PeerHive — Iniciar Sesión</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="login-bg">
+  <div class="glass-container fade-in">
+    <div class="logo-area">
+      <img src="Imagenes/PeerHiveLogo.png" alt="PeerHive Logo" class="logo" />
+      <h1>PeerHive</h1>
+      <p>Conecta. Aprende. Crece.</p>
+    </div>
 
-  <header>
-    <img src="PeerHiveLogo.png" alt="Logo PeerHive">
-    <h1>PeerHive</h1>
-  </header>
+    <form id="loginForm" class="form-area">
+      <h2>Iniciar Sesión</h2>
+      <input type="email" id="loginEmail" placeholder="Correo institucional" required />
+      <input type="password" id="loginPassword" placeholder="Contraseña" required />
+      <button type="submit" class="btn-primary">Entrar</button>
+      <p class="register-link">
+        ¿No tienes cuenta?
+        <a href="#" id="showRegister">Regístrate</a>
+      </p>
+    </form>
 
-  <main class="container fade-in">
-    <h2>Bienvenido a tu panel 🐝</h2>
-    <p>Has iniciado sesión exitosamente.</p>
+    <form id="registerForm" class="form-area hidden">
+      <h2>Crear Cuenta</h2>
+      <input type="text" id="regName" placeholder="Nombre(s)" required />
+      <input type="text" id="regLastName" placeholder="Apellidos" required />
+      <input type="email" id="regEmail" placeholder="Correo institucional" required />
+      <input type="password" id="regPassword" placeholder="Contraseña" required />
+      <input type="date" id="regBirth" required />
+      <input type="text" id="regCountry" placeholder="País de origen" required />
+      <button type="submit" class="btn-primary">Registrar</button>
+      <p class="register-link">
+        ¿Ya tienes cuenta?
+        <a href="#" id="showLogin">Inicia sesión</a>
+      </p>
+    </form>
+  </div>
 
-    <section>
-      <h3>Opciones disponibles:</h3>
-      <ul>
-        <li>📚 Ver solicitudes de asesoría</li>
-        <li>🧑‍🏫 Buscar asesores disponibles</li>
-        <li>🕓 Programar sesiones</li>
-        <li>💬 Ver mensajes y notificaciones</li>
-      </ul>
-    </section>
-
-    <button id="logoutBtn">Cerrar sesión</button>
-  </main>
-
-  <footer class="footer">
-    © 2025 PeerHive — Comunidad académica de apoyo mutuo
-  </footer>
-
-  <script>
-    document.getElementById("logoutBtn").addEventListener("click", () => {
-      alert("Cerraste sesión correctamente.");
-      window.location.href = "index.html";
-    });
-  </script>
-
+  <script src="app.js"></script>
 </body>
 </html>
