@@ -1,26 +1,98 @@
-/* Minimal, responsive styles */
-:root{
---accent:#2a9d8f;
---muted:#6c757d;
---bg:#f7f7f9;
---card:#ffffff;
-font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+/* =============================
 }
-*{box-sizing:border-box}
-html,body{height:100%;margin:0;background:var(--bg);color:#111}
-.container{max-width:980px;margin:20px auto;padding:12px}
-.site-header{background:linear-gradient(90deg,var(--accent),#56c2b6);color:white;padding:18px;border-radius:8px}
-.card{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);margin-bottom:12px}
-.hidden{display:none}
-label{display:block;margin-bottom:8px}
-input,select,textarea{width:100%;padding:8px;margin-top:4px;border:1px solid #ddd;border-radius:6px}
-button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
-.dash-nav button{margin-right:8px;margin-top:8px}
-.site-footer{text-align:center;color:var(--muted);padding:16px}
 
 
-@media (max-width:640px){.dash-nav{display:flex;flex-wrap:wrap}}
+.link:hover {
+color: var(--color-accent);
+text-decoration: underline;
+}
 
 
-/* Small components for session timer */
-.timer{font-weight:700}
+.footer {
+text-align: center;
+padding: 1.5rem;
+font-size: 0.9rem;
+color: #666;
+}
+
+
+/* Panel principal (después del login) */
+.dashboard {
+display: grid;
+gap: 1.5rem;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+width: 90%;
+max-width: 1000px;
+margin: 2rem auto;
+}
+
+
+.card {
+background: white;
+border-radius: var(--radius-lg);
+padding: 1.5rem;
+box-shadow: var(--shadow-soft);
+transition: var(--transition-fast);
+}
+
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+
+.card h3 {
+color: var(--color-primary);
+}
+
+
+.badge {
+background: var(--color-accent);
+color: white;
+padding: 0.2rem 0.6rem;
+border-radius: var(--radius-sm);
+font-size: 0.8rem;
+}
+
+
+/* Estilo para alertas o mensajes */
+.alert {
+padding: 1rem;
+border-radius: var(--radius-md);
+margin-bottom: 1rem;
+}
+
+
+.alert.success {
+background: #EAF8E6;
+color: var(--color-accent);
+}
+
+
+.alert.error {
+background: #FCE8E8;
+color: #C62828;
+}
+
+
+/* Animaciones suaves */
+.fade-in {
+animation: fadeIn 0.5s ease forwards;
+}
+
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+.container {
+padding: 1.2rem;
+}
+button {
+font-size: 0.9rem;
+}
+}
