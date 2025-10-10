@@ -1,0 +1,26 @@
+/* Minimal, responsive styles */
+:root{
+--accent:#2a9d8f;
+--muted:#6c757d;
+--bg:#f7f7f9;
+--card:#ffffff;
+font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:#111}
+.container{max-width:980px;margin:20px auto;padding:12px}
+.site-header{background:linear-gradient(90deg,var(--accent),#56c2b6);color:white;padding:18px;border-radius:8px}
+.card{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);margin-bottom:12px}
+.hidden{display:none}
+label{display:block;margin-bottom:8px}
+input,select,textarea{width:100%;padding:8px;margin-top:4px;border:1px solid #ddd;border-radius:6px}
+button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
+.dash-nav button{margin-right:8px;margin-top:8px}
+.site-footer{text-align:center;color:var(--muted);padding:16px}
+
+
+@media (max-width:640px){.dash-nav{display:flex;flex-wrap:wrap}}
+
+
+/* Small components for session timer */
+.timer{font-weight:700}
