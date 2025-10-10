@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeerHive — Panel Principal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-bg fade-in">
+
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <img src="Imagenes/PeerHiveLogo.png" alt="Logo" class="sidebar-logo">
+      <h2>PeerHive</h2>
+    </div>
+    <nav>
+      <ul>
+        <li class="active">🏠 Inicio</li>
+        <li>📚 Asesorías</li>
+        <li>🧑‍🏫 Mis Sesiones</li>
+        <li>💬 Chat</li>
+        <li>🕓 Créditos</li>
+      </ul>
+    </nav>
+    <button id="logoutBtn" class="btn-secondary">Cerrar sesión</button>
+  </aside>
+
+  <main class="main-content">
+    <header class="dashboard-header">
+      <h1>Bienvenido a PeerHive 🐝</h1>
+      <p>Tu espacio para conectar, aprender y ayudar.</p>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Solicitudes activas</h3>
+        <p>2 pendientes</p>
+      </div>
+      <div class="card">
+        <h3>Horas de asesoría</h3>
+        <p>12 / 16 horas</p>
+      </div>
+      <div class="card">
+        <h3>Mensajes nuevos</h3>
+        <p>5 chats activos</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("logoutBtn").addEventListener("click", () => {
+      alert("Cerraste sesión correctamente.");
+      window.location.href = "index.html";
+    });
+  </script>
+</body>
+</html>
