@@ -1,0 +1,123 @@
+*   [33m6781cd8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #5 from David-Alcocer/Primera-Entrega-(Proyecto)
+[31m|[m[32m\[m  
+[31m|[m * [33mc28817a[m[33m ([m[1;31morigin/Primera-Entrega-(Proyecto)[m[33m, [m[1;32mPrimera-Entrega-(Proyecto)[m[33m)[m Update README.md
+[31m|[m * [33ma8bf384[m Update Descripcion del producto.md
+[31m|[m * [33meb47c1c[m Update README.md
+[31m|[m * [33m4e89b9d[m Create Descripcion del producto.md
+[31m|[m * [33m24e66f2[m Update README.md
+[31m|[m * [33md973877[m Update README.md
+[31m|[m * [33m1b98d17[m Add files via upload
+[31m|[m * [33m6b18126[m Update README.md
+[31m|[m * [33m1eabd27[m Update README.md
+[31m|[m * [33ma2d185a[m Update README.md
+[31m|[m * [33ma21e3a6[m Update README.md
+[31m|[m * [33mc158207[m Update Competencias Genericas.md
+[31m|[m * [33m0e4a1d5[m Update Competencias Especificas.md
+[31m|[m * [33m2f6e460[m Update Bitacora Javier Toache.md
+[31m|[m * [33m63d26d3[m Update Bitacora Javier Toache.md
+[31m|[m * [33m45d3ff4[m Descripción de Artefactos
+[31m|[m * [33m1ce1665[m Update Bitacora Rodrigo Salazar.md
+[31m|[m * [33m6064737[m Delete Proceso 📊/test.png
+[31m|[m * [33m8d6a04b[m Update Descripción.md
+[31m|[m * [33m07dfb8d[m Delete Producto 📖/Artefactos/Artefactos
+[31m|[m * [33m1d59569[m Add files via upload
+[31m|[m * [33m888c71d[m Add files via upload
+[31m|[m * [33m1f2e43e[m Add files via upload
+[31m|[m * [33m6f4d9a0[m Add files via upload
+[31m|[m * [33m4e10519[m Add files via upload
+[31m|[m * [33mfc128b0[m Delete Producto 📖/Artefactos/Historia de usuarios.pdf
+[31m|[m * [33ma9969a6[m Rename Colorful Retro Simple Sales Group Project Presentation.pdf to Historia de usuarios.pdf
+[31m|[m * [33mb81c97f[m Add files via upload
+[31m|[m * [33mc4094a1[m Add files via upload
+[31m|[m * [33m31b477e[m Add files via upload
+[31m|[m * [33mbce4ef8[m Rename WhatsApp Image 2025-09-25 at 20.12.32.jpeg to Logo.jpeg
+[31m|[m * [33m3b8b604[m Add files via upload
+[31m|[m * [33m1f4fb79[m Add files via upload
+[31m|[m * [33m29abcc1[m Add files via upload
+[31m|[m * [33m370c173[m Add files via upload
+[31m|[m * [33m1eea335[m Add files via upload
+[31m|[m * [33m1e805fe[m Create Artefactos
+[31m|[m * [33m6a564a0[m Delete Producto 📖/Artefactos
+[31m|[m * [33m5178f88[m Create Artefactos
+[31m|[m * [33m1f6a3b3[m Delete Producto 📖/Artefactos
+[31m|[m * [33mba139eb[m Update Bitácora David Alcocer.md
+[31m|[m * [33m7fd7550[m Update Bitácora David Alcocer.md
+[31m|[m * [33mf78fad5[m Update Bitácora David Alcocer.md
+[31m|[m * [33m36cc6b6[m Update Artefactos
+[31m|[m * [33m732a30a[m Historia de Usuario
+[31m|[m * [33m297688e[m rollback
+[31m|[m * [33m826a88a[m css/html
+[31m|[m *   [33ma2ca87f[m test
+[31m|[m [33m|[m[34m\[m  
+[31m|[m [33m|[m * [33m4a080ae[m Update Bitácora David Alcocer.md
+[31m|[m [33m|[m * [33m17578fe[m Update Bitácora reuniones.md
+[31m|[m [33m|[m * [33m4bc20b9[m Update Bitácora reuniones.md
+[31m|[m [33m|[m * [33m565d73a[m Update Bitácora reuniones.md
+[31m|[m [33m|[m * [33medc1019[m Diagrama de flujo
+[31m|[m [33m|[m * [33ma14a611[m Caso de Usos
+[31m|[m [33m|[m * [33m0d96202[m Update Bitácora Leonardo.md
+[31m|[m [33m|[m * [33md21ddcf[m Update Bitácora Leonardo.md
+[31m|[m [33m|[m * [33m549ad09[m Rename Bitacora Rodrigo Salazar to Bitacora Rodrigo Salazar.md
+[31m|[m [33m|[m * [33meb2f995[m Update Bitácora Leonardo.md
+[31m|[m [33m|[m * [33me93212b[m Update Bitacora Harold Moo.md
+[31m|[m [33m|[m * [33m03f72e3[m Update Competencias Especificas.md
+[31m|[m [33m|[m * [33m00a7596[m Update Competencias Genericas.md
+[31m|[m [33m|[m * [33m543bbc2[m Update Competencias Especificas.md
+[31m|[m [33m|[m * [33m80f047b[m Update Bitácora reuniones.md
+[31m|[m [33m|[m * [33m97b9c75[m Update Bitácora David Alcocer.md
+[31m|[m [33m|[m * [33m401cfd7[m Update Bitácora David Alcocer.md
+[31m|[m [33m|[m * [33me3b48ff[m Método de Prioridad
+[31m|[m [33m|[m * [33m8a5756e[m Delete Requisitos 💻/test.png
+[31m|[m [33m|[m * [33me1c5735[m Rename Competencias Espec.md to Competencias Especificas.md
+[31m|[m [33m|[m * [33m1de0ca4[m Update and rename Competencias Especificas.md to Competencias Genericas.md
+[31m|[m [33m|[m * [33m1d93228[m Update and rename Competencias Genericas.md to Competencias Espec.md
+[31m|[m [33m|[m * [33mbbff066[m Create Bitacora Harold Moo.md
+[31m|[m [33m|[m * [33m5cf0c13[m Update Competencias Especificas.md
+[31m|[m [33m|[m * [33m7f7e432[m Update Competencias Especificas.md
+[31m|[m [33m|[m * [33mab9dca6[m Update Competencias Especificas.md
+[31m|[m [33m|[m * [33m98bc551[m Create Competencias Especificas.md
+[31m|[m [33m|[m * [33m411878a[m Update Competencias Genericas.md
+[31m|[m [33m|[m * [33ma8ea16f[m Update and rename Doumentación.md to Competencias Genericas.md
+[31m|[m [33m|[m * [33m7d5a148[m Delete Gestión/Bitacora directory
+[31m|[m [33m|[m * [33m072882a[m Update Bitácora Leonardo.md
+[31m|[m [33m|[m * [33me15b0cb[m Update Bitacora Rodrigo Salazar
+[31m|[m [33m|[m * [33me23743f[m Update Bitacora Rodrigo Salazar
+[31m|[m [33m|[m * [33m59a8ff8[m Update Bitacora Rodrigo Salazar.md
+[31m|[m [33m|[m * [33m2d22c0f[m Create Tableros.md
+[31m|[m [33m|[m * [33mf680eb9[m Create Bitacora Rodrigo Salazar.md
+[31m|[m [33m|[m * [33m82b68b9[m Update Descripción.md
+[31m|[m [33m|[m * [33m99bf50f[m Update Descripción.md
+[31m|[m [33m|[m * [33m1bbc08d[m Requerimientos No-Funcionales P1
+[31m|[m [33m|[m * [33mcf0eb98[m Update Descripción.md
+[31m|[m [33m|[m * [33md27200f[m Create Descripción.md
+[31m|[m [33m|[m * [33mbacdc50[m Delete Producto 📖/Descripcion.md
+[31m|[m [33m|[m *   [33m486f377[m Merge pull request #8 from Salazarbru/patch-2
+[31m|[m [33m|[m [35m|[m[36m\[m  
+[31m|[m [33m|[m [35m|[m * [33m38d77c8[m Create Artefactos
+[31m|[m [33m|[m * [36m|[m [33m4316191[m Update Objetivos.md
+[31m|[m [33m|[m * [36m|[m   [33m50ff26e[m Merge pull request #6 from Salazarbru/patch-3
+[31m|[m [33m|[m [1;31m|[m[1;32m\[m [36m\[m  
+[31m|[m [33m|[m [1;31m|[m * [36m|[m [33m468b7dc[m Create Bitacora Rodrigo Salazar
+[31m|[m [33m|[m * [1;32m|[m [36m|[m [33m0efb594[m Add files via upload
+[31m|[m [33m|[m * [1;32m|[m [36m|[m [33m9dce774[m Create Documentación.md
+[31m|[m [33m|[m [1;32m|[m[1;32m/[m [36m/[m  
+[31m|[m [33m|[m * [36m|[m [33mf32e2c3[m Requisitos Funcionales
+[31m|[m [33m|[m * [36m|[m [33mbbd5252[m Update Bitácora Leonardo.md
+[31m|[m [33m|[m * [36m|[m [33md61fc34[m Update index.html
+[31m|[m [33m|[m * [36m|[m [33mb248b9a[m Update Descripcion.md
+[31m|[m [33m|[m * [36m|[m [33m85fd0b3[m Update README.md
+[31m|[m [33m|[m * [36m|[m [33m7daaf17[m Create Descripcion.md
+[31m|[m [33m|[m * [36m|[m [33mbf554df[m Update README.md
+[31m|[m [33m|[m * [36m|[m [33mb838d31[m Update Métrica de evaluación individual.md
+[31m|[m [33m|[m * [36m|[m [33mbae9f81[m Update README.md
+[31m|[m [33m|[m [36m|[m[36m/[m  
+[31m|[m [33m|[m * [33m08bd127[m Create Objetivos.md
+[31m|[m [33m|[m * [33m291ac45[m Update Propuesta de valor.md
+[31m|[m [33m|[m * [33mcec2cea[m Update Propuesta de valor.md
+[31m|[m [33m|[m * [33m954c18a[m Create Métrica de evaluación individual.md
+[31m|[m [33m|[m * [33m942f971[m Update Bitácora David Alcocer.md
+[31m|[m [33m|[m * [33mf8ed320[m Rename Bitacora Alam Javier Toache Varguez.md to Bitacora Javier Toache.md
+[31m|[m [33m|[m * [33m224d02b[m Create Bitácora David Alcocer.md
+[31m|[m [33m|[m * [33m0356727[m Create Bitacora Alam Javier Toache Varguez.md
+[31m|[m [33m|[m * [33m2f3dde3[m Rename Bitácora reuniones to Bitácora reuniones.md
+[31m|[m [33m|[m * [33m499fec2[m Rename Bitácora Leona
