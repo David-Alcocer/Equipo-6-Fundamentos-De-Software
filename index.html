@@ -1,4 +1,45 @@
 <!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>PeerHive — Plataforma de Asesorías</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<h1>PeerHive</h1>
+<p>Apoyo académico entre estudiantes — Universidad</p>
+</header>
+<main class="container">
+<!-- Auth area: Login visible by default -->
+<section id="auth" class="card">
+<div id="login-view">
+<h2>Iniciar sesión</h2>
+<form id="login-form">
+<label>Matrícula / Correo institucional
+<input id="login-email" name="email" placeholder="amatrícula@alumnos.uady.mx" required>
+</label>
+<label>Contraseña
+<input id="login-password" name="password" type="password" required>
+</label>
+<button type="submit">Entrar</button>
+</form>
+<p>¿No tienes cuenta? <a id="show-register" href="#">Regístrate</a></p>
+<p><a id="forgot-password" href="#">Recuperar contraseña</a></p>
+</div>
+<div id="register-view" class="hidden">
+<h2>Registro</h2>
+<form id="register-form">
+<label>Matrícula (formato universitario)
+<input id="reg-matricula" name="matricula" required>
+</label>
+<label>Correo institucional
+<input id="reg-email" name="email" placeholder="@alumnos.uady.mx" required>
+</label>
+<label>Nombre(s)
+<input id="reg-nombre" name="nombre" required>
+</label>
 <label>Apellidos
 <input id="reg-apellidos" name="apellidos" required>
 </label>
@@ -17,8 +58,6 @@
 <label>Confirmar contraseña
 <input id="reg-password2" name="password2" type="password" required>
 </label>
-
-
 <button type="submit">Crear cuenta</button>
 </form>
 <p><a id="show-login" href="#">Volver a iniciar sesión</a></p>
@@ -54,6 +93,6 @@
 </footer>
 
 
-<script src="assets/js/app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
