@@ -1,193 +1,92 @@
-/* === General === */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+:root{
+  --honey:#F7B500;
+  --honey-2:#FFD84D;
+  --ink:#222;
+  --muted:#555;
+  --bg-1:#fff6c7;
+  --bg-2:#fffce0;
+  --glass-bg: rgba(255,255,255,0.4);
+  --glass-brd: rgba(255,255,255,0.55);
+  --radius-lg:20px;
+  --radius-md:12px;
 }
 
-body {
-  color: #222;
-  background: linear-gradient(135deg, #fff6c7, #fffce0, #f9f9f9);
-  min-height: 100vh;
-}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;color:var(--ink);}
 
-/* === Animaciones === */
-.fade-in {
-  animation: fadeIn 0.8s ease forwards;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+/* --- Animaciones --- */
+.fade-in{animation:fadeIn .5s ease forwards}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.fade-out{animation:fadeOut .4s ease forwards}
+@keyframes fadeOut{from{opacity:1}to{opacity:0}}
 
-/* === Login Page === */
-.login-bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #ffe67c, #fff4c2);
-}
+/* --- Login --- */
+.login-bg{display:flex;align-items:center;justify-content:center;min-height:100vh;background:linear-gradient(135deg,var(--bg-1),var(--bg-2))}
+.glass-container{background:rgba(255,255,255,.25);backdrop-filter:blur(15px);border:1px solid var(--glass-brd);border-radius:var(--radius-lg);padding:2rem 3rem;width:min(420px,92vw);box-shadow:0 10px 30px rgba(0,0,0,.08);text-align:center}
+.logo{width:84px}
+.logo-area h1{color:var(--honey);margin:.5rem 0 .25rem}
+.logo-area p{color:var(--muted);margin:0 0 .5rem}
+.form-area{display:flex;flex-direction:column;gap:.8rem;margin-top:1rem}
+.form-area input{padding:.9rem;border:none;border-radius:12px;background:rgba(255,255,255,.8);box-shadow:inset 0 0 6px rgba(0,0,0,.06)}
+.btn-primary{background:linear-gradient(90deg,var(--honey),#E0AA00);color:#000;border:none;border-radius:12px;padding:.9rem;cursor:pointer;font-weight:600;transition:.25s}
+.btn-primary:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.btn-secondary{background:#222;color:#fff;border:none;border-radius:12px;padding:.8rem 1rem;cursor:pointer;transition:.2s}
+.btn-secondary:hover{background:#444}
+.register-link{font-size:.9rem}.register-link a{color:#C99600;text-decoration:none;font-weight:600}
+.hidden{display:none}
 
-.glass-container {
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(15px);
-  border-radius: 20px;
-  padding: 2rem 3rem;
-  width: 380px;
-  box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
-  text-align: center;
-}
+/* --- Dashboard --- */
+.dashboard-bg{display:flex;min-height:100vh;background:linear-gradient(135deg,var(--bg-1),var(--bg-2))}
+.sidebar{width:270px;background:var(--glass-bg);backdrop-filter:blur(18px);border-right:2px solid var(--glass-brd);padding:1.4rem;display:flex;flex-direction:column;justify-content:space-between}
+.sidebar-logo{width:60px;display:block;margin:0 auto}
+.sidebar-header{text-align:center}
+.sidebar h2{color:var(--honey);margin:.5rem 0 0}
 
-.logo-area img.logo {
-  width: 80px;
-  margin-bottom: 10px;
-}
-.logo-area h1 {
-  color: #e0aa00;
-  margin-bottom: 5px;
-}
-.logo-area p {
-  font-size: 0.9rem;
-  color: #555;
-}
+/* Menu clickeable */
+.menu{list-style:none;margin:1.6rem 0 0;padding:0}
+.menu a{display:flex;align-items:center;gap:10px;text-decoration:none;color:#333;font-weight:500;padding:10px 14px;border-radius:12px;transition:.25s;pointer-events:auto}
+.menu a:hover{background:rgba(255,213,79,.25);transform:translateX(4px)}
+.menu a.active{background:#FFE27A;font-weight:700}
 
-.form-area {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  margin-top: 1rem;
-}
+/* Main */
+.main-content{flex:1;padding:2rem;overflow:auto}
+.dashboard-header h1{margin:0 0 .4rem}
+.dashboard-header p{color:var(--muted);margin:0 0 1.6rem}
 
-input {
-  padding: 0.8rem;
-  border-radius: 10px;
-  border: none;
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
-}
+/* Cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem}
+.card{background:var(--glass-bg);backdrop-filter:blur(10px);border:1px solid var(--glass-brd);border-radius:var(--radius-lg);padding:1.2rem;box-shadow:0 8px 24px rgba(0,0,0,.06);transition:.25s}
+.card:hover{transform:translateY(-4px)}
 
-.btn-primary {
-  background: linear-gradient(90deg, #ffcc00, #e0aa00);
-  color: #000;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
-  padding: 0.8rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(90deg, #ffd733, #ffb700);
-}
+/* Views */
+.view{display:none}
+.view.show{display:block;animation:fadeIn .35s ease}
+.panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin-top:.8rem}
+.panel-col{background:rgba(255,255,255,.35);border:1px solid var(--glass-brd);border-radius:16px;padding:1rem}
+.form-grid{display:grid;grid-template-columns:1fr;gap:.6rem}
+.form-grid input,.form-grid select{padding:.8rem;border:none;border-radius:12px;background:rgba(255,255,255,.85)}
+.table{width:100%;border-collapse:collapse;margin-top:.6rem}
+.table th,.table td{border-bottom:1px dashed rgba(0,0,0,.06);padding:.5rem;text-align:left}
 
-.hidden {
-  display: none;
-}
+/* Sesiones */
+.session-box{margin-top:.8rem;padding:1rem;border-radius:14px;background:rgba(0,0,0,.04)}
+.timer{font-weight:700;color:#0b6b00}
+.btn-row{display:flex;gap:.6rem;margin-top:.6rem}
 
-.register-link {
-  font-size: 0.9rem;
-}
-.register-link a {
-  color: #e0aa00;
-  text-decoration: none;
-  font-weight: 600;
-}
+/* Chat */
+.chat-wrap{display:grid;gap:.6rem}
+.chat-box{min-height:260px;max-height:380px;overflow:auto;background:rgba(255,255,255,.45);border:1px solid var(--glass-brd);border-radius:14px;padding:.8rem}
+.chat-form{display:flex;gap:.6rem}
 
-/* === Dashboard === */
-.dashboard-bg {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
-}
+/* Toast */
+.toast{position:fixed;right:18px;bottom:18px;background:#222;color:#fff;padding:.8rem 1rem;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
 
-.sidebar {
-  width: 260px;
-  background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(20px);
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-right: 2px solid rgba(255, 255, 255, 0.5);
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.sidebar-logo {
-  width: 60px;
-}
-.sidebar-header {
-  text-align: center;
-}
-.sidebar h2 {
-  color: #e0aa00;
-  margin-top: 0.5rem;
-}
-
-nav ul {
-  list-style: none;
-  margin-top: 2rem;
-}
-nav ul li {
-  padding: 0.8rem;
-  margin-bottom: 0.5rem;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-nav ul li:hover,
-nav ul li.active {
-  background: linear-gradient(90deg, #ffcc00, #ffe880);
-  color: #000;
-  font-weight: 600;
-}
-
-.btn-secondary {
-  padding: 0.8rem;
-  background: #222;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.btn-secondary:hover {
-  background: #444;
-}
-
-/* === Main Dashboard Content === */
-.main-content {
-  flex: 1;
-  padding: 2rem;
-  overflow-y: auto;
-}
-
-.dashboard-header h1 {
-  color: #222;
-  margin-bottom: 0.5rem;
-}
-.dashboard-header p {
-  color: #555;
-  margin-bottom: 2rem;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-5px);
+/* Responsive */
+@media (max-width:900px){
+  .sidebar{width:84px;padding:.8rem}
+  .sidebar h2{display:none}
+  .menu a{justify-content:center}
+  .menu a span{display:none}
 }
