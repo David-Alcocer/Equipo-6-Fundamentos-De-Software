@@ -1,98 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>PeerHive — Plataforma de Asesorías</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeerHive — Panel Principal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-<h1>PeerHive</h1>
-<p>Apoyo académico entre estudiantes — Universidad</p>
-</header>
-<main class="container">
-<!-- Auth area: Login visible by default -->
-<section id="auth" class="card">
-<div id="login-view">
-<h2>Iniciar sesión</h2>
-<form id="login-form">
-<label>Matrícula / Correo institucional
-<input id="login-email" name="email" placeholder="amatrícula@alumnos.uady.mx" required>
-</label>
-<label>Contraseña
-<input id="login-password" name="password" type="password" required>
-</label>
-<button type="submit">Entrar</button>
-</form>
-<p>¿No tienes cuenta? <a id="show-register" href="#">Regístrate</a></p>
-<p><a id="forgot-password" href="#">Recuperar contraseña</a></p>
-</div>
-<div id="register-view" class="hidden">
-<h2>Registro</h2>
-<form id="register-form">
-<label>Matrícula (formato universitario)
-<input id="reg-matricula" name="matricula" required>
-</label>
-<label>Correo institucional
-<input id="reg-email" name="email" placeholder="@alumnos.uady.mx" required>
-</label>
-<label>Nombre(s)
-<input id="reg-nombre" name="nombre" required>
-</label>
-<label>Apellidos
-<input id="reg-apellidos" name="apellidos" required>
-</label>
-<label>Edad
-<input id="reg-edad" name="edad" type="number" min="15" max="120" required>
-</label>
-<label>Fecha de Nacimiento
-<input id="reg-nac" name="nacimiento" type="date" required>
-</label>
-<label>País de Origen
-<input id="reg-pais" name="pais" required>
-</label>
-<label>Contraseña
-<input id="reg-password" name="password" type="password" required>
-</label>
-<label>Confirmar contraseña
-<input id="reg-password2" name="password2" type="password" required>
-</label>
-<button type="submit">Crear cuenta</button>
-</form>
-<p><a id="show-login" href="#">Volver a iniciar sesión</a></p>
-</div>
-</section>
 
+  <header>
+    <img src="PeerHiveLogo.png" alt="Logo PeerHive">
+    <h1>PeerHive</h1>
+  </header>
 
-<!-- Dashboard placeholder -->
-<section id="dashboard" class="hidden">
-<div class="card">
-<h2>Panel de Usuario</h2>
-<div id="profile-summary"></div>
-<nav class="dash-nav">
-<button id="btn-profile">Editar perfil</button>
-<button id="btn-new-request">Crear solicitud</button>
-<button id="btn-requests">Mis solicitudes</button>
-<button id="btn-sessions">Sesiones</button>
-<button id="btn-generate-report">Generar reporte (horas)</button>
-<button id="btn-logout">Cerrar sesión</button>
-</nav>
-</div>
+  <main class="container fade-in">
+    <h2>Bienvenido a tu panel 🐝</h2>
+    <p>Has iniciado sesión exitosamente.</p>
 
+    <section>
+      <h3>Opciones disponibles:</h3>
+      <ul>
+        <li>📚 Ver solicitudes de asesoría</li>
+        <li>🧑‍🏫 Buscar asesores disponibles</li>
+        <li>🕓 Programar sesiones</li>
+        <li>💬 Ver mensajes y notificaciones</li>
+      </ul>
+    </section>
 
-<div id="area-work"></div>
-</section>
+    <button id="logoutBtn">Cerrar sesión</button>
+  </main>
 
+  <footer class="footer">
+    © 2025 PeerHive — Comunidad académica de apoyo mutuo
+  </footer>
 
-</main>
+  <script>
+    document.getElementById("logoutBtn").addEventListener("click", () => {
+      alert("Cerraste sesión correctamente.");
+      window.location.href = "index.html";
+    });
+  </script>
 
-
-<footer class="site-footer">
-<small>PeerHive — Plataforma de apoyo académico (demo)</small>
-</footer>
-
-
-<script src="app.js"></script>
 </body>
 </html>
