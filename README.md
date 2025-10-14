@@ -44,3 +44,5 @@ Repository about Software Fundament
 | Foto | Rol |
 | :---: | :--- |
 |![David](Imagenes/David.jpeg)| En el equipo asumo la responsabilidad de checar los requisitos y analizar y supervisar la tarea de mis comapñeros para ver si necesitan mejorar | 
+
+|![Javier](Imagenes/Javier.jpeg)| Durante el trabajo del equipo me encargo de la organizacion del repositorio, ayudo en la parte creativa asi como tambien del desarrollo de artefactos. | 
