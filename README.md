@@ -44,3 +44,4 @@ Repository about Software Fundament
 | Foto | Rol |
 | :---: | :--- |
 |![David](Imagenes/David.jpeg)| En el equipo asumo la responsabilidad de checar los requisitos y analizar y supervisar la tarea de mis comapñeros para ver si necesitan mejorar | 
+|![Leo](Imagenes/leo.jpg)| En el equipo asumo la responsabilidad de scrum master, product owner y lider de equipo, resolviendo la mayor parte de los blockers del equipo | 
