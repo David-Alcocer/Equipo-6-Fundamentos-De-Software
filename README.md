@@ -40,4 +40,10 @@ Repository about Software Fundament
  
  
 - [🙋 Contribuidores]()
->>>>>>> 4a080ae52451809e3576c409b44b197a1c99f5f7
+
+| Foto | Rol |
+| :---: | :--- |
+| !(David)[Imagenes/David.jpeg]|Test | 
+|  |  |
+|  |  | 
+|  |  | 
