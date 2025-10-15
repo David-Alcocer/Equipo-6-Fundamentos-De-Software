@@ -43,8 +43,17 @@ Repository about Software Fundament
 
 | Foto | Rol |
 | :---: | :--- |
+<<<<<<< HEAD
 
 |![David Alcocer](Imagenes/David.jpeg)| En el equipo asumo la responsabilidad de checar los requisitos y analizar y supervisar la tarea de mis comapñeros para ver si necesitan mejorar |
 
 
 |![Leo](Imagenes/leo.jpg)| En el equipo asumo la responsabilidad de scrum master, product owner y lider de equipo, resolviendo la mayor parte de los blockers del equipo | 
+=======
+|![David](Imagenes/David.jpeg)| En el equipo asumo la responsabilidad de checar los requisitos y analizar y supervisar la tarea de mis comapñeros para ver si necesitan mejorar | 
+|![Leo](Imagenes/leo.jpg)| En el equipo asumo la responsabilidad de scrum master, product owner y lider de equipo, resolviendo la mayor parte de los blockers del equipo | 
+|![Javier](Imagenes/Javier.jpeg)| Durante el trabajo del equipo me encargo de la organizacion del repositorio, ayudo en la parte creativa asi como tambien del desarrollo de artefactos. |
+|![Salazarbru](Imagenes/Rodrigo.JPG)| En el proyecto asumo la responsabilidad de redacción, monitoreo de evidencias |      
+
+
+>>>>>>> cbeb2e8b1059dfc33fcacb428b807e18b4d6b853
