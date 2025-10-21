@@ -81,3 +81,75 @@ Se logró:
 
 Con ello, el equipo se encuentra preparado para afrontar el **Sprint #2**, en el cual se proyecta iniciar con la **prototipación inicial** y la definición de métricas de validación. 
 
+---
+# 🐝 PeerHive: Documentación del Incremento — Sprint #2
+
+## ✨ Visión General del Sprint
+**Sprint #2:** Transición de la fase de requisitos a la fase de diseño y prototipado UX/UI.  
+**Periodo:** [20 al 29 de octubre]  
+**Duración:** 10 días  
+
+### 🎯 Objetivo Central
+Definir y crear **prototipos de diseño (UI/UX)** para las funcionalidades *MUST HAVE* y *SHOULD HAVE* (Registro, Perfil y Chat post-aceptación), junto con el **refinamiento de requisitos restantes**.
+---
+
+## 📁 Organización del branch
+- **Branch de entrega:** `Segunda-Entrega-(Proyecto)`.  
+- **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
+- **Commits detallados:** Mensajes explicativos y bitácoras formales.
+
+---
+
+## 📈 Gestión del Proceso y Trazabilidad
+El proceso se gestionó bajo **Scrum**
+
+### 🔹 Planeación y Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.  
+- Se aplicó un **margen de riesgo del 20 %** para asegurar estabilidad.  
+- Se realizarán
+- Seguimiento diario en GitHub Projects con flujo:  
+  `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+
+### 🔹 Coordinación
+- **Daily**
+    -Se documentaran reuniones con acuerdos, avances y blockers.  
+- ***Bitacora de reunion***
+    - Acuerdos/resolución de conflictos
+    - Responsables
+    - Tareas
+    - Fechas límite de entrega
+    - Productos resultantes
+
+---
+
+## 📊 Métrica de Contribución Individual
+
+| Integrante | Rol Principal | Puntos | % Contribución | Evidencia |
+|-------------|----------------|--------|----------------|------------|
+| **Misa** | Líder de Requisitos / Analista | 20.5 | 28.1 % | Archivos PDF/MD de requisitos |
+| **Leo** | Líder de Diseño / Scrum Master | 17.5 | 24 % | Prototipos UI/UX , product Owner y Scrum master |
+| **Rodrigo** | Gestor de Cliente / Documentación | 17.5 | 24 % | Bitácoras y validación con cliente |
+| **Toache** | Presentación / Evidencia | 17.5 | 24 % | Presentación final y competencias |
+
+---
+
+**Verificación:** ---> mediante historial de commits y Pull Requests.
+
+### 🔹 Definition of Done (DoD)
+Un artefacto se considera *DONE* si:
+- Cumple criterios de aceptación.  
+- Fue revisado internamente (Review).  
+- No presenta errores críticos.  
+- Está integrado en el repositorio.  
+- Posee documentación completa.
+
+---
+
+## ✅ Resultados del sprint
+
+
+---
+
+## ✨ Próximo Paso (Retrospectiva)
+- Realizar review para mejorar la transición **Requisitos → Prototipado**.  
+- Preparar al equipo para el **Sprint #3: Codificación Inicial**.
