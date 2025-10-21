@@ -47,4 +47,3 @@ Repository about Software Fundament
 |![Leo](Imagenes/leo.jpg)| En el equipo asumo la responsabilidad de scrum master, product owner y lider de equipo, resolviendo la mayor parte de los blockers del equipo | 
 |![Javier](Imagenes/Javier.jpeg)| Durante el trabajo del equipo me encargo de la organizacion del repositorio, ayudo en la parte creativa asi como tambien del desarrollo de artefactos. |
 |![Salazarbru](Imagenes/Rodrigo.JPG)| En el proyecto asumo la responsabilidad de redacción, monitoreo de evidencias |      
-
