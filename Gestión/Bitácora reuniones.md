@@ -74,6 +74,32 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 **Horario:** 9:50 a.m. - 11:15 a.m.
 **Lugar:** Biblioteca (Sesión de Trabajo en Equipo)
 
+---
+### 5. Mentoría Técnica I: Introducción a Git y GitHub
+
+**Fecha:** 10 de Octubre de 2025
+**Mentor:** Carlos (Alumno Avanzado)
+
+#### ✅ Temas Cubiertos
+
+* **Conceptos Fundamentales:** Se revisó la diferencia entre **Git** (local) y **GitHub** (remoto).
+* **Flujo Básico de Trabajo:** Explicación sobre `commit`, `push`, `pull` y `branching`.
+* **Objetivo:** Obtener mayor claridad sobre el **Control de Versiones** para mejorar la gestión del repositorio.
+
+---
+### 6. Mentoría Técnica II: Herramientas y Buenas Prácticas
+
+**Fecha:** 11 de Octubre de 2025
+**Mentor:** Carlos (Alumno Avanzado)
+
+#### ✅ Temas Cubiertos
+
+* **Herramientas Visuales:** Introducción y demostración del uso de **GitKraken** para gestionar el repositorio de forma gráfica.
+* **Buenas Prácticas:** Se establecieron **hábitos de Git (local)**, enfocados en la calidad de los mensajes de *commit* y la atomicidad de los cambios.
+* **Impacto:** Estos conocimientos son clave para el **mantenimiento, la escalabilidad** y el trabajo colaborativo en la etapa de implementación.
+
+---
+
 #### ✅ Tareas Ejecutadas
 
 * **Revisión de Pendientes:** Se evaluó el progreso general del proyecto y las actividades restantes necesarias.
