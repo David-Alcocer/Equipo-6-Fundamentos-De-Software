@@ -49,3 +49,4 @@ Repository about Software Fundament
 |![Javier](Imagenes/Javier.jpeg)| Durante el trabajo del equipo me encargo de la organizacion del repositorio, ayudo en la parte creativa asi como tambien del desarrollo de artefactos. |
 |![Salazarbru](Imagenes/Rodrigo.JPG)| En el proyecto asumo la responsabilidad de redacción, monitoreo de evidencias |      
 
+# Hola mundo 2.0 
