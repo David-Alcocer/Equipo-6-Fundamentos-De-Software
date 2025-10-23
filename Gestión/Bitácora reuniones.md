@@ -98,6 +98,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 * **Buenas Prácticas:** Se establecieron **hábitos de Git (local)**, enfocados en la calidad de los mensajes de *commit* y la atomicidad de los cambios.
 * **Impacto:** Estos conocimientos son clave para el **mantenimiento, la escalabilidad** y el trabajo colaborativo en la etapa de implementación.
 
+
 ---
 
 #### ✅ Tareas Ejecutadas
@@ -105,6 +106,11 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 * **Revisión de Pendientes:** Se evaluó el progreso general del proyecto y las actividades restantes necesarias.
 * **Organización del Repositorio:** Se trabajó en la limpieza y orden del repositorio de GitHub.
 * **Implementación de GitHub Projects:** Se configuró y comenzó a utilizar la herramienta **GitHub Projects** para la gestión ágil de tareas.
+hola
+
+
+
+
 
 #### 🛠️ Herramienta de Gestión
 
