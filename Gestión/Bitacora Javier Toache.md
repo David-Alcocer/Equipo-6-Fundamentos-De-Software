@@ -66,3 +66,5 @@ Mi nivel de involucramiento aumentó progresivamente durante la semana. Aunque m
 
 -Conclusión
 Durante este primer sprint, logré avanzar en competencias técnicas y colaborativas clave para el proyecto PeerHive. Mi enfoque en GitHub, liderazgo creativo, comunicación técnica y trabajo en equipo ha fortalecido tanto mi aprendizaje como el progreso del equipo.
+
+# hello world
