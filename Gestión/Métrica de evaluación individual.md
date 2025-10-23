@@ -83,11 +83,11 @@
 ## 🔢 Escala de Valor
 - **Producto:** 2 puntos  
 - **Requisitos (Evolución y Refinamiento):** 21 puntos  
-- **Diseño:** 23 puntos  
-- **Proceso:** 11 puntos  
-- **Organización y Documentación del Repositorio:** 2 puntos  
-- **Presentación del Avance:** 12 puntos  
-- **Competencias:** 2 puntos  
+- **Diseño:** 23 puntos
+- **Proceso:** 11 puntos
+- **Organización y Documentación del Repositorio:** 2 puntos
+- **Presentación del Avance:** 12 puntos
+- **Competencias:** 2 puntos
 - **Total:** 73 puntos
 
 ---
