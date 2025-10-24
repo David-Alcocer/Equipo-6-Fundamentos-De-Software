@@ -81,3 +81,105 @@ Se logró:
 
 Con ello, el equipo se encuentra preparado para afrontar el **Sprint #2**, en el cual se proyecta iniciar con la **prototipación inicial** y la definición de métricas de validación. 
 
+---
+# 🐝 PeerHive: Documentación del Incremento — Sprint #2
+
+## ✨ Visión General del Sprint
+**Sprint #2:** Transición de la fase de requisitos a la fase de diseño y prototipado UX/UI.  
+**Periodo:** [20 al 29 de octubre]  
+**Duración:** 10 días  
+
+### 🎯 Objetivo Central
+Definir y crear **prototipos de diseño (UI/UX)** para las funcionalidades *MUST HAVE* y *SHOULD HAVE* (Registro, Perfil y Chat post-aceptación), junto con el **refinamiento de requisitos restantes**.
+
+### Entregables
+- **Prototipos** funcionales del diseño: Registro e inicio de sesión, elección de roles, mensajeria, programacion de sesiones, doble validación, notificaciones de solicitud, intercambio de archivos, sicronización de calendarios, cancelación de solicitud, perfil de usuario
+- **Requisitos refinados**: Requisitos funcionales y no funcioanales más especificos y mejorados
+-**Video de presentación final**: video de resumen de cambios respecto a la entrega anterior
+
+---
+
+## 📁 Organización del branch
+- **Branch de entrega:** `Segunda-Entrega-(Proyecto)`.  
+- **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
+- **Commits detallados:** Mensajes explicativos y bitácoras formales.
+
+---
+
+## 📈 Gestión del Proceso y Trazabilidad
+El proceso se gestionó implementando **Scrum**
+
+### 🔹 Planeación (con fechas limite)
+
+| Nº | Actividad                                  | Fecha de Entrega |
+|----|---------------------------------------------|------------------|
+| 1  | Análisis de backlog y tareas individuales   | 21 oct           |
+| 2  | Descripción de proceso                      | 22 oct           |
+| 3  | Requisitos                                 | 22 oct           |
+| 4  | Diagrama de requerimientos                 | 23 oct           |
+| 5  | Recolección de comentarios                 | 23 oct           |
+| 6  | Creación de prototipos                     | 24 oct           |
+| 7  | Validación de propuesta de diseño          | 25 oct           |
+| 8  | Simulación de tareas                       | 26 oct           |
+| 9  | Guion de video                             | 27 oct           |
+| 10 | Grabación de video                         | 28 oct           |
+| 11 | Resumen de cambios                         | 28 oct           |
+| 12 | Video editado                              | 29 oct           |
+| 13 | Competencias                               | 29 oct           |
+
+### 🔹 Planeación de Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.
+- Se aplicó un **margen de riesgo del 20 %** al tiempo de entrega para asegurar estabilidad.
+- Se realizarán commits con un **titulo** y una **descripcion** detallada de la actividad
+- **Verificación:**
+  - Seguimiento diario en GitHub Projects con flujo:
+    `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+    -### 🔹 Definition of Done (DoD)
+          Un artefacto se considera *DONE* si:
+            - Cumple **criterios** de aceptación:
+            - Fue **revisado** internamente (Review).  
+            - **No** presenta **errores críticos**.  
+            - Está **integrado** en el repositorio.  
+            - Posee **documentación completa**.
+- **Pull request**: 
+      - **titulo** y una **descripcion** detallada de los cambios
+      - **aceptacion**:
+          - Definition of Done
+          - Comentar si hace falta algo respecto a la rubrica
+
+
+
+### 🔹 Coordinación
+- **Daily**
+    - Se documentaran reuniones con acuerdos, avances y blockers.
+- ***Bitacora de reunion***
+    - Acuerdos/resolución de conflictos
+    - Responsables
+    - Tareas
+    - Fechas límite de entrega
+    - Productos resultantes
+
+---
+
+## 📊 Métrica de Contribución Individual
+
+| Integrante | Rol Principal | Puntos | % Contribución | Evidencia |
+|-------------|----------------|--------|----------------|------------|
+| **Misa** | Líder de Requisitos / Analista | 20.5 | 28 % | Archivos PDF/MD de requisitos |
+| **Leo** | Líder de Diseño / Scrum Master | 17.5 | 24 % | Prototipos UI/UX , organización|
+| **Rodrigo** | Gestor de Cliente / Documentación | 17.5 | 24 % | Bitácoras y validación con cliente |
+| **Toache** | Presentación / Evidencia | 17.5 | 24 % | Presentación final y competencias |
+
+**total:** 73 puntos
+
+---
+
+## ✅ Resultados esperados del sprint
+
+- 
+
+---
+
+## ✨ Próximo Paso (Retrospectiva)
+- Realizar review para mejorar la transición **Requisitos → Prototipado**.  
+- Preparar al equipo para el **Sprint #3**.
