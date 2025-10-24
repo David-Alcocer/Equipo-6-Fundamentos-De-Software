@@ -98,6 +98,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 * **Buenas Prácticas:** Se establecieron **hábitos de Git (local)**, enfocados en la calidad de los mensajes de *commit* y la atomicidad de los cambios.
 * **Impacto:** Estos conocimientos son clave para el **mantenimiento, la escalabilidad** y el trabajo colaborativo en la etapa de implementación.
 
+
 ---
 
 #### ✅ Tareas Ejecutadas
@@ -105,6 +106,57 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 * **Revisión de Pendientes:** Se evaluó el progreso general del proyecto y las actividades restantes necesarias.
 * **Organización del Repositorio:** Se trabajó en la limpieza y orden del repositorio de GitHub.
 * **Implementación de GitHub Projects:** Se configuró y comenzó a utilizar la herramienta **GitHub Projects** para la gestión ágil de tareas.
+
+# 🗓️ Bitácora de Reuniones del Proyecto Entrega 2  
+
+---
+
+## 🧩 Información General
+*Fecha:* 18 de octubre 
+*Hora de inicio:*  12:00pm
+*Hora de cierre:*  13:00pm
+*Duración:*  1 hora 
+*Modalidad:* (Presencial / Virtual / Mixta)  Presencial 
+*Participantes:*  Leonardo San Martin, David Alcocer, Javier Toache, Rodrigo Salazar.
+*Facilitador / Moderador:*  Leonardo San Martin. 
+*Registro realizado por:*  Rodrigo Salazar.
+
+---
+
+## 📋 Objetivo de la Reunión
+Aclaración de proceso, se buscó definir la manera en la cual se llevará a cabo el proyecto.
+---
+
+## 💬 Temas Tratados
+| Tema | Descripción Breve | Responsable de Exposición |
+|------|-------------------|---------------------------|
+| División de tareas | Se repartieron de manera que fueran pertinentes para cada integrante debido a su tiempo |Leo San Martin  |
+| Fechas de entregas | Se acordaron las delimitaciones de las actividades de acuerdo a la complejidad de cada tarea y disponibilidad de cada integrante  | Todo el equipo |
+| Dudas sobre las actividades |Se abrió un espacio de prenguntas para aclarar cada actividad.  | Todo el equipo  |
+
+## 🧩 Información General
+*Fecha:* 22 de octubre 
+*Hora de inicio:*  10:00pm
+*Hora de cierre:*  11:00pm
+*Duración:*  1 hora 
+*Modalidad:* (Presencial / Virtual / Mixta)  Virtual:
+*Participantes:*  Leonardo San Martin, David Alcocer, , Rodrigo Salazar.
+*Facilitador / Moderador:*  Leonardo San Martin. 
+*Registro realizado por:*  Rodrigo Salazar.
+
+---
+
+## 📋 Objetivo de la Reunión
+Apoyo entre las primeras actividades  
+---
+
+## 💬 Temas Tratados
+| Tema | Descripción Breve | Responsable de Exposición |
+|------|-------------------|---------------------------|
+| Aclaración de dudas| Respecto a las actividades asignadas, nos a ayudamos para la facilitación de dudas y evitar conflictos en el repositorio, |David Alcocer   |
+| Buenas prácticas| Acordamos comandos en nuestros repositorios locales para poder evitar los conflictos y evitar las problemáticas | Todo el equipo |
+
+
 
 #### 🛠️ Herramienta de Gestión
 
