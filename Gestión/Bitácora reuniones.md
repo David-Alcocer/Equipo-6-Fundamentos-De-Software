@@ -158,9 +158,6 @@ Apoyo entre las primeras actividades
 
 
 
-
-
-
 #### 🛠️ Herramienta de Gestión
 
 Se definió el flujo de trabajo del tablero **Projects** con las siguientes columnas, siguiendo una metodología *Kanban*:
