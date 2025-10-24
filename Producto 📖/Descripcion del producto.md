@@ -46,4 +46,3 @@ Para automatizar el registro de horas de asesoría.
 ✅ Respuesta a una Necesidad Real: Solucionamos problemas identificados por la comunidad como el trabajo, los traslados y la falta de tiempo.
 
 ✅ Flexibilidad Original: Hacemos que el reforzamiento académico y el cumplimiento de créditos sean más sencillos y eficientes para todos.
-
