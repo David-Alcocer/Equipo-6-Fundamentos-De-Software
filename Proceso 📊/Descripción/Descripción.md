@@ -117,9 +117,9 @@ El proceso se gestionó implementando **Scrum**
 | 2  | Descripción de proceso                      | 22 oct           |
 | 3  | Requisitos                                 | 22 oct           |
 | 4  | Diagrama de requerimientos                 | 23 oct           |
-| 5  | Recolección de comentarios                 | 23 oct           |
-| 6  | Creación de prototipos                     | 24 oct           |
-| 7  | Validación de propuesta de diseño          | 25 oct           |
+| 5  | Recolección de comentarios                 | 24 oct           |
+| 6  | Creación de prototipos                     | 25 oct           |
+| 7  | Validación de propuesta de diseño          | 26 oct           |
 | 8  | Simulación de tareas                       | 26 oct           |
 | 9  | Guion de video                             | 27 oct           |
 | 10 | Grabación de video                         | 28 oct           |
@@ -146,8 +146,7 @@ El proceso se gestionó implementando **Scrum**
       - **aceptacion**:
           - Definition of Done
           - Comentar si hace falta algo respecto a la rubrica
-
-
+          - referenciar actividad
 
 ### 🔹 Coordinación
 - **Daily**
