@@ -148,8 +148,6 @@ El proceso se gestionó implementando **Scrum**
           - Comentar si hace falta algo respecto a la rubrica
           - referenciar actividad
 
-
-
 ### 🔹 Coordinación
 - **Daily**
     - Se documentaran reuniones con acuerdos, avances y blockers.
