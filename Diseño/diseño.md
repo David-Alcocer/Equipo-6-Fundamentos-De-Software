@@ -3,6 +3,8 @@
 **Creación de prototipos:**  
 [Figma – Profile Setting Page UI (Community)](https://www.figma.com/design/Ae1PKueYyEnYAxevZZ8UEP/Profile-setting-page-UI--Community-?node-id=0-1&p=f&t=glqPa2RehjGyGoNf-0)
 
+[Figma tarea de prototipo ] (https://www.figma.com/proto/MzYcOXkX42vubYmrf3KQvW/dise%C3%B1o?page-id=7%3A513&node-id=11-24233&viewport=500%2C1206%2C0.23&t=8v1bpaNZFSRvojwA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A24233)
+
 📅 **Fecha:** 24 de octubre de 2025  
 
 
@@ -142,3 +144,13 @@
 - Barra de búsqueda del chat  
 - Scroll  
 - Enviar archivos  
+
+
+📅 **Fecha:** 25 de octubre de 2025  
+
+Conclusión de la tarea de prototipos: sign up y login
+se subieron los wireframes y proximos a revisión
+
+**Para la siguiente fecha de sprint**
+- realizar mejoras en color, diseño, UX/UI
+- implementación de AI figma
