@@ -118,9 +118,9 @@ El proceso se gestionó implementando **Scrum**
 | 3  | Requisitos                                 | 22 oct           |
 | 4  | Diagrama de requerimientos                 | 23 oct           |
 | 5  | Recolección de comentarios                 | 24 oct           |
-| 6  | Creación de prototipos                     | 25 oct           |
-| 7  | Validación de propuesta de diseño          | 26 oct           |
-| 8  | Simulación de tareas                       | 26 oct           |
+| 6  | Creación de prototipos                     | 26 oct           |
+| 7  | Validación de propuesta de diseño          | 27 oct           |
+| 8  | Simulación de tarea(login)                 | 27 oct           |
 | 9  | Guion de video                             | 27 oct           |
 | 10 | Grabación de video                         | 28 oct           |
 | 11 | Resumen de cambios                         | 28 oct           |
