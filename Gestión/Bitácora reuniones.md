@@ -16,145 +16,480 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Coordinador de Carrera** | M.C. Luis Ramiro Basto Díaz | Ingeniería de Software |
 
 ---
+## 🗓️ Registro de Reuniones Clave (Sprint 1)
+🧩 Información General (Validación Académica Inicial)
+Fecha: Viernes, 19 de septiembre de 2025
 
-## 🗓️ Registro de Reuniones Clave
+Hora de inicio: 10:30 a.m.
 
-### 1. Presentación Inicial y Validación (M.C. Edgar Cambranes M.)
+Hora de cierre:  11:30 p.m.
 
-**Fecha:** 19 de Septiembre de 2025
-**Hora:** 10:30 a.m.
+Duración: 1 hora 
 
-#### 📝 Puntos Discutidos
+Modalidad: Presencial (en clase FIS)
 
-* Se presentó el planteamiento inicial del proyecto **PeerHive** durante la sesión de clase de FIS.
-* Se discutió la viabilidad académica y operativa de la propuesta.
+Participantes: Todo el equipo, M.C. Edgar Cambranes M. (Profesor).
 
-#### 📣 Conclusión y Tarea Asignada
+Facilitador / Moderador: M.C. Edgar Cambranes M.
 
-* El Maestro Cambranes instruyó al equipo a **charlar con el Coordinador de la carrera**, M.C. Luis Basto, para obtener su visión estratégica y recomendaciones.
+Registro realizado por: David Alcocer 
 
----
+📋 Objetivo de la Reunión
+Presentar el pitch inicial del proyecto "PeerHive" al M.C. Cambranes para discutir su viabilidad académica y operativa.
 
-### 2. Presentación Formal de Idea (M.C. Luis Ramiro Basto D.)
+💬 Temas Tratados
+Pitch de Proyecto: Se presentó el planteamiento inicial de la plataforma "PeerHive". (Responsable: Todo el equipo)
 
-**Fecha:** 22 de Septiembre de 2025
-**Lugar:** Oficina del Coordinador
+Discusión de Viabilidad: Se debatió la viabilidad del proyecto dentro del scope de la materia (FIS). (Responsable: Todo el equipo y M.C. Cambranes)
 
-#### 📝 Puntos Discutidos
+🤝 Discusiones y Acuerdos
+Validación Estratégica
 
-* Se presentó la idea principal: **un sistema de asesorías donde alumnos avanzados enseñan a alumnos de semestres iniciales.**
-* El equipo solicitó su opinión y su potencial apoyo para la implementación futura.
+Discusión Principal: El proyecto requiere alineación con los objetivos estratégicos de la carrera.
 
-#### 📈 Retroalimentación y Aprobación
+Acuerdo Final: El M.C. Cambranes instruyó al equipo validar la propuesta con el Coordinador (M.C. Luis Basto) para obtener su visión.
 
-* **Recepción:** La idea fue recibida como **excelente** y potencialmente beneficiosa para la trayectoria académica de la carrera.
-* **Recomendaciones:** El Coordinador proporcionó varias **recomendaciones clave** enfocadas en la funcionalidad y estructura de la futura plataforma web.
-* **Implementación:** Manifestó su apoyo para que el proyecto sea **implementado el siguiente semestre** académico.
+Responsable: Todo el equipo
 
----
+🧩 Información General (Validación con Stakeholder - Coordinador)
+Fecha: Lunes, 22 de septiembre de 2025
 
-### 3. Visto Bueno Final y Oportunidad de Piloto (M.C. Edgar Cambranes M.)
+Hora de inicio: 11:00 a.m.
+Hora de cierre:  13:00 p.m.
+Duración:  2 horas 
 
-**Fecha:** 23 de Septiembre de 2025
-**Hora:** 9:30 a.m.
+Modalidad: Presencial (Oficina del Coordinador)
 
-#### 📝 Puntos Discutidos
+Participantes: Todo el equipo, M.C. Luis Ramiro Basto D. (Coordinador/Cliente).
 
-* El equipo reportó los detalles y la positiva retroalimentación obtenida del M.C. Luis Basto.
+Facilitador / Moderador: M.C. Luis Basto
 
-#### 🟢 Decisión Final del Proyecto
+Registro realizado por: David Alcocer
 
-* **Aprobación (Visto Bueno):** El Maestro Cambranes **aprobó el avance del proyecto** basado en la validación del Coordinador.
-* **Prueba Piloto:** El proyecto tiene la opción de realizar una **prueba piloto** real si el producto de software que se entrega cumple con los altos estándares de estructura y calidad requeridos para un producto formal.
+📋 Objetivo de la Reunión
+Presentar formalmente la idea del proyecto al Stakeholder principal (Coordinador) para obtener retroalimentación estratégica, recomendaciones y aprobación para implementación.
 
----
-### 4. Sesión de Trabajo: Organización y Planificación con GitHub Projects
+💬 Temas Tratados
+Presentación de Concepto: Exposición de la idea central: un sistema de asesorías peer-to-peer (alumnos avanzados enseñan a novatos). (Responsable: Todo el equipo)
 
-**Fecha:** 24 de Septiembre de 2025
-**Horario:** 9:50 a.m. - 11:15 a.m.
-**Lugar:** Biblioteca (Sesión de Trabajo en Equipo)
+Solicitud de Apoyo: Se solicitó la opinión del Coordinador y su apoyo para la implementación futura de la plataforma web. (Responsable: Todo el equipo)
 
----
-### 5. Mentoría Técnica I: Introducción a Git y GitHub
+🤝 Discusiones y Acuerdos
+Recepción de Idea
 
-**Fecha:** 10 de Octubre de 2025
-**Mentor:** Carlos (Alumno Avanzado)
+Discusión Principal: El Coordinador evaluó el impacto potencial del proyecto en la carrera.
 
-#### ✅ Temas Cubiertos
+Acuerdo Final: La idea fue recibida como "excelente" y alineada con los objetivos académicos.
 
-* **Conceptos Fundamentales:** Se revisó la diferencia entre **Git** (local) y **GitHub** (remoto).
-* **Flujo Básico de Trabajo:** Explicación sobre `commit`, `push`, `pull` y `branching`.
-* **Objetivo:** Obtener mayor claridad sobre el **Control de Versiones** para mejorar la gestión del repositorio.
+Responsable:  David Alcocer 
 
----
-### 6. Mentoría Técnica II: Herramientas y Buenas Prácticas
+Feedback y Requisitos
 
-**Fecha:** 11 de Octubre de 2025
-**Mentor:** Carlos (Alumno Avanzado)
+Discusión Principal: Se discutieron funcionalidades clave y estructura de la plataforma.
 
-#### ✅ Temas Cubiertos
+Acuerdo Final: El Coordinador proporcionó recomendaciones clave (requisitos) de funcionalidad y arquitectura.
 
-* **Herramientas Visuales:** Introducción y demostración del uso de **GitKraken** para gestionar el repositorio de forma gráfica.
-* **Buenas Prácticas:** Se establecieron **hábitos de Git (local)**, enfocados en la calidad de los mensajes de *commit* y la atomicidad de los cambios.
-* **Impacto:** Estos conocimientos son clave para el **mantenimiento, la escalabilidad** y el trabajo colaborativo en la etapa de implementación.
+Responsable: Todo el equipo (para backlog)
 
+Roadmap Futuro
 
----
+Discusión Principal: Se discutió la viabilidad de una implementación real post-materia.
 
-#### ✅ Tareas Ejecutadas
+Acuerdo Final: El Coordinador aprobó y apoyó la implementación formal del proyecto para el siguiente semestre.
 
-* **Revisión de Pendientes:** Se evaluó el progreso general del proyecto y las actividades restantes necesarias.
-* **Organización del Repositorio:** Se trabajó en la limpieza y orden del repositorio de GitHub.
-* **Implementación de GitHub Projects:** Se configuró y comenzó a utilizar la herramienta **GitHub Projects** para la gestión ágil de tareas.
+Responsable: Leonardo San Martin.
+
+🧩 Información General (Aprobación "Go" y Piloto)
+Fecha: Martes, 23 de septiembre de 2025
+
+Hora de inicio: 9:30 a.m.
+
+Hora de cierre: 10:30 a.m.
+
+Duración: 1 hora
+
+Modalidad: Presencial
+
+Participantes: Todo el equipo, M.C. Edgar Cambranes M. (Profesor).
+
+Facilitador / Moderador: M.C. Edgar Cambranes M.
+
+Registro realizado por: Javier Toache 
+📋 Objetivo de la Reunión
+Reportar al M.C. Cambranes el feedback y la aprobación del Coordinador (M.C. Basto) para obtener el "Visto Bueno" (Go/No-Go) final y definir las condiciones del entregable.
+
+💬 Temas Tratados
+Reporte de Validación: El equipo comunicó la retroalimentación positiva y las recomendaciones obtenidas del M.C. Basto. (Responsable: Todo el equipo)
+
+🤝 Discusiones y Acuerdos
+Aprobación (Visto Bueno)
+
+Discusión Principal: Basado en la validación del Stakeholder (Coordinador).
+
+Acuerdo Final: El M.C. Cambranes dio el "Visto Bueno" (Go) para el avance formal del proyecto.
+
+Responsable: Todo el equipo
+
+Prueba Piloto (Entregable)
+
+Discusión Principal: Se discutió el estándar de calidad esperado para el release final del software.
+
+Acuerdo Final: El proyecto tiene la opción de una prueba piloto real, condicionada a que el deliverable cumpla con altos estándares de calidad.
+
+Responsable: Todo el equipo
+
+🧩 Información General (Planificación Ágil - GitHub Projects)
+Fecha: Miércoles, 24 de septiembre de 2025
+
+Hora de inicio: 9:50 a.m.
+
+Hora de cierre: 11:15 a.m.
+
+Duración: 1 hora 25 minutos
+
+Modalidad: Presencial (Sesión de Trabajo en Biblioteca)
+
+Participantes: Todo el equipo.
+
+Facilitador / Moderador: Leonardo San Martin 
+
+Registro realizado por: Davivd Alcocer. 
+
+📋 Objetivo de la Reunión
+Sesión de trabajo (working session) para la configuración de la herramienta de gestión ágil (GitHub Projects), revisión del backlog y organización del repositorio.
+
+💬 Temas Tratados
+Revisión de Pendientes: Evaluación del progreso general y definición de las actividades restantes (creación de issues). (Responsable: Todo el equipo)
+
+Organización del Repositorio: Trabajo de limpieza (clean-up) y estructuración del repositorio de GitHub. (Responsable: Todo el equipo)
+
+Implementación de GH Projects: Configuración de la herramienta GitHub Projects para la gestión de tareas (task tracking). (Responsable: Todo el equipo)
+
+🤝 Discusiones y Acuerdos
+Gestión Ágil de Tareas
+
+Discusión Principal: Necesidad de centralizar y visualizar el backlog y el progreso del sprint.
+
+Acuerdo Final: Se configuró y adoptó GitHub Projects como la herramienta oficial para la gestión ágil del proyecto.
+
+Responsable: Todo el equipo
+
+Salud del Repositorio
+
+Discusión Principal: Se identificó la necesidad de mantener un repositorio limpio y ordenado.
+
+Acuerdo Final: Se realizó una limpieza inicial y se definió la estructura base del repositorio.
+
+Responsable: Todo el equipo
+
+🧩 Información General (Capacitación Git/GitHub - Fundamentos)
+Fecha: Viernes, 10 de octubre de 2025
+
+Hora de inicio: 10 a.m.
+
+Hora de cierre: 11 a.m.
+
+Duración: 1 hora. 
+
+Modalidad: Virtual
+
+Participantes: Todo el equipo.
+
+Facilitador / Moderador: Carlos (Mentor / Alumno Avanzado).
+
+Registro realizado por: David Alcocer. 
+
+📋 Objetivo de la Reunión
+Sesión de upskilling (capacitación) I: Revisar los conceptos fundamentales del Control de Versiones (VCS) para mejorar la gestión del codebase.
+
+💬 Temas Tratados
+Fundamentos (Git vs GitHub): Revisión de la diferencia conceptual entre el VCS local (Git) y el hosting remoto (GitHub). (Responsable: Carlos (Mentor))
+
+Flujo de Trabajo Básico: Explicación del workflow estándar: commit, push, pull y la estrategia de branching. (Responsable: Carlos (Mentor))
+
+🤝 Discusiones y Acuerdos
+Claridad Conceptual
+
+Discusión Principal: El equipo necesitaba una base sólida sobre el VCS.
+
+Acuerdo Final: Se aclararon los conceptos fundamentales del control de versiones (local vs. remoto).
+
+Responsable: David Alcocer.
+
+Workflow de Colaboración
+
+Discusión Principal: Definición de cómo el equipo interactuará con el repositorio.
+
+Acuerdo Final: Se comprendió el flujo de trabajo básico para la colaboración y la integración de código.
+
+Responsable: Todo el equipo (para implementar)
+
+🧩 Información General (Capacitación Git/GitHub - Buenas Prácticas)
+Fecha: Sábado, 11 de octubre de 2025
+
+Hora de inicio: 10:00 a.m.
+
+Hora de cierre: 11:00 a.m.
+
+Duración: 1 hora.
+Modalidad: virtual.
+
+Participantes: Todo el equipo.
+
+Facilitador / Moderador: Carlos (Mentor / Alumno Avanzado).
+
+Registro realizado por: David Alcocer. 
+
+📋 Objetivo de la Reunión
+Sesión de upskilling (capacitación) II: Introducción a herramientas visuales (GitKraken) y establecimiento de buenas prácticas de desarrollo para asegurar la calidad y mantenibilidad del codebase.
+
+💬 Temas Tratados
+Herramientas Visuales (GUI): Introducción y demostración del cliente gráfico GitKraken para gestión visual del repositorio. (Responsable: Carlos (Mentor))
+
+Buenas Prácticas (Git): Enfoque en la calidad y atomicidad de los commits y la claridad de los mensajes (commit messages). (Responsable: Carlos (Mentor))
+
+🤝 Discusiones y Acuerdos
+Herramientas de Gestión
+
+Discusión Principal: Evaluación de herramientas para facilitar el workflow de Git.
+
+Acuerdo Final: Se introdujo GitKraken como una alternativa gráfica para la gestión de ramas y commits.
+
+Responsable: Todo el equipo (opcional)
+
+Calidad y Mantenibilidad
+
+Discusión Principal: Discusión sobre la importancia de un historial de commits limpio para la escalabilidad.
+
+Acuerdo Final: Se estableció una convención de buenas prácticas (ej. atomic commits, mensajes claros) para todo el desarrollo local.
+
+Responsable: Todo el equipo (para implementar)
 
 # 🗓️ Bitácora de Reuniones del Proyecto Entrega 2  
 
 ---
+🧩 Información General (Kick-off y Planificación)
+Fecha: Sábado, 18 de octubre
 
-## 🧩 Información General
-*Fecha:* 18 de octubre 
-*Hora de inicio:*  12:00pm
-*Hora de cierre:*  13:00pm
-*Duración:*  1 hora 
-*Modalidad:* (Presencial / Virtual / Mixta)  Presencial 
-*Participantes:*  Leonardo San Martin, David Alcocer, Javier Toache, Rodrigo Salazar.
-*Facilitador / Moderador:*  Leonardo San Martin. 
-*Registro realizado por:*  Rodrigo Salazar.
+Hora de inicio: 12:00pm
 
----
+Hora de cierre: 13:00pm
 
-## 📋 Objetivo de la Reunión
-Aclaración de proceso, se buscó definir la manera en la cual se llevará a cabo el proyecto.
----
+Duración: 1 hora
 
-## 💬 Temas Tratados
-| Tema | Descripción Breve | Responsable de Exposición |
-|------|-------------------|---------------------------|
-| División de tareas | Se repartieron de manera que fueran pertinentes para cada integrante debido a su tiempo |Leo San Martin  |
-| Fechas de entregas | Se acordaron las delimitaciones de las actividades de acuerdo a la complejidad de cada tarea y disponibilidad de cada integrante  | Todo el equipo |
-| Dudas sobre las actividades |Se abrió un espacio de prenguntas para aclarar cada actividad.  | Todo el equipo  |
+Modalidad: Presencial
 
-## 🧩 Información General
-*Fecha:* 22 de octubre 
-*Hora de inicio:*  10:00pm
-*Hora de cierre:*  11:00pm
-*Duración:*  1 hora 
-*Modalidad:* (Presencial / Virtual / Mixta)  Virtual:
-*Participantes:*  Leonardo San Martin, David Alcocer, , Rodrigo Salazar.
-*Facilitador / Moderador:*  Leonardo San Martin. 
-*Registro realizado por:*  Rodrigo Salazar.
+Participantes: Leonardo San Martin, David Alcocer, Javier Toache, Rodrigo Salazar.
 
----
+Facilitador / Moderador: Leonardo San Martin.
 
-## 📋 Objetivo de la Reunión
-Apoyo entre las primeras actividades  
----
+Registro realizado por: Rodrigo Salazar.
 
-## 💬 Temas Tratados
-| Tema | Descripción Breve | Responsable de Exposición |
-|------|-------------------|---------------------------|
-| Aclaración de dudas| Respecto a las actividades asignadas, nos a ayudamos para la facilitación de dudas y evitar conflictos en el repositorio, |David Alcocer   |
-| Buenas prácticas| Acordamos comandos en nuestros repositorios locales para poder evitar los conflictos y evitar las problemáticas | Todo el equipo |
+📋 Objetivo de la Reunión
+Definir el marco de trabajo (framework) y el workflow del proyecto, así como la asignación inicial de tareas del product backlog.
+
+💬 Temas Tratados
+Asignación de Tareas: Distribución inicial de tareas (historias de usuario/issues) basada en la disponibilidad y expertise del equipo. (Responsable: Leo San Martin)
+
+Definición de Deadlines: Establecimiento del cronograma inicial (timeline) y deadlines del sprint, considerando la complejidad de las tareas. (Responsable: Todo el equipo)
+
+Aclaración de Scope (Q&A): Sesión de preguntas y respuestas para asegurar el entendimiento común del alcance de las actividades asignadas. (Responsable: Todo el equipo)
+
+🤝 Discusiones y Acuerdos
+Backlog Inicial
+
+Discusión Principal: Revisión de las tareas prioritarias y la capacidad (capacity) del equipo.
+
+Acuerdo Final: Se aprueba la asignación de tareas para el primer sprint.
+
+Responsable: Todo el equipo
+
+Cronograma
+
+Discusión Principal: Negociación de fechas de entrega realistas (ETAs) basadas en la complejidad.
+
+Acuerdo Final: Se establecen las fechas límite para las primeras entregas parciales.
+
+Responsable: Todo el equipo
+
+Dudas Técnicas
+
+Discusión Principal: Aclaración de dependencias y requerimientos técnicos de las tareas.
+
+Acuerdo Final: El equipo confirma tener claridad sobre los entregables iniciales.
+
+Responsable: Todo el equipo
+
+🧩 Información General (Sincronización Técnica)
+Fecha: Miércoles, 22 de octubre
+
+Hora de inicio: 10:00pm
+
+Hora de cierre: 11:00pm
+
+Duración: 1 hora
+
+Modalidad: Virtual
+
+Participantes: Todo el equipo
+
+Facilitador / Moderador: (No especificado)
+
+Registro realizado por: Rodrigo Salazar.
+
+📋 Objetivo de la Reunión
+Sincronización técnica (Tech Sync) para resolver bloqueos (blockers), facilitar la colaboración y definir buenas prácticas de control de versiones.
+
+💬 Temas Tratados
+Resolución de Dudas: Apoyo colaborativo (troubleshooting) para resolver dudas de implementación y prevenir conflictos de merge en el repositorio. (Responsable: David Alcocer)
+
+Buenas Prácticas (Git): Discusión para estandarizar el workflow de Git (comandos, branching strategy, etc.). (Responsable: Todo el equipo)
+
+🤝 Discusiones y Acuerdos
+Blockers Técnicos
+
+Discusión Principal: Revisión de los problemas encontrados durante el desarrollo de las tareas asignadas.
+
+Acuerdo Final: Se resuelven las dudas técnicas para facilitar el avance y la integración de código.
+
+Responsable: David Alcocer (y equipo)
+
+Git Workflow
+
+Discusión Principal: Necesidad de alinear los comandos y la estrategia de ramas para mantener la integridad del repositorio.
+
+Acuerdo Final: Se acuerda un protocolo de buenas prácticas y convenciones (ej. Git Flow o GitHub Flow) para la gestión del repositorio.
+
+Responsable: Todo el equipo
+
+🧩 Información General (Discovery y Análisis)
+Fecha: Jueves, 23 de octubre
+
+Hora de inicio: 12:00pm
+
+Hora de cierre: 14:00pm
+
+Duración: 2 horas
+
+Modalidad: Presencial
+
+Participantes: Todo el equipo
+
+Facilitador / Moderador: Rodrigo Salazar.
+
+Registro realizado por: Rodrigo Salazar.
+
+📋 Objetivo de la Reunión
+Analizar el feedback recolectado (encuesta) de los stakeholders (alumnos de ingeniería de software) y revisar los avances del sprint actual.
+
+💬 Temas Tratados
+Análisis de Encuesta: Revisión de los datos obtenidos de la encuesta a usuarios (alumnos) sobre requerimientos deseados. (Responsable: Todo el equipo)
+
+Revisión de Avances: Presentación de avances individuales (check-in) para obtener feedback interno del equipo. (Responsable: Todo el equipo)
+
+🤝 Discusiones y Acuerdos
+Datos de Encuesta
+
+Discusión Principal: Se discutió la viabilidad de los requerimientos solicitados por los usuarios finales.
+
+Acuerdo Final: Se procederá a utilizar los datos validados para la creación del primer mock-up (prototipo de baja fidelidad).
+
+Responsable: Todo el equipo
+
+Feedback Interno
+
+Discusión Principal: Revisión del estado actual del trabajo de cada miembro para asegurar la cohesión del proyecto.
+
+Acuerdo Final: Continuar el desarrollo (iteración) incorporando la retroalimentación interna recibida.
+
+Responsable: Todo el equipo
+
+🧩 Información General (Validación con Cliente)
+Fecha: Lunes, 27 de octubre
+
+Hora de inicio: 12:00pm
+
+Hora de cierre: 13:00pm
+
+Duración: 1 hora
+
+Modalidad: Presencial
+
+Participantes: Todo el equipo, Luis Basto (Coordinador/Cliente).
+
+Facilitador / Moderador: Luis Basto
+
+Registro realizado por: Rodrigo Salazar.
+
+📋 Objetivo de la Reunión
+Presentación y validación del prototipo inicial (v1) con el Stakeholder principal (Coordinador Luis Basto) para obtener retroalimentación temprana.
+
+💬 Temas Tratados
+Presentación Prototipo v1: Muestra al Coordinador de los avances (artefactos) basados en la recolección de comentarios. (Responsable: Rodrigo Salazar y Leonardo San Martin)
+
+Análisis Post-Reunión: Discusión interna del equipo sobre el feedback del Coordinador y los siguientes pasos. (Responsable: Leonardo San Martin, David Alcocer)
+
+🤝 Discusiones y Acuerdos
+Validación de Requisitos
+
+Discusión Principal: El Coordinador revisó el prototipo para validar la pertinencia de los requisitos implementados.
+
+Acuerdo Final: El prototipo v1 requiere ajustes para alinearse completamente con las expectativas del cliente (cambios en el scope).
+
+Responsable: David Alcocer y Leonardo San Martin.
+
+Modificación de Requisitos
+
+Discusión Principal: Se identificó la necesidad de ajustar el backlog tras el feedback del cliente.
+
+Acuerdo Final: Refinar los Requerimientos Funcionales (RF) y No Funcionales (RNF) para asegurar la implementación de todas las funcionalidades solicitadas.
+
+Responsable: Leonardo San Martin, David Alcocer
+
+🧩 Información General (Iteración y Plan de Testing)
+Fecha: Martes, 28 de octubre
+
+Hora de inicio: 11:30am
+
+Hora de cierre: 14:00pm
+
+Duración: 2 horas 30 minutos
+
+Modalidad: Presencial 
+
+Participantes: Todo el equipo y Luis Basto (Coordinador/Cliente)
+
+Facilitador / Moderador: Luis Basto
+
+Registro realizado por: Rodrigo Salazar.
+
+📋 Objetivo de la Reunión
+Validar la iteración del prototipo (v2) incorporando el feedback del cliente y planificar la creación de material audiovisual para testing y documentación (demo).
+
+💬 Temas Tratados
+Revisión Mock-up v2: Presentación del segundo mock-up (prototipo de alta fidelidad) que incluye los ajustes solicitados por el Coordinador. (Responsable: Rodrigo Salazar y Leonardo San Martin)
+
+Plan de Grabación: Definición de la estrategia para comenzar la grabación del showcase del proyecto (Casos de Uso). (Responsable: Javier Toache)
+
+🤝 Discusiones y Acuerdos
+Validación de Feedback
+
+Discusión Principal: Se revisó el trabajo realizado post-reunión con el Coordinador, confirmando la implementación de los cambios.
+
+Acuerdo Final: El Mock-up v2 se considera validado, reflejando los requisitos solicitados.
+
+Responsable: Rodrigo Salazar, Leonardo San Martin
+
+Creación de Artefactos (Video)
+
+Discusión Principal: El proyecto alcanzó un nivel de madurez suficiente para iniciar la documentación formal y el material de testing.
+
+Acuerdo Final: Iniciar la grabación del video (demo/showcase) que documentará las funcionalidades, metodología y arquitectura de requisitos.
+
+Responsable: Javier Toache
+
+
+
 
 
 
