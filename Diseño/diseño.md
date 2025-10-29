@@ -5,6 +5,15 @@
 
 [Figma tarea de prototipo ] (https://www.figma.com/proto/MzYcOXkX42vubYmrf3KQvW/dise%C3%B1o?page-id=7%3A513&node-id=11-24233&viewport=500%2C1206%2C0.23&t=8v1bpaNZFSRvojwA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A24233)
 
+**Mock up (desplegado):**  
+[Peerhive.mockup] (https://peerhive.netlify.app/)
+**Cuenta admin:** admin@admin.uady.mx (contraseña: admin)
+**Cuenta asesor:** aasesor@uady.mx (contraseña: demo)
+
+El mock up se realizo con prompts de chat gpt usando los wirerframes de baja calidad, dandole instruciones precisas de como implementar las cosas y los roles que deberia tener para chatgpt pueda hacerlo lo mas apegado a la expectativa.
+
+Ademas, los cambios reflejados en las historias de usuario, priorizacion y requisitos funcionales y no funcionales se debieron a la sesión de validación que tuvimos con el coordinador de LIS. Quien dió como bueno la parte del diseño simple pero facil de entender del mock up (login y sign up); sugirió agregar partes como cuenta de admin, añadir cosas como monitoreo de videollamadas atraves de un documento de transcripcion integrado en microsoft teams.
+
 📅 **Fecha:** 24 de octubre de 2025  
 
 
