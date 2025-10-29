@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PeerHive – Prototipo</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app" id="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="sb-btn active" data-sec="auth" title="Inicio">▦</div>
+    <div class="sb-btn" data-sec="access" title="Acceso">🔐</div>
+    <div class="sb-btn" data-sec="crea" title="Crear solicitud">➕</div>
+    <div class="sb-btn" data-sec="chat" title="Chat">💬</div>
+    <div class="sb-btn" data-sec="reports" title="Reportes">🛡️</div>
+    <div class="sb-btn" data-sec="calls" title="Llamadas (Teams)">🧭</div>
+    <div class="sb-btn" data-sec="admin" title="Admin">🗂️</div>
+    <div class="sb-btn" data-sec="settings" title="Ajustes">⚙️</div>
+  </aside>
+  <header>
+    <div class="banner"></div>
+    <div class="badge" id="notif">🔔</div>
+    <div class="avatar">🙂</div>
+  </header>
+  <main class="container">
+
+    <!-- INICIO -->
+    <section id="auth" class="card">
+  <div id="home-calendar" class="card" style="margin-top:12px">
+    <div class="row" style="justify-content:space-between; align-items:center">
+      <div class="title">Calendario (próximos 7 días)</div>
+      <div id="home_cal_label" class="muted"></div>
+    </div>
+    <div id="home_cal_grid" class="calendar-grid" style="grid-template-columns: repeat(7, minmax(100px,1fr));"></div>
+  </div>
+
+      <div style="display:flex; align-items:center; gap:16px; margin-bottom:14px">
+        <div class="avatar">🎓</div>
+        <div>
+          <div class="title">Bienvenido</div>
+          <div class="muted">Usa la barra lateral para navegar. Para entrar/salir usa <b>🔐 Acceso</b>.</div>
+        </div>
+      </div>
+
+      <div class="grid cols-2">
+        <div class="card">
+          <div class="section-title">Mis solicitudes</div>
+          <div id="mis_solicitudes" class="list"></div>
+        </div>
+        <div class="card">
+          <div class="section-title">Sesiones agendadas</div>
+          <div id="mis_sesiones" class="list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCESO: LOGIN / REGISTRO | Vista dinámica -->
+    <section id="access" class="card" hidden>
+      <div id="access_account" class="card" hidden>
+        <div class="row" style="justify-content:space-between; align-items:center">
+          <div class="row" style="gap:12px">
+            <div class="avatar">👤</div>
+            <div>
+              <div class="title" id="acc_name">Mi cuenta</div>
+              <div class="muted" id="acc_mail"></div>
+            </div>
+          </div>
+          <div class="row" style="gap:8px">
+            <button class="btn" id="btn_change_account">Cambiar de cuenta</button>
+            <button class="btn ghost" id="btn_logout_access">Cerrar sesión</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="access_auth">
+        <div class="grid cols-2">
+          <div class="card" style="background:#fafbff">
+            <div class="section-title">Registro</div>
+            <div class="row">
+              <input class="input" id="reg_name" placeholder="Nombre completo" />
+              <select id="reg_role" class="input">
+                <option value="aprendiz">Aprendiz</option>
+                <option value="asesor">Asesor</option>
+                <option value="admin">Administrador</option>
+              </select>
+            </div>
+            <div class="row">
+              <input class="input" id="reg_email" placeholder="correo@alumnos.uady.mx o @uady.mx" />
+              <button class="btn ghost" id="btn_verify">verificar</button>
+            </div>
+            <div class="row">
+              <input class="input" id="reg_pass" type="password" placeholder="contraseña" />
+              <select id="reg_sem" class="input">
+                <option value="">semestre</option>
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>
+              </select>
+            </div>
+            <div class="row">
+              <input class="input" id="reg_degree" placeholder="licenciatura" />
+              <button class="btn" id="btn_register">registrarse</button>
+            </div>
+            <div class="muted" style="margin-top:6px">Si eliges “Asesor”, tu cuenta quedará <b>pendiente de validación</b>.</div>
+          </div>
+          <div class="card" style="background:#fafbff">
+            <div class="section-title">Iniciar sesión</div>
+            <div class="row">
+              <input class="input" id="log_email" placeholder="correo institucional" />
+              <input class="input" id="log_pass" placeholder="contraseña" type="password" />
+            </div>
+            <div class="row right">
+              <button class="btn" id="btn_login">iniciar</button>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+              <input class="input" id="rec_email" placeholder="recuperar contraseña con correo institucional" />
+              <button class="btn ghost" id="btn_recover">recuperar</button>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <details>
+          <summary class="chip">Aviso de privacidad y consentimiento</summary>
+          <p class="muted">Al registrarte aceptas que tus datos se traten con fines académicos. Contraseñas se guardan con hash. Puedes solicitar exportación o eliminación de tus datos.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- PANEL CREACIÓN DE SOLICITUDES -->
+    <section id="crea" class="card" hidden>
+      <div class="section-title">Crear solicitud</div>
+      <div class="grid cols-2">
+        <div class="card" style="background:#fafbff">
+          <div class="list">
+            <select id="cr_materia" class="input">
+              <option value="">Materia</option>
+              <option>algoritmia</option>
+              <option>Fundamentos de ing software</option>
+              <option>programacion estructurada</option>
+              <option>programacion orientada a objetos</option>
+              <option>teoria de la computacion</option>
+            </select>
+            <div class="row">
+              <input id="cr_fecha" class="input" type="datetime-local" />
+              <select id="cr_eta" class="input">
+                <option value="">Tiempo estimado</option>
+                <option>1 h</option><option>1:30 h</option><option>2 h</option>
+              </select>
+            </div>
+            <textarea id="cr_desc" maxlength="200" placeholder="Describe tu duda (máx 200 caracteres)"></textarea>
+            <small class="muted"><span id="cr_cnt">0</span>/200</small>
+            <div class="right">
+              <button class="btn" id="cr_create_ticket">Crear ticket</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="section-title">Solicitudes creadas (máx 3 activas)</div>
+          <div id="cr_list" class="list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DASHBOARD ASESOR -->
+    <section id="dash_as" class="card" hidden>
+      <div class="row" style="justify-content:space-between; align-items:center">
+        <div class="row" style="gap:12px">
+          <div class="avatar">🧑‍🏫</div>
+          <div>
+            <div class="title" id="as_name">Asesor</div>
+            <div class="muted" id="as_mail"></div>
+          </div>
+        </div>
+        <div class="row" style="gap:8px">
+          <button class="btn ghost" onclick="exportHorasCSV()">exportar horas (CSV)</button>
+          <button class="btn" onclick="logout()">cerrar sesión</button>
+        </div>
+      </div>
+
+      <div class="space"></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <div class="section-title">Solicitudes activas</div>
+          <div id="as_solicitudes" class="list"></div>
+        </div>
+        <div class="card">
+          <div class="section-title">Sesiones</div>
+          <div class="list" id="as_sesiones"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAT UNIVERSAL -->
+    <section id="chat" class="card" hidden>
+      <div class="row" style="justify-content:space-between; align-items:center">
+        <div class="section-title">Chat</div>
+        <div class="row">
+          <button id="btn_reportar" class="btn ghost">reportar</button>
+          <button id="btn_videollamada" class="btn" disabled>videollamadas</button>
+        </div>
+      </div>
+      <div class="chat">
+        <div>
+          <input class="search" id="chat_search" placeholder="buscar" oninput="renderChatList()"/>
+          <div class="space"></div>
+          <div class="chip">Contactos</div>
+          <div id="contact_list" class="list"></div>
+          <div class="divider"></div>
+          <div class="chip">Solicitudes</div>
+          <div id="chat_list" class="list"></div>
+        </div>
+        <div>
+          <div id="chat_header" class="pill">Selecciona una conversación</div>
+          <div class="space"></div>
+          <div id="chat_thread" class="thread card" style="background:#fcfcff"></div>
+          <div class="row" style="margin-top:8px">
+            <input id="chat_input" class="input" placeholder="escribe un mensaje" onkeydown="if(event.key==='Enter')sendMsg()"/>
+            <button class="btn" onclick="sendMsg()">Enviar</button>
+            <label class="btn ghost" for="file_up">📎</label>
+            <input id="file_up" type="file" accept="image/*,.pdf,.txt" style="display:none"/>
+          </div>
+          <small class="muted">Adjuntos hasta 5MB. Se almacena de forma temporal.</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAT DE REPORTES -->
+    <section id="reports" class="card" hidden>
+      <div class="row" style="justify-content:space-between; align-items:center">
+        <div class="section-title">Reportes (canal privado a coordinación)</div>
+        <button class="btn" onclick="crearReporte()">nuevo reporte</button>
+      </div>
+      <div class="chat">
+        <div>
+          <div id="report_list" class="list"></div>
+        </div>
+        <div>
+          <div id="report_header" class="pill">Selecciona un reporte</div>
+          <div class="space"></div>
+          <div id="report_thread" class="thread card" style="background:#fffdfc"></div>
+          <div class="row" style="margin-top:8px">
+            <input id="report_input" class="input" placeholder="describe tu situación" onkeydown="if(event.key==='Enter')sendReportMsg()"/>
+            <button class="btn" onclick="sendReportMsg()">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMINISTRADOR DE LLAMADAS (Teams) -->
+    <section id="calls" class="card" hidden>
+      <div class="row" style="justify-content:space-between; align-items:center">
+        <div class="section-title">Administrador de llamadas (Microsoft Teams)</div>
+        <small class="muted">Integración nativa/API: enlaces, grabaciones y logs de asistencia.</small>
+      </div>
+      <div class="list" id="calls_list"></div>
+<div class="panel-container">
+  <div class="panel-header">
+    <h2>Mis Reuniones</h2>
+    <button id="btn_crear_reunion" class="btn">Crear Nueva Reunión</button>
+  </div>
+  <div id="lista-reuniones" class="list"></div>
+</div>
+      <div class="space"></div>
+      <div class="card">
+        <div class="section-title">APIs y capacidades</div>
+        <div class="responsive-table">
+          <table class="table">
+            <thead><tr><th>Método</th><th>Descripción</th><th>Origen</th></tr></thead>
+            <tbody id="teams_api_rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMIN -->
+    <section id="admin" class="card" hidden>
+      <div class="title">Panel de administrador</div>
+      <div class="muted">Gestiona permisos y audita actividades.</div>
+      <div class="space"></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <div class="section-title">Usuarios</div>
+          <div id="admin_users" class="list"></div>
+        </div>
+        <div class="card">
+          <div class="section-title">Logs de videollamadas (CSV)</div>
+          <input type="file" id="csv_input" accept=".csv" />
+          <div id="csv_preview" class="list"></div>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="grid cols-2">  <div class="card">    <div class="section-title">Bandeja de reportes</div>    <div id="admin_reports" class="list"></div>  </div>  <div class="card">    <div class="section-title">Reporte seleccionado</div>    <div id="admin_report_header" class="pill">Selecciona un reporte</div>    <div class="space"></div>    <div id="admin_report_thread" class="thread card" style="background:#fffefd"></div>    <div class="row" style="margin-top:8px">      <input id="admin_report_input" class="input" placeholder="responder como admin..." />      <button class="btn" id="admin_report_send">Enviar</button>    </div>  </div></div>
+    </section>
+
+    <section id="settings" class="card" hidden>
+      <div class="title">Ajustes</div>
+      <p class="muted">Próximamente</p>
+    </section>
+
+  
+<section id="calendar" hidden>
+  <div class="title">Calendario</div>
+  <div class="row" style="justify-content:space-between; align-items:center; gap:8px">
+    <div class="row" style="gap:8px">
+      <button class="btn ghost" id="cal_prev">◀</button>
+      <div id="cal_label" style="font-weight:700"></div>
+      <button class="btn ghost" id="cal_next">▶</button>
+    </div>
+    <div class="row" style="gap:8px">
+      <button class="btn" id="cal_export_month">Exportar mes (.ics)</button>
+      <button class="btn ghost" id="cal_today">Hoy</button>
+    </div>
+  </div>
+  <div id="calendar_grid" class="calendar-grid"></div>
+  <div id="cal_event_panel" class="calendar-panel" hidden></div>
+</section>
+</main>
+
+</div>
+<div class="toast" id="toast"></div>
+<script src="app.js" defer></script>
+</body>
+</html>
