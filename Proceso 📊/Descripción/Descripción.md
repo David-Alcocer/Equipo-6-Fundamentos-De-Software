@@ -93,8 +93,8 @@ Con ello, el equipo se encuentra preparado para afrontar el **Sprint #2**, en el
 Definir y crear **prototipos de diseño (UI/UX)** para las funcionalidades *MUST HAVE* y *SHOULD HAVE* (Registro, Perfil y Chat post-aceptación), junto con el **refinamiento de requisitos restantes**.
 
 ### Entregables
-- **Prototipos** funcionales del diseño: Registro e inicio de sesión, elección de roles, mensajeria, programacion de sesiones, doble validación, notificaciones de solicitud, intercambio de archivos, sicronización de calendarios, cancelación de solicitud, perfil de usuario
-- **Requisitos refinados**: Requisitos funcionales y no funcioanales más especificos y mejorados
+- **Prototipos** funcionales del diseño: Registro e inicio de sesión, elección de roles, mensajeria, programacion de sesiones, incorporación de microsoft teams para videollamadas, notificaciones de solicitud, intercambio de archivos, sicronización de calendarios, cancelación de solicitud, perfil de usuario, panel de administrador
+- **Requisitos refinados**: Requisitos funcionales y no funcioanales más especificos y mejorados. junto con las historias de usuario
 -**Video de presentación final**: video de resumen de cambios respecto a la entrega anterior
 
 ---
@@ -120,12 +120,12 @@ El proceso se gestionó implementando **Scrum**
 | 5  | Recolección de comentarios                 | 24 oct           |
 | 6  | Creación de prototipos                     | 26 oct           |
 | 7  | Validación de propuesta de diseño          | 27 oct           |
-| 8  | Simulación de tarea(login)                 | 27 oct           |
-| 9  | Guion de video                             | 27 oct           |
-| 10 | Grabación de video                         | 28 oct           |
-| 11 | Resumen de cambios                         | 28 oct           |
-| 12 | Video editado                              | 29 oct           |
-| 13 | Competencias                               | 29 oct           |
+| 8  | Simulación de tarea                        | 28 oct           |
+| 9  | Guion de video                             | 29 oct           |
+| 10 | Grabación de video                         | 29 oct           |
+| 11 | Resumen de cambios                         | 29 oct           |
+| 12 | Video editado                              | 30 oct           |
+| 13 | Competencias                               | 31 oct           |
 
 ### 🔹 Planeación de Monitoreo
 - Se seleccionaron historias de usuario de mayor prioridad.
@@ -173,12 +173,45 @@ El proceso se gestionó implementando **Scrum**
 
 ---
 
-## ✅ Resultados esperados del sprint
+## 🧩 Resultados del Avance del Proyecto — Entrega 2
 
-- 
+## 1. Historias de Usuario
+- Se elaboró un conjunto completo de **historias de usuario** que describen las acciones y necesidades de los diferentes actores del sistema (*aprendiz, asesor y administrador*).  
+- Cada historia fue redactada bajo el formato estándar **“Como [rol], quiero [objetivo] para [beneficio]”**, con su respectiva priorización **MoSCoW**.  
+- Este insumo permitió delimitar el **alcance funcional real** de la aplicación.
 
----
+
+## 2. Requerimientos Funcionales y No Funcionales
+- Se documentaron detalladamente los **requerimientos funcionales**, especificando los comportamientos esperados del sistema en cada módulo (autenticación, gestión de solicitudes, sesiones, chat, videollamadas, calendario y administración).  
+- Se integraron los **requerimientos no funcionales** que garantizan seguridad, rendimiento, usabilidad y persistencia de datos mediante *localStorage*.  
+- Todo el conjunto de requerimientos se consolidó en una **tabla formal con identificación, descripción y prioridad**.
+
+
+
+## 3. Diseños Wireframe del Sitio Web
+- Se elaboraron **wireframes abstractos de baja fidelidad** que representan la estructura visual y jerárquica de los módulos principales de la aplicación.  
+- Cada wireframe refleja la **disposición general de los componentes** y la navegación esperada por el usuario, sirviendo como base para la interfaz final.  
+- Además, se generó un **documento PDF consolidado** con los ocho módulos del sistema.
+
+
+## 4. Mock-Up de Media Fidelidad
+- A partir de los wireframes se desarrolló un **mock-up navegable** de media fidelidad, que incorpora estilo, color, tipografía y elementos de interacción.  
+- Este prototipo permitió **visualizar de forma más realista la experiencia de usuario** y validar la coherencia entre la interfaz y los requerimientos definidos.
+
+
+## 5. Video de Presentación del Avance
+- Se produjo un **video de presentación** donde el equipo explica los cambios implementados respecto a la **Entrega 1**, mostrando la evolución desde la conceptualización inicial hacia un producto más definido y visual.  
+- El video incluye la demostración de los **wireframes, mock-ups**, y una breve exposición del **análisis de requerimientos y objetivos alcanzados**.
+
+
+## 🔎 Conclusión
+se concluye la fase de análisis y planeación inicial a una etapa de diseño consolidado.  
+Se cuenta ahora con una **base documental sólida y representaciones visuales consistentes** que facilitan la futura implementación técnica y validación con usuarios.
+
+
 
 ## ✨ Próximo Paso (Retrospectiva)
 - Realizar review para mejorar la transición **Requisitos → Prototipado**.  
 - Preparar al equipo para el **Sprint #3**.
+- viernes 31 realizar retrospectivad del sprint
+- analizar las siguientes tareas y herramientas que se implementarán
