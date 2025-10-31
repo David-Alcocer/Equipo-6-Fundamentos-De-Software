@@ -86,8 +86,8 @@ Con ello, el equipo se encuentra preparado para afrontar el **Sprint #2**, en el
 
 ## ✨ Visión General del Sprint
 **Sprint #2:** Transición de la fase de requisitos a la fase de diseño y prototipado UX/UI.  
-**Periodo:** [20 al 29 de octubre]  
-**Duración:** 10 días  
+**Periodo:** [20 al 30 de octubre]  
+**Duración:** 11 días  
 
 ### 🎯 Objetivo Central
 Definir y crear **prototipos de diseño (UI/UX)** para las funcionalidades *MUST HAVE* y *SHOULD HAVE* (Registro, Perfil y Chat post-aceptación), junto con el **refinamiento de requisitos restantes**.
@@ -125,7 +125,7 @@ El proceso se gestionó implementando **Scrum**
 | 10 | Grabación de video                         | 29 oct           |
 | 11 | Resumen de cambios                         | 29 oct           |
 | 12 | Video editado                              | 30 oct           |
-| 13 | Competencias                               | 31 oct           |
+| 13 | Competencias                               | 30 oct           |
 
 ### 🔹 Planeación de Monitoreo
 - Se seleccionaron historias de usuario de mayor prioridad.
