@@ -215,3 +215,77 @@ Se cuenta ahora con una **base documental sólida y representaciones visuales co
 - Preparar al equipo para el **Sprint #3**.
 - viernes 31 realizar retrospectivad del sprint
 - analizar las siguientes tareas y herramientas que se implementarán
+
+
+# 🐝 PeerHive: Documentación del Incremento — Sprint #3
+
+## ✨ Visión General del Sprint
+**Sprint #3:** planeción de actividades para el sprint 4 (actividades para generar el proyecto FINAL)  
+**Periodo:** [3 al 9 de noviembre]  
+**Duración:** 7 días  
+
+### 🎯 Objetivo Central
+Analizar y definir qué actividades se tendran en cuenta para concluir el proyecto final.
+
+### Entregables
+- **Organización de actividades**:  Analizar que actividades existen, importancia en escala (1,3,5), cuales serán los entregables del sprint 4, distribución de actividades
+
+
+## 📁 Organización del branch
+- **Branch de entrega:** `Tercera-Entrega-(Proyecto)`.  
+- **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
+- **Commits detallados:** Mensajes explicativos y bitácoras formales.
+
+
+
+Nº | Actividad                                  | Fecha de Entrega |
+|----|---------------------------------------------|------------------|
+| 1  | Análisis de backlog                         | 6 oct           |
+| 2  | Descripción de actividades                  | 6 oct           |
+| 3  | ¿?entregables de sp4                        | 7 oct           |
+| 4  | distribución de actividades                 | 8 oct           |
+| 5  | fechas de entrega del siguiente sprint      | 9 oct           |
+
+### 🔹 Planeación de Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.
+- Se aplicó un **margen de riesgo del 20 %** al tiempo de entrega para asegurar estabilidad.
+- Se realizarán commits con un **titulo** y una **descripcion** detallada de la actividad
+- **Verificación:**
+  - Seguimiento diario en GitHub Projects con flujo:
+    `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+    -### 🔹 Definition of Done (DoD)
+          Un artefacto se considera *DONE* si:
+            - Cumple **criterios** de aceptación:
+            - Fue **revisado** internamente (Review).  
+            - **No** presenta **errores críticos**.  
+            - Está **integrado** en el repositorio.  
+            - Posee **documentación completa**.
+- **Pull request**: 
+      - **titulo** y una **descripcion** detallada de los cambios
+      - **aceptacion**:
+          - Definition of Done
+          - Comentar si hace falta algo respecto a la rubrica
+          - referenciar actividad
+
+### 🔹 Coordinación
+- **Daily**
+    - Se documentaran reuniones con acuerdos, avances y blockers.
+- ***Bitacora de reunion***
+    - Acuerdos/resolución de conflictos
+    - Responsables
+    - Tareas
+    - Fechas límite de entrega
+    - Productos resultantes
+
+---
+
+## 📊 Métrica de Contribución Individual
+
+| Integrante | Rol Principal | % Contribución | Evidencia |
+|-------------|----------------|--------|----------------|------------|
+| **Misa** | Líder de Requisitos / Analista  | 25 % | Análisis de backlog |
+| **Leo** | Líder de Diseño / Scrum Master  | 25 % | distribución de actividades, fechas de entrega del siguiente sprint  |
+| **Rodrigo** | Gestor de Cliente / Documentación | 25 % | ¿?entregables de sp4 |
+| **Toache** | Presentación / Evidencia  | 25 % | Descripción de actividades |
+
+**total:**
