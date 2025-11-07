@@ -220,31 +220,37 @@ Se cuenta ahora con una **base documental sólida y representaciones visuales co
 # 🐝 PeerHive: Documentación del Incremento — Sprint #3
 
 ## ✨ Visión General del Sprint
-**Sprint #3:** planeción de actividades para el sprint 4 (actividades para generar el proyecto FINAL)  
-**Periodo:** [3 al 9 de noviembre]  
-**Duración:** 7 días  
+**Sprint #3:** Organizacion y depuración de repositorio
+**Periodo:** [6 al 10 de noviembre]  
+**Duración:** 5 días  
 
 ### 🎯 Objetivo Central
-Analizar y definir qué actividades se tendran en cuenta para concluir el proyecto final.
+Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablon de la segunda entrega y del nuevo branch de la tercera, hacer las HU en formato md
 
 ### Entregables
-- **Organización de actividades**:  Analizar que actividades existen, importancia en escala (1,3,5), cuales serán los entregables del sprint 4, distribución de actividades
+- **Organización de actividades**:  Tablones que lleven a su respectiva carpeta, archivos innecesarios eliminados, HU en markdown para una lectura mejor
 
 
 ## 📁 Organización del branch
 - **Branch de entrega:** `Tercera-Entrega-(Proyecto)`.  
 - **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
-- **Commits detallados:** Mensajes explicativos y bitácoras formales.
+- **Commits detallados:** Mensajes explicativos.
 
 
 
-Nº | Actividad                                  | Fecha de Entrega |
-|----|---------------------------------------------|------------------|
-| 1  | Análisis de backlog                         | 6 oct           |
-| 2  | Descripción de actividades                  | 6 oct           |
-| 3  | ¿?entregables de sp4                        | 7 oct           |
-| 4  | distribución de actividades                 | 8 oct           |
-| 5  | fechas de entrega del siguiente sprint      | 9 oct           |
+## 📝 Asignación de Actividades y Valores
+
+### ⚙️ Requisitos (Sprint 2 – Ingeniería de Requisitos) – 8 puntos
+| # | Actividad | Valor | Responsable | Fecha de Entrega |
+|---|------------|--------|--------------|------------------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | Misa | 8 oct |
+| 2 | Actualización de tablones (Jira / GitHub Projects) | 1 | Leo | 9 oct |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | Misa, Leo, Rodrigo, Toache | 10 oct |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Toache | 10 oct |
+
+**Subtotal: 8 puntos**
+
+---
 
 ### 🔹 Planeación de Monitoreo
 - Se seleccionaron historias de usuario de mayor prioridad.
@@ -268,7 +274,7 @@ Nº | Actividad                                  | Fecha de Entrega |
           - referenciar actividad
 
 ### 🔹 Coordinación
-- **Daily**
+- **weekly**
     - Se documentaran reuniones con acuerdos, avances y blockers.
 - ***Bitacora de reunion***
     - Acuerdos/resolución de conflictos
@@ -279,13 +285,30 @@ Nº | Actividad                                  | Fecha de Entrega |
 
 ---
 
+## 🔢 Escala de Valor
+| # | Actividad | Valor |
+|---|------------|--------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 |
+| 2 | Actualización de tablones | 1 |
+| 3 | Depuración de Historias de Usuario (todos) | 5 |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 |
+
+**Total:** 8 puntos (100 %)  
+- Misa: 28 %  
+- Leo: 28 %  
+- Rodrigo: 16 %  
+- Toache: 28 %
+
+---
+
+
 ## 📊 Métrica de Contribución Individual
 
-| Integrante | Rol Principal | % Contribución | Evidencia |
-|-------------|----------------|--------|----------------|------------|
-| **Misa** | Líder de Requisitos / Analista  | 25 % | Análisis de backlog |
-| **Leo** | Líder de Diseño / Scrum Master  | 25 % | distribución de actividades, fechas de entrega del siguiente sprint  |
-| **Rodrigo** | Gestor de Cliente / Documentación | 25 % | ¿?entregables de sp4 |
-| **Toache** | Presentación / Evidencia  | 25 % | Descripción de actividades |
+| Integrante | Rol Principal | Puntos Totales | % Contribución | Evidencia |
+|-------------|----------------|----------------|----------------|------------|
+| **Misa** | Eliminación de archivos y participación en depuración de HU (1, 3) | 2.25 | 28 % | Limpieza de archivos redundantes, revisión y refinamiento de HU |
+| **Leo** | Actualización de tablones, Scrum Master y participación en depuración de HU (2, 3) | 2.25 | 28 % | Capturas de tablones, gestión de tareas y participación en depuración |
+| **Rodrigo** | Participación general y liderazgo en depuración de HU (3) | 1.25 | 16 % | Revisión final y coherencia de HU con requerimientos |
+| **Toache** | Documentación en formato Markdown y participación en depuración de HU (3, 4) | 2.25 | 28 % | HU finales en Markdown, bitácora y consolidación de documentación |
 
-**total:**
+**Total: 8 puntos — 100 %**
