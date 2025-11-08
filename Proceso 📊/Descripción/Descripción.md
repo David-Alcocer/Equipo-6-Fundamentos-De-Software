@@ -215,3 +215,100 @@ Se cuenta ahora con una **base documental sólida y representaciones visuales co
 - Preparar al equipo para el **Sprint #3**.
 - viernes 31 realizar retrospectivad del sprint
 - analizar las siguientes tareas y herramientas que se implementarán
+
+
+# 🐝 PeerHive: Documentación del Incremento — Sprint #3
+
+## ✨ Visión General del Sprint
+**Sprint #3:** Organizacion y depuración de repositorio
+**Periodo:** [6 al 10 de noviembre]  
+**Duración:** 5 días  
+
+### 🎯 Objetivo Central
+Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablon de la segunda entrega y del nuevo branch de la tercera, hacer las HU en formato md
+
+### Entregables
+- **Organización de actividades**:  Tablones que lleven a su respectiva carpeta, archivos innecesarios eliminados, HU en markdown para una lectura mejor
+
+
+## 📁 Organización del branch
+- **Branch de entrega:** `Tercera-Entrega-(Proyecto)`.  
+- **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
+- **Commits detallados:** Mensajes explicativos.
+
+
+
+## 📝 Asignación de Actividades y Valores
+
+### ⚙️ Requisitos (Sprint 2 – Ingeniería de Requisitos) – 8 puntos
+| # | Actividad | Valor | Responsable | Fecha de Entrega |
+|---|------------|--------|--------------|------------------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | Misa | 8 oct |
+| 2 | Actualización de tablones (Jira / GitHub Projects) | 1 | Leo | 9 oct |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | Misa, Leo, Rodrigo, Toache | 10 oct |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Toache | 10 oct |
+
+**Subtotal: 8 puntos**
+
+---
+
+### 🔹 Planeación de Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.
+- Se aplicó un **margen de riesgo del 20 %** al tiempo de entrega para asegurar estabilidad.
+- Se realizarán commits con un **titulo** y una **descripcion** detallada de la actividad
+- **Verificación:**
+  - Seguimiento diario en GitHub Projects con flujo:
+    `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+    -### 🔹 Definition of Done (DoD)
+          Un artefacto se considera *DONE* si:
+            - Cumple **criterios** de aceptación:
+            - Fue **revisado** internamente (Review).  
+            - **No** presenta **errores críticos**.  
+            - Está **integrado** en el repositorio.  
+            - Posee **documentación completa**.
+- **Pull request**: 
+      - **titulo** y una **descripcion** detallada de los cambios
+      - **aceptacion**:
+          - Definition of Done
+          - Comentar si hace falta algo respecto a la rubrica
+          - referenciar actividad
+
+### 🔹 Coordinación
+- **weekly**
+    - Se documentaran reuniones con acuerdos, avances y blockers.
+- ***Bitacora de reunion***
+    - Acuerdos/resolución de conflictos
+    - Responsables
+    - Tareas
+    - Fechas límite de entrega
+    - Productos resultantes
+
+---
+
+## 🔢 Escala de Valor
+| # | Actividad | Valor |
+|---|------------|--------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 |
+| 2 | Actualización de tablones | 1 |
+| 3 | Depuración de Historias de Usuario (todos) | 5 |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 |
+
+**Total:** 8 puntos (100 %)  
+- Misa: 28 %  
+- Leo: 28 %  
+- Rodrigo: 16 %  
+- Toache: 28 %
+
+---
+
+
+## 📊 Métrica de Contribución Individual
+
+| Integrante | Rol Principal | Puntos Totales | % Contribución | Evidencia |
+|-------------|----------------|----------------|----------------|------------|
+| **Misa** | Eliminación de archivos y participación en depuración de HU (1, 3) | 2.25 | 28 % | Limpieza de archivos redundantes, revisión y refinamiento de HU |
+| **Leo** | Actualización de tablones, Scrum Master y participación en depuración de HU (2, 3) | 2.25 | 28 % | Capturas de tablones, gestión de tareas y participación en depuración |
+| **Rodrigo** | Participación general y liderazgo en depuración de HU (3) | 1.25 | 16 % | Revisión final y coherencia de HU con requerimientos |
+| **Toache** | Documentación en formato Markdown y participación en depuración de HU (3, 4) | 2.25 | 28 % | HU finales en Markdown, bitácora y consolidación de documentación |
+
+**Total: 8 puntos — 100 %**

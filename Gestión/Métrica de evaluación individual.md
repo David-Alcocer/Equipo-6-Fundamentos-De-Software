@@ -164,3 +164,49 @@
 | **Leo**     | Diseño, Prototipos, Simulación, Proceso | 24% |
 | **Toache**  | Evidencia de Requisitos, Presentación, Competencias | 24% |
 
+--------------------------------------
+
+# 🐝 Métrica de Evaluación Individual – Proyecto SOF PeerHive — Sprint #3
+
+# 📊 Sprint Backlog – Proyecto SOF PeerHive
+
+
+| # | Actividad | Valor | Responsable | Fecha de Entrega |
+|---|------------|--------|--------------|------------------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | Misa | 8 oct |
+| 2 | Actualización de tablones (Jira / GitHub Projects) | 1 | Leo | 9 oct |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | Misa, Leo, Rodrigo, Toache | 10 oct |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Toache | 10 oct |
+
+**Subtotal:** 8 puntos  
+
+---
+
+## 📈 Roles y Contribución de los Integrantes
+
+| Integrante | Rol Principal | Puntos | % Contribución |
+|-------------|----------------|--------|----------------|
+| **Misa** | Eliminación de archivos, apoyo en depuración de HU | 2.25 | 28% |
+| **Leo** | Actualización de tablones, coordinación Scrum Master y depuración de HU | 2.25 | 28% |
+| **Rodrigo** | Liderazgo y revisión final en depuración de HU | 1.25 | 16% |
+| **Toache** | Documentación en formato Markdown y depuración de HU | 2.25 | 28% |
+
+**Total:** 8 puntos — 100 %
+
+---
+
+## 📜 Evidencias y Observaciones
+
+- **Misa:** Eliminó archivos redundantes del repositorio, mejorando la organización de carpetas y datos.  
+- **Leo:** Mantuvo actualizados los tablones del proyecto en Jira/GitHub, asegurando la trazabilidad de tareas y apoyando la depuración de HU.  
+- **Rodrigo:** Supervisó la coherencia y consistencia de las Historias de Usuario, liderando el proceso de refinamiento conjunto.  
+- **Toache:** Redactó y estructuró las HU finales en formato Markdown, dejando evidencia clara en el repositorio.  
+
+---
+
+## 🧾 Conclusión
+
+Durante este Sprint se consolidaron los **artefactos de requisitos**, depurando las Historias de Usuario y mejorando la documentación técnica.  
+El equipo mostró un equilibrio en las responsabilidades, destacando la colaboración conjunta en la depuración y la claridad de documentación en los entregables.
+
+---
