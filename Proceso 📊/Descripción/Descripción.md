@@ -1,4 +1,4 @@
-# 📅 Sprint Semanal #1  
+/# 📅 Sprint Semanal #1  
 📆 **Periodo:** 22 al 25 de septiembre  
 
 ---
@@ -220,15 +220,15 @@ Se cuenta ahora con una **base documental sólida y representaciones visuales co
 # 🐝 PeerHive: Documentación del Incremento — Sprint #3
 
 ## ✨ Visión General del Sprint
-**Sprint #3:** Organizacion y depuración de repositorio
-**Periodo:** [6 al 10 de noviembre]  
-**Duración:** 5 días  
+**Sprint #3:** Organizacion, depuración de repositorio, usuarios y diseño
+**Periodo:** [10 al 16 de noviembre]  
+**Duración:** 7 días  
 
 ### 🎯 Objetivo Central
-Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablon de la segunda entrega y del nuevo branch de la tercera, hacer las HU en formato md
+Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablon de la segunda entrega y del nuevo branch de la tercera, hacer las HU en formato md, avanzar con el diseño de la pagina y descripcion mas detallada de los futuros usuarios
 
 ### Entregables
-- **Organización de actividades**:  Tablones que lleven a su respectiva carpeta, archivos innecesarios eliminados, HU en markdown para una lectura mejor
+- **Organización de actividades**:  Tablones que lleven a su respectiva carpeta, archivos innecesarios eliminados, HU en markdown para una lectura mejor, descripcion detallada de futuros usuarios (de forma sintetica), mejor distribucion de apartados y diseño para el usuario(utilizando alguna guia de referencia como base).
 
 
 ## 📁 Organización del branch
@@ -243,12 +243,14 @@ Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablo
 ### ⚙️ Requisitos (Sprint 2 – Ingeniería de Requisitos) – 8 puntos
 | # | Actividad | Valor | Responsable | Fecha de Entrega |
 |---|------------|--------|--------------|------------------|
-| 1 | Eliminación de archivos innecesarios del repositorio | 1 | Misa | 8 oct |
-| 2 | Actualización de tablones (Jira / GitHub Projects) | 1 | Leo | 9 oct |
-| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | Misa, Leo, Rodrigo, Toache | 10 oct |
-| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Toache | 10 oct |
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | David Misael | 10 nov |
+| 2 | Actualización de tablones  | 1 | Leonardo San Martin | 11  nov |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 16 nov |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Javier Toache | 12 nov |
+| 5 | Descripción de usuarios                                  | 3 | Rodrigo Salazar | 15 nov |
+| 6 | Diseño de media-alta fidelidad del prototipo | 5 | Leonardo San Martin,Javier Toache  | 16 nov |
 
-**Subtotal: 8 puntos**
+**Subtotal: 16 puntos**
 
 ---
 
@@ -266,16 +268,20 @@ Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablo
             - **No** presenta **errores críticos**.  
             - Está **integrado** en el repositorio.  
             - Posee **documentación completa**.
-- **Pull request**: 
-      - **titulo** y una **descripcion** detallada de los cambios
-      - **aceptacion**:
-          - Definition of Done
-          - Comentar si hace falta algo respecto a la rubrica
-          - referenciar actividad
+- **backlog board**: 
+      - **tickets** y **nuevas ramas para cada tarea** 
+      - **fechas de entrega**
+      - **Etiquetas de tarea**
+      - **milestone/hitos**
+          - en el primer PR hacer: closes # numero de issue de la tarea del integrante
+          - pasa a review al entregar la tarea
+          - pasa a DONE cada que vaya a main
+          - borrar rama temporal de tarea (manual)
 
 ### 🔹 Coordinación
 - **weekly**
     - Se documentaran reuniones con acuerdos, avances y blockers.
+    - bitacora de reuniones
 - ***Bitacora de reunion***
     - Acuerdos/resolución de conflictos
     - Responsables
@@ -292,6 +298,8 @@ Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablo
 | 2 | Actualización de tablones | 1 |
 | 3 | Depuración de Historias de Usuario (todos) | 5 |
 | 4 | Historias de Usuario en formato Markdown (documentación final) | 1 |
+| 5 | Descripción de usuarios        | 3 |
+| 6 | Diseño de media-alta fidelidad del prototipo | 5 |
 
 **Total:** 8 puntos (100 %)  
 - Misa: 28 %  
@@ -306,9 +314,9 @@ Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablo
 
 | Integrante | Rol Principal | Puntos Totales | % Contribución | Evidencia |
 |-------------|----------------|----------------|----------------|------------|
-| **Misa** | Eliminación de archivos y participación en depuración de HU (1, 3) | 2.25 | 28 % | Limpieza de archivos redundantes, revisión y refinamiento de HU |
-| **Leo** | Actualización de tablones, Scrum Master y participación en depuración de HU (2, 3) | 2.25 | 28 % | Capturas de tablones, gestión de tareas y participación en depuración |
-| **Rodrigo** | Participación general y liderazgo en depuración de HU (3) | 1.25 | 16 % | Revisión final y coherencia de HU con requerimientos |
-| **Toache** | Documentación en formato Markdown y participación en depuración de HU (3, 4) | 2.25 | 28 % | HU finales en Markdown, bitácora y consolidación de documentación |
+| **David Misael** | Eliminación de archivos innecesarios y participación en depuración de HU | 4.5 | **28 %** | Limpieza del repositorio y refinamiento de historias de usuario |
+| **Leonardo San Martín** | Actualización de tablones, diseño del prototipo y depuración de HU | 4.5 | **28 %** | Actualización de tablones, diseño en Figma y revisión de HU |
+| **Rodrigo Salazar** | Descripción de usuarios y apoyo en depuración de HU | 2.5 | **16 %** | Documento de descripción de usuarios y revisión general de HU |
+| **Javier Toache** | Historias de Usuario en formato Markdown, diseño del prototipo y depuración de HU | 4.5 | **28 %** | Documentación final en Markdown y diseño de prototipo |
 
-**Total: 8 puntos — 100 %**
+**Total: 16 puntos — 100 %**
