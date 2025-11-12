@@ -1,14 +1,12 @@
 # Proyecto PeerHive: Historias de Usuario Funcionales
 
-## 1. Introducción
-
 Este documento define las **Historias de Usuario (HU)** que describen las funcionalidades clave de la plataforma PeerHive. 
 
 Las historias aquí listadas representan las **características funcionales** del sistema (lo que el sistema *hace*) y están priorizadas para guiar el desarrollo del Producto Mínimo Viable (MVP) y las futuras iteraciones.
 
 ---
 
-## 2. Historias de Usuario Funcionales
+## Historias de Usuario Funcionales
 
 A continuación, se presenta el desglose de las funcionalidades principales de la plataforma, agrupadas por módulo y priorizadas según su impacto en el usuario.
 
