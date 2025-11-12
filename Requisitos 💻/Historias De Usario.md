@@ -2,14 +2,9 @@
 
 Este documento define las **Historias de Usuario (HU)** que describen las funcionalidades clave de la plataforma PeerHive. 
 
-Las historias aquí listadas representan las **características funcionales** del sistema (lo que el sistema *hace*) y están priorizadas para guiar el desarrollo del Producto Mínimo Viable (MVP) y las futuras iteraciones.
-
-Esta separación es fundamental para la planificación del desarrollo:
-* **Requisitos Funcionales (RF):** Definen **qué hace** el sistema (sus características y funciones).
-* **Requisitos No Funcionales (RNF):** Definen **cómo es** el sistema (sus atributos de calidad, como velocidad, seguridad o usabilidad).
 ---
 
-## Historias de Usuario / Requisitos Funcionales
+## Historias de Usuario
 
 A continuación, se presenta el desglose de las funcionalidades principales de la plataforma, agrupadas por módulo y priorizadas según su impacto en el usuario.
 
@@ -34,18 +29,6 @@ A continuación, se presenta el desglose de las funcionalidades principales de l
 | HU-018 | Comunicación | Usuario | Como usuario, quiero comunicarme mediante chat privado con la persona de mi sesión, para intercambiar mensajes y archivos. | El chat debe ser individual, con estado 'en línea' y envío de archivos hasta 5 MB. | Alta |
 | HU-019 | Buscador | Asesor | Como asesor, quiero buscar aprendices con tickets activos, brindar apoyo. | Puedo filtrar por materia, tema o disponibilidad. | Media |
 | HU-020 | Chat individual | Usuario | Como usuario, quiero ver la identidad de la persona con quien converso en el chat, para tener claridad en la comunicación. | Debe mostrarse nombre, rol e imagen de perfil del usuario. | Baja |
-| HU-029 | Buscador | Asesorado | Como asesorado, quiero buscar asesores que tengan el conocimiento acerca de mi duda/tema específico para generar ticket | El asesorado debe poder localizar a un asesor específico materia y generar un ticket directamente desde su perfil, siempre que este disponible. | Media |
-| HU-030 | Administración | Administrador | Como administrador quiero ver y responder reportes de soporte enviados por los usuarios | El sistema permite al administrador visualizar y responder los reportes de soporte enviados por los usuarios para dar seguimiento y resolver incidencias. | Alta |
-| HU-031 | Reportes | Usuario | Como usuario quiero crear un reporte de problema para comunicar incidencias al administrador | El sistema permite al usuario crear y enviar un reporte de problema para informar incidencias al administrador y facilitar su resolución. | Baja |
-
----
-
-## Historias de usuario / Requisitos No Funcionales (RNF)
-
-Estos son los requisitos que describen **atributos de calidad, restricciones o el "cómo"** debe operar el sistema, en lugar de una función específica.
-
-| ID | Módulo | Actor | Descripción | Criterios de Aceptación | Prioridad |
-| :--- | :--- | :--- | :--- | :--- | :--- |
 | HU-021 | Seguridad | Usuario | Como usuario, quiero que mis datos personales estén protegidos, para usar la plataforma con confianza. | Toda la información sensible debe cifrarse (contraseñas, matrículas, chat). | Baja |
 | HU-022 | Recuperación de datos | Usuario | Como usuario, quiero que el sistema no pierda mis datos, para que mis registros de horas y mensajes estén siempre disponibles. | Debe haber copias de seguridad diarias y restauración en menos de 24 horas. | Baja |
 | HU-023 | Diseño responsivo | Usuario | Como usuario móvil, quiero poder usar la plataforma desde mi teléfono o tableta, para acceder desde cualquier lugar. | El diseño debe adaptarse automáticamente al dispositivo. | Baja |
@@ -54,3 +37,23 @@ Estos son los requisitos que describen **atributos de calidad, restricciones o e
 | HU-026 | Soporte al usuario | Usuario | Como usuario, quiero poder reportar errores o pedir soporte técnico fácilmente, para resolver problemas rápidamente. | Debe haber un canal de soporte accesible dentro de la plataforma. | Baja |
 | HU-027 | Privacidad | Usuario | Como usuario, quiero saber que la plataforma respeta mi privacidad y mis datos, para confiar en su uso académico. | Debe haber aviso de privacidad claro y consentimiento informado de uso de datos. | Alta |
 | HU-028 | Usabilidad | Usuario | Como usuario, quiero realizar videollamadas dentro de la misma plataforma, mediante un canal exclusivo de Microsoft Teams | La opción de “Iniciar videollamada” solo aparece una vez que la solicitud de ayuda ha sido aceptada. | Alta |
+| HU-029 | Buscador | Asesorado | Como asesorado, quiero buscar asesores que tengan el conocimiento acerca de mi duda/tema específico para generar ticket | El asesorado debe poder localizar a un asesor específico materia y generar un ticket directamente desde su perfil, siempre que este disponible. | Media |
+| HU-030 | Administración | Administrador | Como administrador quiero ver y responder reportes de soporte enviados por los usuarios | El sistema permite al administrador visualizar y responder los reportes de soporte enviados por los usuarios para dar seguimiento y resolver incidencias. | Alta |
+| HU-031 | Reportes | Usuario | Como usuario quiero crear un reporte de problema para comunicar incidencias al administrador | El sistema permite al usuario crear y enviar un reporte de problema para informar incidencias al administrador y facilitar su resolución. | Baja |
+
+---
+
+## Requisitos No Funcionales
+
+* **Requisitos No Funcionales (RNF):** Definen **cómo es** el sistema (sus atributos de calidad, como velocidad, seguridad o usabilidad).
+
+| ID | Módulo | Criterios de Aceptación |
+| :--- | :--- | :--- |
+| RNF-021 | Seguridad | Toda la información sensible debe cifrarse (contraseñas, matrículas, chat). |
+| RNF-022 | Recuperación de datos | Debe haber copias de seguridad diarias y restauración en menos de 24 horas. |
+| RNF-023 | Diseño responsivo | El diseño debe adaptarse automáticamente al dispositivo. |
+| RNF-024 | Usabilidad | Acceso a funciones clave en pocos pasos. Interfaz coherente y visualmente agradable. |
+| RNF-025 | Rendimiento | Las páginas clave deben cargar en menos de 2 segundos. |
+| RNF-026 | Soporte al usuario | Debe haber un canal de soporte accesible dentro de la plataforma. |
+| RNF-027 | Privacidad | Debe haber aviso de privacidad claro y consentimiento informado de uso de datos. |
+| RNF-028 | Usabilidad | La opción de “Iniciar videollmado” solo aparece una vez que la solicitud de ayuda ha sido aceptada. |
