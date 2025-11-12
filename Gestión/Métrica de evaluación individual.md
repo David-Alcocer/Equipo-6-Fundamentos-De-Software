@@ -164,3 +164,36 @@
 | **Leo**     | Diseño, Prototipos, Simulación, Proceso | 24% |
 | **Toache**  | Evidencia de Requisitos, Presentación, Competencias | 24% |
 
+--------------------------------------
+
+# 🐝 Métrica de Evaluación Individual – Proyecto SOF PeerHive — Sprint #3
+
+
+---
+
+| # | Actividad | Valor | Responsable | Fecha de Entrega | cumplimiento |
+|---|------------|--------|--------------|------------------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | David Misael | 10 nov |   |
+| 2 | Actualización de tablones  | 1 | Leonardo San Martin | 11  nov |  |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 16 nov |   |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Javier Toache | 12 nov | |
+| 5 | Descripción de usuarios                                  | 3 | Rodrigo Salazar | 15 nov | |
+| 6 | Diseño de media-alta fidelidad del prototipo | 5 | Leonardo San Martin,Javier Toache  | 16 nov |  |
+
+
+**Total:** 16 puntos — 100 %
+
+---
+
+## 📜 Evidencias y Observaciones
+
+- **Misa:** 
+- **Leo:** 
+- **Rodrigo:** 
+- **Toache:** 
+
+---
+
+## 🧾 Conclusión
+
+---

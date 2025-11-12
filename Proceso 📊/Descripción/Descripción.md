@@ -1,4 +1,4 @@
-# 📅 Sprint Semanal #1  
+/# 📅 Sprint Semanal #1  
 📆 **Periodo:** 22 al 25 de septiembre  
 
 ---
@@ -215,3 +215,108 @@ Se cuenta ahora con una **base documental sólida y representaciones visuales co
 - Preparar al equipo para el **Sprint #3**.
 - viernes 31 realizar retrospectivad del sprint
 - analizar las siguientes tareas y herramientas que se implementarán
+
+
+# 🐝 PeerHive: Documentación del Incremento — Sprint #3
+
+## ✨ Visión General del Sprint
+**Sprint #3:** Organizacion, depuración de repositorio, usuarios y diseño
+**Periodo:** [10 al 16 de noviembre]  
+**Duración:** 7 días  
+
+### 🎯 Objetivo Central
+Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablon de la segunda entrega y del nuevo branch de la tercera, hacer las HU en formato md, avanzar con el diseño de la pagina y descripcion mas detallada de los futuros usuarios
+
+### Entregables
+- **Organización de actividades**:  Tablones que lleven a su respectiva carpeta, archivos innecesarios eliminados, HU en markdown para una lectura mejor, descripcion detallada de futuros usuarios (de forma sintetica), mejor distribucion de apartados y diseño para el usuario(utilizando alguna guia de referencia como base).
+
+
+## 📁 Organización del branch
+- **Branch de entrega:** `Tercera-Entrega-(Proyecto)`.  
+- **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
+- **Commits detallados:** Mensajes explicativos.
+
+
+
+## 📝 Asignación de Actividades y Valores
+
+### ⚙️ Requisitos (Sprint 2 – Ingeniería de Requisitos) – 8 puntos
+| # | Actividad | Valor | Responsable | Fecha de Entrega |
+|---|------------|--------|--------------|------------------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | David Misael | 10 nov |
+| 2 | Actualización de tablones  | 1 | Leonardo San Martin | 11  nov |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 16 nov |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Javier Toache | 12 nov |
+| 5 | Descripción de usuarios                                  | 3 | Rodrigo Salazar | 15 nov |
+| 6 | Diseño de media-alta fidelidad del prototipo | 5 | Leonardo San Martin,Javier Toache  | 16 nov |
+
+**Subtotal: 16 puntos**
+
+---
+
+### 🔹 Planeación de Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.
+- Se aplicó un **margen de riesgo del 20 %** al tiempo de entrega para asegurar estabilidad.
+- Se realizarán commits con un **titulo** y una **descripcion** detallada de la actividad
+- **Verificación:**
+  - Seguimiento diario en GitHub Projects con flujo:
+    `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+    -### 🔹 Definition of Done (DoD)
+          Un artefacto se considera *DONE* si:
+            - Cumple **criterios** de aceptación:
+            - Fue **revisado** internamente (Review).  
+            - **No** presenta **errores críticos**.  
+            - Está **integrado** en el repositorio.  
+            - Posee **documentación completa**.
+- **backlog board**: 
+      - **tickets** y **nuevas ramas para cada tarea** 
+      - **fechas de entrega**
+      - **Etiquetas de tarea**
+      - **milestone/hitos**
+          - en el primer PR hacer: closes # numero de issue de la tarea del integrante
+          - pasa a review al entregar la tarea
+          - pasa a DONE cada que vaya a main
+          - borrar rama temporal de tarea (manual)
+
+### 🔹 Coordinación
+- **weekly**
+    - Se documentaran reuniones con acuerdos, avances y blockers.
+    - bitacora de reuniones
+- ***Bitacora de reunion***
+    - Acuerdos/resolución de conflictos
+    - Responsables
+    - Tareas
+    - Fechas límite de entrega
+    - Productos resultantes
+
+---
+
+## 🔢 Escala de Valor
+| # | Actividad | Valor |
+|---|------------|--------|
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 |
+| 2 | Actualización de tablones | 1 |
+| 3 | Depuración de Historias de Usuario (todos) | 5 |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 |
+| 5 | Descripción de usuarios        | 3 |
+| 6 | Diseño de media-alta fidelidad del prototipo | 5 |
+
+**Total:** 8 puntos (100 %)  
+- Misa: 28 %  
+- Leo: 28 %  
+- Rodrigo: 16 %  
+- Toache: 28 %
+
+---
+
+
+## 📊 Métrica de Contribución Individual
+
+| Integrante | Rol Principal | Puntos Totales | % Contribución | Evidencia |
+|-------------|----------------|----------------|----------------|------------|
+| **David Misael** | Eliminación de archivos innecesarios y participación en depuración de HU | 4.5 | **28 %** | Limpieza del repositorio y refinamiento de historias de usuario |
+| **Leonardo San Martín** | Actualización de tablones, diseño del prototipo y depuración de HU | 4.5 | **28 %** | Actualización de tablones, diseño en Figma y revisión de HU |
+| **Rodrigo Salazar** | Descripción de usuarios y apoyo en depuración de HU | 2.5 | **16 %** | Documento de descripción de usuarios y revisión general de HU |
+| **Javier Toache** | Historias de Usuario en formato Markdown, diseño del prototipo y depuración de HU | 4.5 | **28 %** | Documentación final en Markdown y diseño de prototipo |
+
+**Total: 16 puntos — 100 %**

@@ -40,8 +40,6 @@
 4- [🧑‍🏫 Presentación](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Segunda-Entrega-(Proyecto)/Presentaci%C3%B3n%20%F0%9F%A7%91%E2%80%8D%F0%9F%8F%AB/EntregaPresentacion.md)
    - [Video](https://alumnosuady-my.sharepoint.com/:v:/g/personal/a19203442_alumnos_uady_mx/EZVNDA_WertDumPEe12Jl58BL1UYI2C-RQ_M-3oLcy-i7w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=D8FRwJ)
 
-     
- 
 5- [⭐ Competencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Primera-Entrega-(Proyecto)/Competencias%E2%AD%90)
    - [Genericas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Segunda-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
    - [Especificas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Segunda-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
