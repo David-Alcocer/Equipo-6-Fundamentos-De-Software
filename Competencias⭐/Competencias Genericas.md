@@ -1,39 +1,39 @@
-# 🧩 Competencias Genéricas (Soft Skills)
+# Competencias Genéricas (Soft Skills) (Proyecto: PeerHive)
 ---
 
-## 🎯 Medición de Soft Skills en el Trabajo en Equipo
+## Medición de Soft Skills en el Trabajo en Equipo
 
-La única manera de medir y desarrollar las **Competencias Genéricas** de un equipo (liderazgo, comunicación, adaptabilidad) es a través de la **interacción constante**, la **experiencia compartida**, y la **reflexión sobre cómo nos desenvolvemos**.
+La única manera de medir y desarrollar nuestras **Competencias Genéricas** (liderazgo, comunicación) es a través de la **interacción constante** y la **experiencia compartida** que surge al construir un proyecto como **PeerHive**.
 
-Nuestra evidencia de estas habilidades se basa en la **comunicación efectiva** y el **producto colaborativo** que generamos.
+Nuestra evidencia se basa en la **comunicación efectiva** necesaria para crear un **producto colaborativo** que resuelva una necesidad real de la UADY.
 
 ---
 
-## ¿De qué forma se promueven las competencias genéricas?
+## ¿De qué forma promovemos las competencias genéricas?
 
-### 🗣️ Comunicación y Coordinación Estratégica
+### Comunicación y Coordinación Estratégica
 
 | Mecanismo | Impacto en la Soft Skill | Descripción Detallada |
 | :--- | :--- | :--- |
-| **Herramientas de Comunicación Digital** | **Comunicación Efectiva y Agilidad** | Usamos **Discord y WhatsApp** para coordinar tareas, compartir avances y resolver dudas **en tiempo real**. Esto facilita la comunicación constante y refuerza la capacidad de **expresar ideas claras y concisas**, evitando malentendidos y retrasos. |
-| **Reuniones Presenciales** | **Negociación y Liderazgo Situacional** | Los encuentros cara a cara se usan para el **debate profundo** y la **toma de decisiones críticas**. Esto promueve la **interacción directa**, fortaleciendo las habilidades sociales, la **negociación activa** y la capacidad de evaluar el progreso conjunto del proyecto. |
-| **Documentación Técnica** | **Comunicación Técnica y Claridad** | Elaboramos documentos técnicos (objetivos, procesos, avances) para asegurar que cualquier stakeholder comprenda el proyecto. Esto desarrolla la **capacidad de comunicar técnicamente** y deja una evidencia clara del trabajo realizado. |
+| **Herramientas de Comunicación Digital** | **Comunicación Efectiva y Agilidad** | Usamos **Discord y WhatsApp** para coordinar tareas (ej. "Revisen el prototipo de Canva") y resolver dudas en **tiempo real**, reforzando la capacidad de **expresar ideas técnicas claras**. |
+| **Reuniones Presenciales** | **Negociación y Liderazgo Situacional** | Los encuentros cara a cara se usan para el **debate profundo** sobre la lógica de PeerHive (ej. "¿Cuál es la mejor forma de 'hacer match' entre horarios? ¿Qué pasa si hay empates?") y la **toma de decisiones críticas**. |
+| **Documentación Técnica (GitHub)** | **Comunicación Técnica y Claridad** | Elaboramos el `README.md` y la **Wiki** de PeerHive para asegurar que cualquier *stakeholder* (o un nuevo miembro) comprenda la **Propuesta de Valor** y la arquitectura del proyecto. |
 
 ---
 
-### 🤝 Trabajo Colaborativo y Responsabilidad
+### Trabajo Colaborativo y Responsabilidad
 
 | Mecanismo | Impacto en la Soft Skill | Descripción Detallada |
 | :--- | :--- | :--- |
-| **Uso de Herramientas Colaborativas** | **Disciplina y Colaboración Simultánea** | Empleamos **GitHub** para el control de versiones, asegurando que todos trabajemos sobre una base de código actualizada. Esto fomenta la **disciplina en el manejo de repositorios** y facilita la **colaboración simultánea** en ramas específicas. |
-| **Distribución de Tareas (Roles)** | **Responsabilidad Individual y Organización** | Asignamos roles definidos (ej. estructurar HTML, documentar, revisar). Esto practica la **organización** y promueve la **responsabilidad individual** dentro de la meta colectiva, favoreciendo la **eficiencia** y el cumplimiento de plazos. |
-| **Resolución de Conflictos en Equipo** | **Pensamiento Crítico y Liderazgo** | Enfrentamos y solucionamos discrepancias de código u organización mediante **comunicación directa y acuerdos consensuados**. Esto promueve el **pensamiento crítico** y fortalece las competencias de **trabajo en equipo** y el **liderazgo** que emerge ante la adversidad. |
+| **Uso de Herramientas Colaborativas (GitHub)** | **Disciplina y Colaboración Asíncrona** | Empleamos **GitHub** con un **flujo de trabajo de ramas** (ej. `feature/student-dashboard`, `fix/credits-bug`). Esto fomenta la **disciplina** y la integración segura de código mediante **Pull Requests**. |
+| **Distribución de Tareas (Roles y Issues)** | **Responsabilidad Individual y Organización** | Asignamos roles (ej. backend, frontend) y los traducimos en **Issues** en GitHub (ej. "Crear endpoint POST /api/availability"). Esto practica la **organización** y promueve la **responsibilidad individual** (`accountability`). |
+| **Resolución de Conflictos en Equipo** | **Pensamiento Crítico y Negociación** | Enfrentamos y solucionamos **conflictos técnicos** (ej. un `merge conflict` en el modelo de Usuario) y de **diseño** (ej. "la vista del asesor está muy cargada") mediante **revisión de código y acuerdos consensuados**. |
 
 ---
 
-### 🧠 Reflexión y Mejora Continua
+### Reflexión y Mejora Continua
 
 | Mecanismo | Impacto en la Soft Skill | Descripción Detallada |
 | :--- | :--- | :--- |
-| **Elaboración de Bitácoras** | **Organización y Auto-Reflexión** | Generamos registros escritos (bitácoras) que documentan el proceso, fallos y soluciones. Esto fortalece la capacidad de **organización, seguimiento** y, fundamentalmente, incentiva la **reflexión crítica** para la optimización de futuras prácticas. |
-| **Interacción Constante** | **Empatía y Adaptación** | La necesidad de interactuar constantemente con diferentes roles y personalidades en el equipo fomenta la **empatía** y la **adaptación** a diversos estilos de trabajo, haciendo que la toma de decisiones sea más precisa y consensuada. |
+| **Elaboración de Bitácoras** | **Organización y Auto-Reflexión** | Generamos registros escritos (bitácoras en la Wiki) que documentan el proceso (ej. "Decidimos cambiar la base de datos por X razón"), fallos y soluciones. Esto fortalece la **organización** y fomenta la **reflexión crítica**. |
+| **Interacción Constante (Dependencias)** | **Empatía y Adaptación** | La necesidad de interactuar constantemente (ej. "El **frontend** está esperando que el **backend** termine el API de asesores") fomenta la **empatía** y la **adaptación** a los ritmos de trabajo del equipo. |
