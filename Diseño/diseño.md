@@ -6,9 +6,7 @@
 [Figma tarea de prototipo ] (https://www.figma.com/proto/MzYcOXkX42vubYmrf3KQvW/dise%C3%B1o?page-id=7%3A513&node-id=11-24233&viewport=500%2C1206%2C0.23&t=8v1bpaNZFSRvojwA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A24233)
 
 **Mock up (desplegado):**  
-[Peerhive.mockup] (https://peerhive.netlify.app/)
-**Cuenta admin:** admin@admin.uady.mx (contraseña: admin)
-**Cuenta asesor:** aasesor@uady.mx (contraseña: demo)
+[Peerhive.mockup] (https://venerable-dodol-ad2cfb.netlify.app/)
 
 El mock up se realizo con prompts de chat gpt usando los wirerframes de baja calidad, dandole instruciones precisas de como implementar las cosas y los roles que deberia tener para chatgpt pueda hacerlo lo mas apegado a la expectativa.
 
@@ -130,6 +128,8 @@ Ademas, los cambios reflejados en las historias de usuario, priorizacion y requi
 
 **Botones:**  
 - Crear  
+- cancelar
+- unirse
 
 **Custom:**  
 - Calendario de fecha  
@@ -142,7 +142,6 @@ Ademas, los cambios reflejados en las historias de usuario, priorizacion y requi
 - Foto de perfil  
 - Nombre  
 - Asesor que da la asesoría  
-- Logs de check-in  
 - Rol del usuario  
 
 **Botones:**  
