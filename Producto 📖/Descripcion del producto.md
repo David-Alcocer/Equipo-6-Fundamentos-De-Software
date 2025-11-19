@@ -16,22 +16,37 @@ Estudiantes avanzados (asesores): Ofrecen su conocimiento publicando sus horas l
 
 La Plataforma: Encuentra la coincidencia perfecta entre ambos, creando un sistema de apoyo mutuo donde todos ganan.
 
-    👥 Nuestros Usuarios
 
--Usuarios Primarios
-🎓 Alumnos (1º - 4º semestre):
+👥 Perfiles de Usuario (Asesorías)
 
+    | **Aspecto**               | **🧑‍🎓 Mario el Principiante**                                                                                                                                                                       | **🧑‍🎓 Sofía Salomón**                                                                                                                                                             |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre y Rol**          | Estudiante de 2.º Semestre, asesorado en Algoritmia.                                                                                                                                                  | Estudiante de 4.º Semestre, asesorada en Teoría de la Computación.                                                                                                                  |
+| **Contexto**              | Se siente abrumado por el ritmo y le cuesta entender conceptos básicos de programación. Se concentra mejor en las noches o fines de semana. Busca apoyo rápido y personalizado desde su móvil/laptop. | Es cautelosa y duda de la calidad de servicios no oficiales. Le preocupa que solo le “den la respuesta”. Prefiere plataformas con pizarra o código en tiempo real.                  |
+| **🎯 Objetivos**          | 1. Resolver dudas específicas (ej. recursividad) en menos de 24 h. <br> 2. Encontrar un asesor claro y paciente. <br> 3. Tener un proceso rápido y guiado para pedir asesorías.                       | 1. Validar la competencia del asesor (rating, semestre, temas). <br> 2. Usar herramientas visuales (pizarra, código en vivo). <br> 3. Recibir un resumen de la sesión para repasar. |
+| **🚧 Frustraciones**      | 1. No sabe cómo redactar su duda. <br> 2. Tiempos de espera largos. <br> 3. Que nadie responda su ticket.                                                                                             | 1. Comunicación pobre (solo chat o audio). <br> 2. Perfiles incompletos de asesores. <br> 3. No tener registro o notas de la sesión.                                                |
+| **Motivación**            | Aprobar la materia y nivelarse sin atrasarse. Obtener una explicación clara y personalizada.                                                                                                          | Tener confianza en la calidad de la asesoría y asegurar un aprendizaje real.                                                                                                        |
+| **Cita**                  | “Solo necesito que alguien me lo explique una vez, pero bien. ¡Si no lo entiendo ahora, mi proyecto se va a la basura!”                                                                               | “No me importa que sea estudiante, pero si no demuestra que sabe explicar y tiene herramientas, buscaré el tema en otro lado.”                                                      |
+| **Implicación en Diseño** | 1. Formulario guiado (materia → tema → detalle + ejemplos). <br> 2. Indicador de tiempo estimado de respuesta. <br> 3. Búsqueda visible con filtros por materia y disponibilidad.                     | 1. Perfiles con métricas de calidad y logros académicos. <br> 2. Integración con videollamada + pizarra + código. <br> 3. Función de “Notas de la Sesión” o resumen automático.     |
+👥 Perfiles de Usuario (Asesores)
+🧑‍🏫 Asesores (+180 créditos):
 Estudiantes que trabajan y necesitan flexibilidad.
-
 Foráneos o aquellos que no pueden estar siempre en la facultad.
 
-🧑‍🏫 Asesores (+180 créditos):
+| **Aspecto**               | **🧑‍💻 Adriano Chilin**                                                                                                                                                                                                            | **🧑‍💻 Ester Sánchez**                                                                                                                                                                                                              |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nombre y Rol**          | Estudiante de 8.º semestre, Asesor en Programación Orientada a Objetos.                                                                                                                                                             | Estudiante de 7.º semestre, Asesora en Fundamentos de Software.                                                                                                                                                                      |
+| **Contexto**              | Estudiante con prácticas y trabajo, con poco tiempo disponible. Busca aprovechar tiempos muertos y noches para adquirir créditos. Posee fuerte dominio en programación orientada a objetos.                                         | Extremadamente organizada; usa agenda digital estricta. Solo acepta sesiones con booking y check-in/out automáticos. Desea automatizar la obtención de créditos.                                                                     |
+| **🎯 Objetivos**          | 1. Maximizar tiempo para obtener créditos optativos sin afectar actividades diarias. <br> 2. Contar con chat para coordinar asesorías (preferencia: MS Teams). <br> 3. Tener calendario con recordatorios vía correo institucional. | 1. Sincronización automática con calendario institucional (Google/Outlook). <br> 2. Inicio de sesión seguro y rápido mediante SSO institucional. <br> 3. Vista semanal con calendario interactivo (arrastrar/soltar disponibilidad). |
+| **🚧 Frustraciones**      | 1. Registros incorrectos que le hagan perder horas. <br> 2. Acumulación de demasiados alumnos. <br> 3. Cancelaciones de último minuto.                                                                                              | 1. Login lento (+5 s). <br> 2. Doble booking por falta de sincronización con calendarios. <br> 3. Interfaz que obliga a editar slots individualmente.                                                                                |
+| **Motivación**            | Obtener créditos optativos y reforzar conocimiento ayudando a otros.                                                                                                                                                                | Eficiencia total e integración con su flujo de trabajo organizado.                                                                                                                                                                   |
+| **Cita**                  | “Ayudar a los demás siempre será mi pasión”.                                                                                                                                                                                        | “Mi tiempo es mi bien más preciado. El sistema debe funcionar para mi agenda, no al revés.”                                                                                                                                          |
+| **Implicación en Diseño** | 1. Tablero claro para ver tickets por materia. <br> 2. Notificaciones al correo institucional. <br> 3. Chat integrado para coordinar sesiones.                                                                                      | 1. SSO institucional obligatorio. <br> 2. Integración bidireccional con calendarios. <br> 3. Calendario interactivo como interfaz principal, con edición por bloques.                                                                |
 
-Buscan una forma eficiente de obtener créditos optativos.
-
-Tienen horarios ajustados o viven lejos del campus.
-
-Quieren una optativa que se adapte a su vida.
+📊El programa busca que las personas con situaciones especiales puedan seguir con su nivelación académica sin perjudicar su vida laboral o personal, este enfoque va dirigido en especial a:
+-Personas que buscan una forma eficiente de obtener créditos optativos.
+-Personas que tienen horarios ajustados o viven lejos del campus.
+-Personas que quieren una optativa que se adapte a su vida.
 
 -Usuarios Secundarios
 🏛️ Coordinación y Administración:
