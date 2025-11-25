@@ -53,9 +53,15 @@
    - [Validacion](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Dise%C3%B1o/Validacion%20del%20cliente.md)
    - [codigo](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Dise%C3%B1o/Artefactos%20de%20codigo)
 
-7- [🌿 Ramas por Entrega](#-ramas-por-entrega)
+7- [Pruebas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/214-resultados-de-pruebas-de-usuario/Pruebas)
+   - [Resultados](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/214-resultados-de-pruebas-de-usuario/Pruebas/pruebas.md)
+   - [Encuestas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/214-resultados-de-pruebas-de-usuario/Pruebas/Encuestas.md)
+   - [evidencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/214-resultados-de-pruebas-de-usuario/Pruebas/Artefactos)
+   
 
-8- [🙋 Contribuidores](#-contribuidores)
+8- [🌿 Ramas por Entrega](#-ramas-por-entrega)
+
+9- [🙋 Contribuidores](#-contribuidores)
 
 ---
 

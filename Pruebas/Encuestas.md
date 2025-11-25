@@ -1,39 +1,22 @@
-# Anexo A — Evidencias Visuales de Pruebas
+# Anexo A — Evidencias Visuales de Pruebas Estudiantes
 
 A continuación se presentan las capturas/figuras correspondientes a la sesión de testing.  
-Cada imagen representa una parte del forms de goole
+Cada imagen representa una parte del forms de google
 
 ---
 
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/1.png)
+## forms 
+![forms 1](Artefactos/1.png)
+![forms 2](Artefactos/1.png)
+![forms 3](Artefactos/1.png)
+![forms 4](Artefactos/1.png)
+![forms 5](Artefactos/1.png)
+![forms 6](Artefactos/1.png)
+![forms 7](Artefactos/1.png)
+![forms 8](Artefactos/1.png)
+![forms 9](Artefactos/1.png)
+![forms 10](Artefactos/1.png)
+![forms 11](Artefactos/1.png)
 
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/2.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/3.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/4.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/5.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/6.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/7.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/8.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/9.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/10.png)
-
-## Página 1 — [parte 1 formulario]
-![Página 1 e](Artefactos/11.png)
+# Anexo B — Evidencias Visuales de Pruebas Asesores
+...
