@@ -61,7 +61,7 @@ Se realizó una evaluación en dos frentes:
 | Videollamada | 1 | Baja | Incidencia técnica mínima |
 
 **Gráfica comparativa — Errores por módulo**  
-![Errores por módulo](artefactos/errores%20criticos.png)
+![Errores por módulo](Artefactos/errores%20criticos.png)
 
 ---
 
