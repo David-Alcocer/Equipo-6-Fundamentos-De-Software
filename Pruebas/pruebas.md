@@ -1,14 +1,16 @@
-# ✅ PeerHive — Reporte de Testing con Estudiantes
-
+# ✅ PeerHive — Reporte Integral de Testing con Estudiantes
+**Área:** Quality Engineering & Product Insights  
+**Rol:** Ingeniero de Software QA  
+**Proyecto:** PeerHive (SPA)  
 **Fuentes de datos:**  
-- `TABLA DE ERRORES` (errores críticos + tiempos por tarea)  
-- `Estudiante (respuestas)` (encuestas UX)
+- `TABLA DE ERRORES (1).xlsx` (errores críticos + tiempos por tarea)  
+- `Estudiante (respuestas).xlsx` (encuestas UX)
 
 ---
 
 ## 1. Resumen Ejecutivo
 
-Se realizó una evaluación en dos frentes:
+Se realizó una evaluación integral en dos frentes:
 
 1. **Errores críticos funcionales** detectados por estudiantes durante pruebas del flujo principal.  
 2. **Satisfacción y experiencia de usuario (UX)** medidas con encuestas posteriores.
@@ -16,7 +18,7 @@ Se realizó una evaluación en dos frentes:
 **Objetivo:** identificar hallazgos clave, medir fricción, encontrar tendencias y proponer acciones estratégicas para la siguiente iteración.
 
 **Resumen de hallazgos**
-- El flujo es **funcional** y con recepción positiva.
+- El flujo E2E es **funcional** y con recepción positiva.
 - **Crear solicitud** concentra la mayor fricción (errores + tiempo).
 - **Chat** y **Videollamada** son módulos **estables**, con baja incidencia de fallos.
 - La percepción general es alta (**≥4.5/5**) y el **100% compartiría la app** si fuera real.
@@ -61,7 +63,7 @@ Se realizó una evaluación en dos frentes:
 | Videollamada | 1 | Baja | Incidencia técnica mínima |
 
 **Gráfica comparativa — Errores por módulo**  
-![Errores por módulo](Artefactos/errores%20criticos.png)
+![Errores por módulo](sandbox:/mnt/data/errores_por_modulo.png)
 
 ---
 
@@ -106,8 +108,8 @@ Escala Likert 1–5 (5 = mejor experiencia)
 - **Videollamada:** funcional, pero cuesta ubicar el enlace al inicio.  
 - **Valor percibido:** **100%** la compartiría si fuese un producto real.
 
-**Gráfica de pastel — errores de usuario**  
-![Promedios encuesta](Artefactos/errores%20de%20usuarios.png)
+**Gráfica comparativa — Promedios encuesta por pregunta**  
+![Promedios encuesta](sandbox:/mnt/data/encuestas_promedios.png)
 
 ---
 
@@ -140,11 +142,11 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
 ➡️ UX es buena, pero hay carga cognitiva en selección/navegación.
 
 **🟥 Crítica (mediana > 60s)**  
-- **Crear solicitud**  
+- **Crear solicitud (P50=73 s)**  
 ➡️ Mayor fricción del sistema. La variabilidad alta (σ=40.9) indica que usuarios con menor familiaridad tardan mucho más.
 
 **Gráfica comparativa — Tiempo promedio con variabilidad**  
-![Tiempos promedio](Artefactos/promedio%20de%20tiempo%20por%20tareas.png)
+![Tiempos promedio](sandbox:/mnt/data/tiempos_promedio.png)
 
 ---
 
@@ -177,35 +179,3 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
  Validamos la propuesta de valor: estudiantes completan el flujo completo en 3.2 minutos y califican la UX con 4.5/5. Chat y videollamada operan con estabilidad alta y bajo error. La principal fricción del producto se concentra en “Crear solicitud”, tanto en errores como en tiempo, lo que lo vuelve prioridad del siguiente sprint. Optimizar este módulo puede reducir el tiempo total del flujo en 30–40%, aumentar satisfacción y disminuir errores tempranos, acelerando adopción institucional.
 
 ---
-
-
-## 8. mapas de calor
-
-# 🔥 Resumen Súper Compacto de Mapas de Calor – PeerHive (Móvil)
-
-## 📌 Interacción
-- Los usuarios solo tocan **las celdas con sesiones** y la **tarjeta de información**.  
-- El menú inferior sí recibe interacción.  
-- Los controles del calendario (mes, flechas) casi **no se usan**.
-
-![Interacción](Artefactos/mapa2.png)
-
-## 👀 Atención Visual
-- La vista se concentra en **el centro del calendario** y en la **tarjeta de sesión**.  
-- El header superior casi **no recibe atención**.
-
-
-![Atención visual](Artefactos/mapa1.png)
-
-## 🧩 Conclusión
-Los usuarios van directo a:
-1. **Buscar la sesión**,  
-2. **Ver sus detalles**,  
-3. **Navegar desde la barra inferior**.  
-
-El área superior y los controles del calendario **no se descubren fácilmente** → requieren mayor peso visual o rediseño.
-
----
-
-# ✅ PeerHive — Reporte de Testing con EstudiaAsesores
-...
