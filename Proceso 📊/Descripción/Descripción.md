@@ -320,3 +320,116 @@ Eliminar archivos no necesarios en el proyecto, Actualizar los enlaces del tablo
 | **Javier Toache** | Historias de Usuario en formato Markdown, diseño del prototipo y depuración de HU | 4.5 | **28 %** | Documentación final en Markdown y diseño de prototipo |
 
 **Total: 16 puntos — 100 %**
+
+
+
+# 🐝 PeerHive: Documentación del Incremento — Sprint #4
+
+## ✨ Visión General del Sprint
+**Sprint #4:** Pruebas, resultados y videos
+**Periodo:** [19 al 24 de noviembre]  
+**Duración:** 5 días  
+
+### 🎯 Objetivo Central
+Realizar **pruebas informales con usuarios**, obtener datos cuantitativos y cualitativos sobre la plataforma, analizar resultados y generar los primeros insumos para el **video final del proyecto**.
+
+### Entregables del Sprint #4
+- Formularios de evaluación (intuitividad, dificultad y errores) 
+- Pruebas informales aplicadas a usuarios 
+- Gráficas, análisis y resultados derivados de las pruebas.  
+- Avance #1 del guion del video 
+- Evidencia de grabaciones para el video final (todos).  
+- Calificación general del sistema (escala 1–10 basada en usuarios reales)  
+
+
+## 📁 Organización del branch
+- **Branch de entrega:** `Tercera-Entrega-(Proyecto)`.  
+- **Estructura clara:** Requisitos, Documentación de Sprints y Diseño.  
+- **Commits detallados:** Mensajes explicativos.
+
+
+
+## 📝 Asignación de Actividades y Valores – Sprint 4
+
+| #  | Actividad                        | Valor | Responsable                                           | Fecha de Entrega |
+|----|----------------------------------|-------|--------------------------------------------------------|------------------|
+| 7  | Pruebas de usuario               | 4     | David Misael, Leonardo San Martín, Rodrigo Salazar, Javier Toache | 23 nov |
+| 8  | Grabación para video final       | 2     | David Misael, Leonardo San Martín, Rodrigo Salazar, Javier Toache | 24 nov |
+| 9  | Avance #1 del guion              | 1     | Javier Toache                                          | 23 nov |
+| 10 | Resultados de pruebas de usuario | 3     | Leonardo San Martín                                    | 23nov |
+
+
+**Subtotal: 14 puntos**
+
+---
+
+### 🔹 Planeación de Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.
+- Se aplicó un **margen de riesgo del 20 %** al tiempo de entrega para asegurar estabilidad.
+- Se realizarán commits con un **titulo** y una **descripcion** detallada de la actividad
+- **Verificación:**
+  - Seguimiento diario en GitHub Projects con flujo:
+    `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+    -### 🔹 Definition of Done (DoD)
+          Un artefacto se considera *DONE* si:
+            - Cumple **criterios** de aceptación:
+            - Fue **revisado** internamente (Review).  
+            - **No** presenta **errores críticos**.  
+            - Está **integrado** en el repositorio.  
+            - Posee **documentación completa**.
+- **backlog board**: 
+      - **tickets** y **nuevas ramas para cada tarea** 
+      - **fechas de entrega**
+      - **Etiquetas de tarea**
+      - **milestone/hitos**
+          - en el primer PR hacer: closes # numero de issue de la tarea del integrante
+          - pasa a review al entregar la tarea
+          - pasa a DONE cada que vaya a main
+          - borrar rama temporal de tarea (manual)
+
+### 🔹 Coordinación
+- **weekly**
+    - Se documentaran reuniones con acuerdos, avances y blockers.
+    - bitacora de reuniones
+- ***Bitacora de reunion***
+    - Acuerdos/resolución de conflictos
+    - Responsables
+    - Tareas
+    - Fechas límite de entrega
+    - Productos resultantes
+
+---
+
+# 🔢 Escala de Valor Total del Sprint #4
+
+| #  | Actividad                        | Valor |
+|----|----------------------------------|-------|
+| 1  | Pruebas de usuario               | 5     |
+| 2  | Grabación para video             | 1     |
+| 3  | Avance #1 del guion              | 3     |
+| 4 | Resultados de pruebas de usuario | 5     |
+
+**Total Sprint 4:** **14 puntos – 100 %**
+
+**Total:** 14 puntos (100 %)  
+- Misa: 11 %  
+- Leo: 46.5 %  
+- Rodrigo: 11 %  
+- Toache: 32 %
+
+---
+
+# 📊 Métrica de Contribución Individual – Sprint 4
+
+| Integrante             | Rol Principal                                           | Puntos | % Contribución | Evidencia |
+|------------------------|----------------------------------------------------------|--------|----------------|-----------|
+| **David Misael**       | Pruebas de usuario · Grabaciones                        | 1.5    | 11 %           | Formularios, videos y notas de prueba |
+| **Leonardo San Martín**| Resultados de pruebas · Análisis cuantitativo/cualitativo | 6.5      | 46.5 %           | Gráficas, reporte, formularios y conclusiones |
+| **Rodrigo Salazar**    | Pruebas de usuario · Grabaciones                         | 1.5      | 11 %           | Participación en sesiones y documentación |
+| **Javier Toache**      | Avance #1 del guion · Pruebas · Grabaciones              | 4.5    | 32 %           | Guion, videos |
+
+**Total:** **14 puntos — 100 %**
+
+# Conclusión del Sprint #4
+
+----
