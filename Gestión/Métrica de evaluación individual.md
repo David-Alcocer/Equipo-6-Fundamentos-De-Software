@@ -171,17 +171,55 @@
 
 ---
 
-| # | Actividad | Valor | Responsable | Fecha de Entrega | cumplimiento |
+| # | Actividad | Valor | Responsable | Fecha de Entrega |
 |---|------------|--------|--------------|------------------|
-| 1 | Eliminación de archivos innecesarios del repositorio | 1 | David Misael | 10 nov |   |
-| 2 | Actualización de tablones  | 1 | Leonardo San Martin | 11  nov |  |
-| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 16 nov |   |
-| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Javier Toache | 12 nov | |
-| 5 | Descripción de usuarios                                  | 3 | Rodrigo Salazar | 15 nov | |
-| 6 | Diseño de media-alta fidelidad del prototipo | 5 | Leonardo San Martin,Javier Toache  | 16 nov |  |
+| 1 | Eliminación de archivos innecesarios del repositorio | 1 | David Misael | 10 nov |
+| 2 | Actualización de tablones  | 1 | Leonardo San Martin | 11  nov |
+| 3 | Depuración de Historias de Usuario (realizada por todos) | 5 | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 16 nov |
+| 4 | Historias de Usuario en formato Markdown (documentación final) | 1 | Javier Toache | 12 nov |
+| 5 | Descripción de usuarios                                  | 3 | Rodrigo Salazar | 15 nov |
+| 6 | Diseño de media-alta fidelidad del prototipo | 5 | Leonardo San Martin,Javier Toache  | 16 nov |
 
 
 **Total:** 16 puntos — 100 %
+
+---
+
+## 📜 Evidencias y Observaciones
+
+- **Misa:** trabajo de forma puntual
+- **Leo:** trabajo de forma puntual
+- **Rodrigo:** tuvo 2 atrasos justificados
+- **Toache:** tuvo 2 atrasos justificados
+
+---
+
+## 🧾 Conclusión
+
+- Se actualizaron los tablones lo que permitio una mejor navegacion por el repositorio
+- Se mejoró la lectura gracias a usar el formato MD
+- se completó el MOck-up lo que permitirá hacer las pruebas a los usuarios
+- se eliminaron archivos innecesarios del repositorio
+- Se definieron mejor las Historias de Usuario y Requisitos No Funcionales
+- La descripcion de usuarios sirvió para poder analizar COMO son nuestros usuarios
+
+
+---
+
+# 🐝 Métrica de Evaluación Individual – Proyecto SOF PeerHive — Sprint #4
+
+
+---
+
+| # | Actividad                                   | Valor | Responsable                                           | Fecha de Entrega |
+|---|----------------------------------------------|-------|--------------------------------------------------------|------------------|
+| 1 | Pruebas de usuario                           | 5     | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 23 nov |
+| 2 | Grabación para video final                   | 1     | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 24 nov |
+| 3 | Avance #1 del guion                          | 3     | Javier Toache                                          | 23 nov |
+| 4| Resultados de pruebas de usuario             | 5     | Leonardo San Martin                                    | 23 nov |
+
+**Total:** 14 puntos — 100 %
+
 
 ---
 
