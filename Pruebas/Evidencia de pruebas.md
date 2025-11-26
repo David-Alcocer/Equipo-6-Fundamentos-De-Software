@@ -22,12 +22,12 @@
    - 🔗 **Evidencia:** [Click para ver video](https://drive.google.com/file/d/1PUulJRDmYz-wHm0MdxZVpG_l5XGgynTv/view?usp=sharing)
    - 🚦 Estado: Completado con Ayuda
 
-   3. **Rodrigo Serrano / quinto semestre**
+3. **Rodrigo Serrano / quinto semestre**
    - 💻 Dispositivo: iPhone / Safari
    - 🔗 **Evidencia:** [Click para ver video](https://drive.google.com/file/d/17irVZRGG7lf_D2GQ_IDY6xPJM0CYvDHS/view?usp=sharing)
    - 🚦 Estado: Completado con ayuda
 
-   4. **Mauricio camacho / quinto semestre**
+4. **Mauricio camacho / quinto semestre**
    - 💻 Dispositivo: iPhone / Safari
    - 🔗 **Evidencia:** [Click para ver video](https://drive.google.com/file/d/16rkhNBmZLyaOtaXmtUSDLOkI--8L0dZA/view?usp=sharing)
    - 🚦 Estado: Completado con ayuda
