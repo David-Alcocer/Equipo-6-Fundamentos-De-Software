@@ -18,6 +18,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 ---
 🧩 Sprint 1 – Registro de Reuniones
 1. Validación Académica Inicial – Pitch con Profesor
+
 | Campo              | Detalle                                                                  |
 | ------------------ | ------------------------------------------------------------------------ |
 | **Fecha**          | Viernes, 19 de septiembre de 2025                                        |
@@ -33,6 +34,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Todo el equipo                                                           |
 
 2. Validación con Stakeholder (Coordinador)
+
 | Campo              | Detalle                                                              |
 | ------------------ | -------------------------------------------------------------------- |
 | **Fecha**          | Lunes, 22 de septiembre de 2025                                      |
@@ -48,6 +50,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Todo el equipo, David Alcocer                                        |
 
 3. Aprobación "Go" y Definición de Piloto
+
 | Campo              | Detalle                                                        |
 | ------------------ | -------------------------------------------------------------- |
 | **Fecha**          | Martes, 23 de septiembre de 2025                               |
