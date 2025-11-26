@@ -3,7 +3,7 @@
 **Rol:** Ingeniero de Software QA  
 **Proyecto:** PeerHive (SPA)  
 **Fuentes de datos:**  
-- `TABLA DE ERRORES (1).xlsx` (errores críticos + tiempos por tarea)  
+- `TABLA DE ERRORES.xlsx` (errores críticos + tiempos por tarea)  
 - `Estudiante (respuestas).xlsx` (encuestas UX)
 
 ---
@@ -63,7 +63,7 @@ Se realizó una evaluación integral en dos frentes:
 | Videollamada | 1 | Baja | Incidencia técnica mínima |
 
 **Gráfica comparativa — Errores por módulo**  
-![Errores por módulo](sandbox:/mnt/data/errores_por_modulo.png)
+![Errores por módulo](Artefactos/errores%20criticos.png)
 
 ---
 
@@ -109,7 +109,7 @@ Escala Likert 1–5 (5 = mejor experiencia)
 - **Valor percibido:** **100%** la compartiría si fuese un producto real.
 
 **Gráfica comparativa — Promedios encuesta por pregunta**  
-![Promedios encuesta](sandbox:/mnt/data/encuestas_promedios.png)
+![Promedios encuesta](Artefactos/errores%20de%20usuarios.png)
 
 ---
 
@@ -146,7 +146,7 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
 ➡️ Mayor fricción del sistema. La variabilidad alta (σ=40.9) indica que usuarios con menor familiaridad tardan mucho más.
 
 **Gráfica comparativa — Tiempo promedio con variabilidad**  
-![Tiempos promedio](sandbox:/mnt/data/tiempos_promedio.png)
+![Tiempos promedio](Artefactos/promedio%20de%20tiempo%20por%20tareas.png)
 
 ---
 
