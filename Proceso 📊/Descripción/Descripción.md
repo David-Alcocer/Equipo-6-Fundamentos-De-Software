@@ -431,5 +431,124 @@ Realizar **pruebas informales con usuarios**, obtener datos cuantitativos y cual
 **Total:** **14 puntos — 100 %**
 
 # Conclusión del Sprint #4
+El Sprint #4 permitió validar la plataforma mediante pruebas reales con usuarios, obteniendo datos clave sobre intuitividad, dificultad y errores. Se generaron análisis cuantitativos y cualitativos que ayudaron a identificar oportunidades de mejora. Además, se avanzó en la preparación del video final mediante grabaciones y desarrollo del primer guion. En conjunto, este sprint consolidó la etapa de evaluación del sistema y dejó listos los insumos necesarios para la fase final de documentación y presentación del proyecto.
 
 ----
+
+# 🐝 PeerHive: Documentación del Incremento — Sprint #5  
+**Versión corregida con nuevas tareas y porcentajes**
+
+---
+
+## ✨ Visión General del Sprint
+**Sprint #5:** Documentación final, análisis y cierre del proyecto  
+**Periodo:** 25 al 27 de noviembre  
+**Duración:** 3 días  
+
+### 🎯 Objetivo Central
+Documentar completamente el cierre del proyecto:
+- Evolución del producto  
+- Cobertura de requisitos  
+- Resumen de cambios del diseño  
+- Descripción final del proceso  
+- Video final  
+- Competencias y crítica constructiva  
+
+---
+
+# 📝 Asignación de Actividades y Valores – Sprint 5 (Actualizado)
+
+| # | Actividad                               | Valor | Responsable                 | Fecha |
+|---|------------------------------------------|-------|-----------------------------|--------|
+| 1 | Evolución del producto                  | 3     | Rodrigo Salazar             | 27 nov |
+| 2 | Nivel de cobertura de los requisitos    | 5     | David Misael                | 27 nov |
+| 3 | Resumen de los cambios del diseño       | 5     | Leonardo San Martín         | 27 nov |
+| 4 | Descripción final del proceso           | 5     | David Misael · Javier Toache| 27 nov |
+| 5 | Video final                             | 5     | Javier Toache               | 27 nov |
+| 6 | Competencias y crítica constructiva     | 3     | Rodrigo Salazar · Leonardo San Martín | 27 nov |
+
+**Total del Sprint:** **26 puntos**
+
+---
+
+# 🔢 Escala de Valor Total del Sprint #5
+
+| Actividad                        | Valor |
+|----------------------------------|-------|
+| Evolución del producto           | 3     |
+| Cobertura de requisitos          | 5     |
+| Cambios de diseño                | 5     |
+| Descripción final del proceso    | 5     |
+| Video final                      | 5     |
+| Competencias y crítica           | 3     |
+| **Total Sprint 5**               | **26 puntos – 100 %** |
+
+-----
+### 🔹 Planeación de Monitoreo
+- Se seleccionaron historias de usuario de mayor prioridad.
+- Se aplicó un **margen de riesgo del 20 %** al tiempo de entrega para asegurar estabilidad.
+- Se realizarán commits con un **titulo** y una **descripcion** detallada de la actividad
+- **Verificación:**
+  - Seguimiento diario en GitHub Projects con flujo:
+    `TO DO → IN PROGRESS → IN VALIDATION → DONE`.
+    -### 🔹 Definition of Done (DoD)
+          Un artefacto se considera *DONE* si:
+            - Cumple **criterios** de aceptación:
+            - Fue **revisado** internamente (Review).  
+            - **No** presenta **errores críticos**.  
+            - Está **integrado** en el repositorio.  
+            - Posee **documentación completa**.
+- **backlog board**: 
+      - **tickets** y **nuevas ramas para cada tarea** 
+      - **fechas de entrega**
+      - **Etiquetas de tarea**
+      - **milestone/hitos**
+          - en el primer PR hacer: closes # numero de issue de la tarea del integrante
+          - pasa a review al entregar la tarea
+          - pasa a DONE cada que vaya a main
+          - borrar rama temporal de tarea (manual)
+
+---
+
+# 📈 Métrica de Contribución Individual – Sprint 5  
+### *(Recalculada en base a las tareas asignadas)*
+
+## ✔ Cálculo por integrante
+- **David Misael:**  
+  - Cobertura de requisitos (5)  
+  - Descripción final del proceso (2.5 de los 5 en conjunto)  
+  - **Total:** 7.5 puntos  
+
+- **Leonardo San Martín:**  
+  - Cambios de diseño (5)  
+  - Competencias y crítica (1.5 de los 3 en conjunto)  
+  - **Total:** 6.5 puntos  
+
+- **Rodrigo Salazar:**  
+  - Evolución del producto (3)  
+  - Competencias y crítica (1.5 de los 3 en conjunto)  
+  - **Total:** 4.5 puntos  
+
+- **Javier Toache:**  
+  - Descripción final del proceso (2.5)  
+  - Video final (5)  
+  - **Total:** 7.5 puntos  
+
+---
+
+## ✔ Porcentajes recalculados (26 puntos totales)
+
+| Integrante           | Puntos | % Contribución |
+|----------------------|--------|----------------|
+| **David Misael**     | 7.5    | **28.8 %**     |
+| **Leonardo San Martín** | 6.5 | **25.0 %**     |
+| **Rodrigo Salazar**  | 4.5    | **17.3 %**     |
+| **Javier Toache**    | 7.5    | **28.8 %**     |
+
+---
+
+# 🏁 Conclusión del Sprint #5  
+
+---
+
+
