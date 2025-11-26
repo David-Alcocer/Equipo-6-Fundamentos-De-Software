@@ -3,8 +3,8 @@
 **Rol:** Ingeniero de Software QA
 **Proyecto:** PeerHive (SPA)
 **Fuentes de datos:**
-- ``TABLA DE ERRORES.xlsx`` (errores críticos + tiempos por tarea)
-- ``Asesor (respuestas).xlsx - Respuestas de formulario 1.csv`` (encuestas UX)
+- ``TABLA DE ERRORES`` (errores críticos + tiempos por tarea)
+- ``Asesor (respuestas) - Respuestas de formulario 1.csv`` (encuestas UX)
 
 ---
 
