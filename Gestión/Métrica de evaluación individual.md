@@ -206,19 +206,60 @@
 
 ---
 
-# 🐝 Métrica de Evaluación Individual – Proyecto SOF PeerHive — Sprint #4
+    # 🐝 Métrica de Evaluación Individual – Proyecto SOF PeerHive — Sprint #4
+
+
+    ---
+
+    | # | Actividad                                   | Valor | Responsable                                           | Fecha de Entrega |
+    |---|----------------------------------------------|-------|--------------------------------------------------------|------------------|
+    | 1 | Pruebas de usuario                           | 5     | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 23 nov |
+    | 2 | Grabación para video final                   | 1     | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 24 nov |
+    | 3 | Avance #1 del guion                          | 3     | Javier Toache                                          | 23 nov |
+    | 4| Resultados de pruebas de usuario             | 5     | Leonardo San Martin                                    | 23 nov |
+
+    **Total:** 14 puntos — 100 %
+
+
+    ---
+
+    ## 📜 Evidencias y Observaciones
+
+    ### **Misa**
+Realizó sus tareas en tiempo y forma, mostrando disposición para apoyar al resto del equipo durante las pruebas y grabaciones. Su participación fue constante y contribuyó a mantener el flujo de trabajo estable durante el sprint.
+
+### **Leo**
+Tomó un rol clave en el análisis de los resultados de las pruebas de usuario, elaborando gráficas, tablas y conclusiones que permitieron comprender el desempeño real del sistema. Su trabajo fue fundamental para la parte analítica y para la interpretación de datos.
+
+### **Rodrigo**
+Participó activamente en las pruebas de usuario y en la grabación del video. Mostró buena coordinación con el equipo y cumplió con los tiempos asignados. Su apoyo permitió completar las actividades del sprint sin retrasos.
+
+### **Toache**
+Entregó el primer avance del guion y participó en pruebas y grabaciones. Demostró iniciativa en la parte creativa del proyecto y colaboró para estructurar el contenido audiovisual del video final del sprint.
 
 
 ---
 
-| # | Actividad                                   | Valor | Responsable                                           | Fecha de Entrega |
-|---|----------------------------------------------|-------|--------------------------------------------------------|------------------|
-| 1 | Pruebas de usuario                           | 5     | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 23 nov |
-| 2 | Grabación para video final                   | 1     | David Misael, Leonardo San Martin, Rodrigo Salazar, Javier Toache | 24 nov |
-| 3 | Avance #1 del guion                          | 3     | Javier Toache                                          | 23 nov |
-| 4| Resultados de pruebas de usuario             | 5     | Leonardo San Martin                                    | 23 nov |
+## 🧾 Conclusión
+El Sprint #4 permitió validar la plataforma mediante pruebas reales con usuarios, obteniendo datos clave sobre intuitividad, dificultad y errores. Se generaron análisis cuantitativos y cualitativos que ayudaron a identificar oportunidades de mejora. Además, se avanzó en la preparación del video final mediante grabaciones y desarrollo del primer guion. En conjunto, este sprint consolidó la etapa de evaluación del sistema y dejó listos los insumos necesarios para la fase final de documentación y presentación del proyecto.
 
-**Total:** 14 puntos — 100 %
+---
+
+# 🐝 Métrica de Evaluación Individual – Proyecto SOF PeerHive — Sprint #5
+
+
+---
+
+| # | Actividad                               | Valor | Responsable                 | Fecha |
+|---|------------------------------------------|-------|-----------------------------|--------|
+| 1 | Evolución del producto                  | 3     | Rodrigo Salazar             | 27 nov |
+| 2 | Nivel de cobertura de los requisitos    | 5     | David Misael                | 27 nov |
+| 3 | Resumen de los cambios del diseño       | 5     | Leonardo San Martín         | 27 nov |
+| 4 | Descripción final del proceso           | 5     | David Misael · Javier Toache| 27 nov |
+| 5 | Video final                             | 5     | Javier Toache               | 27 nov |
+| 6 | Competencias y crítica constructiva     | 3     | Rodrigo Salazar · Leonardo San Martín | 27 nov |
+
+**Total del Sprint:** **26 puntos**
 
 
 ---
@@ -233,5 +274,41 @@
 ---
 
 ## 🧾 Conclusión
+----
+
+## 📊 Métrica Global de Contribución del Proyecto
+
+El equipo cuenta con una **métrica de contribución global** basada en la división del **100 % por entrega (Sprint)**.  
+Cada sprint se considera con el mismo peso (20 % del total del proyecto) y dentro de cada sprint la contribución individual se midió mediante puntos y porcentajes ya definidos en la documentación de cada incremento.
+
+A partir de los porcentajes de contribución de los **Sprints 1, 2, 3, 4 y 5**, se calculó el **promedio por integrante**, obteniendo así una visión global de su participación en el proyecto completo.
+
+### 📌 Cálculo de la métrica
+Para cada integrante se tomó:
+
+> Métrica global = promedio de sus **% de contribución por sprint**  
+> (considerando todos los sprints en los que participó el equipo, con cada sprint valiendo 100 %).
 
 ---
+
+### 🧮 Resultado de la Métrica Global de Contribución
+
+| Integrante             | % Sprint 1 | % Sprint 2 | % Sprint 3 | % Sprint 4 | % Sprint 5 | % Global Aproximado |
+|------------------------|-----------:|-----------:|-----------:|-----------:|-----------:|---------------------:|
+| **David Misael**       | 30.0 %     | 28.0 %     | 28.0 %     | 11.0 %     | 28.8 %     | **≈ 25.2 %** |
+| **Leonardo San Martín**| 20.0 %     | 24.0 %     | 28.0 %     | 46.5 %     | 25.0 %     | **≈ 28.7 %** |
+| **Rodrigo Salazar**    | 18.0 %     | 24.0 %     | 16.0 %     | 11.0 %     | 17.3 %     | **≈ 17.3 %** |
+| **Javier Toache**      | 16.0 %     | 24.0 %     | 28.0 %     | 32.0 %     | 28.8 %     | **≈ 25.8 %** |
+| **Harold**             | 16.0 %     |   –        |   –        |   –        |   –        | **≈ 3.2 %**  |
+
+> 🔎 *Nota:* Los valores globales son aproximados debido al redondeo a un decimal, por lo que la suma total puede ser ligeramente superior al 100 %.
+
+---
+
+### 🎯 Interpretación
+
+- **Leonardo** y **Javier** presentan la contribución global más alta en el proyecto, con ~28.7 % y ~25.8 % respectivamente.  
+- **David** mantiene una participación muy constante a lo largo de los sprints, con una contribución global de ~25.2 %.  
+- **Rodrigo** aporta ~17.3 %, concentrado especialmente en actividades de documentación, usuarios y evolución del producto.  
+- **Harold** participa solo en el Sprint 1, reflejando una contribución global de ~3.2 % sobre el total del proyecto.
+
