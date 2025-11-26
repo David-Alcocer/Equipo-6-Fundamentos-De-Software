@@ -6,7 +6,7 @@
 [Figma tarea de prototipo ] (https://www.figma.com/proto/MzYcOXkX42vubYmrf3KQvW/dise%C3%B1o?page-id=7%3A513&node-id=11-24233&viewport=500%2C1206%2C0.23&t=8v1bpaNZFSRvojwA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A24233)
 
 **Mock up (desplegado):**  
-[Peerhive.mockup] (https://venerable-dodol-ad2cfb.netlify.app/)
+[Peerhive.mockup] (https://peerhive-app.netlify.app/)
 
 El mock up se realizo con prompts de chat gpt usando los wirerframes de baja calidad, dandole instruciones precisas de como implementar las cosas y los roles que deberia tener para chatgpt pueda hacerlo lo mas apegado a la expectativa.
 
@@ -158,7 +158,3 @@ Ademas, los cambios reflejados en las historias de usuario, priorizacion y requi
 
 Conclusión de la tarea de prototipos: sign up y login
 se subieron los wireframes y proximos a revisión
-
-**Para la siguiente fecha de sprint**
-- realizar mejoras en color, diseño, UX/UI
-- implementación de AI figma

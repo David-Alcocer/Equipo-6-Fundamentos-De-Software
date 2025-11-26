@@ -3,8 +3,8 @@
 **Rol:** Ingeniero de Software QA  
 **Proyecto:** PeerHive (SPA)  
 **Fuentes de datos:**  
-- `TABLA DE ERRORES.xlsx` (errores críticos + tiempos por tarea)  
-- `Estudiante (respuestas).xlsx` (encuestas UX)
+- [TABLA DE ERRORES](Artefactos/)(errores críticos + tiempos por tarea)  
+- [Estudiantes(respuestas)](Artefactos/Estudiante%20(respuestas).xlsx) (encuestas UX)
 
 ---
 
@@ -21,7 +21,7 @@ Se realizó una evaluación integral en dos frentes:
 - El flujo E2E es **funcional** y con recepción positiva.
 - **Crear solicitud** concentra la mayor fricción (errores + tiempo).
 - **Chat** y **Videollamada** son módulos **estables**, con baja incidencia de fallos.
-- La percepción general es alta (**≥4.5/5**) y el **100% compartiría la app** si fuera real.
+- La percepción general es alta (**≥4.5/5**) y el **100% compartiría la Web** si fuera real.
 
 ---
 
@@ -53,17 +53,17 @@ Se realizó una evaluación integral en dos frentes:
 
 ### 2.3 Errores por módulo
 
-| Módulo | Errores totales | Severidad percibida | Nota QA |
+| Módulo | Errores totales | Estado | Nota QA |
 |---|---:|---|---|
-| **Iniciar sesión** | **10** | Alta | Validaciones/inputs generan fricción inicial |
-| **Crear solicitud** | **5** | Alta | UX compleja → errores recurrentes |
-| **Ver solicitud** | **5** | Media | Flow/estado aún mejorable |
+| **Iniciar sesión** | **10** | Cambios requeridos | Validaciones/inputs generan fricción inicial |
+| **Crear solicitud** | **5** | Aceptable | UX compleja → errores recurrentes |
+| **Ver solicitud** | **5** | Aceptable | Flow/estado aún mejorable |
 | Chat | 4 | Baja | Estable, sin bloqueos |
-| Ver sesión | 3 | Media | Ubicación/jerarquía mejorable |
-| Videollamada | 1 | Baja | Incidencia técnica mínima |
+| Ver sesión | 3 | bueno | Ubicación/jerarquía mejorable |
+| Videollamada | 1 | Excelente | Incidencia técnica mínima |
 
 **Gráfica comparativa — Errores por módulo**  
-![Errores por módulo](Artefactos/errores%20criticos.png)
+[Errores por módulo](Artefactos/errores%20criticos.png)
 
 ---
 
@@ -109,7 +109,7 @@ Escala Likert 1–5 (5 = mejor experiencia)
 - **Valor percibido:** **100%** la compartiría si fuese un producto real.
 
 **Gráfica comparativa — Promedios encuesta por pregunta**  
-![Promedios encuesta](Artefactos/errores%20de%20usuarios.png)
+[Promedios encuesta](Artefactos/errores%20de%20usuarios.png)
 
 ---
 
@@ -119,19 +119,19 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
 
 ### 4.1 Promedios, desviación estándar y percentiles
 
-| Tarea | Promedio (s) | σ (s) | P25 | Mediana (P50) | P75 | P90 |
+| Tarea | Promedio (s) | σ (s) |
 |---|---:|---:|---:|---:|---:|---:|
-| Iniciar sesión | 41.31 | 23.85 | 26 | 35 | 49 | 76 |
-| **Crear solicitud** | **78.46** | **40.93** | 55 | **73** | 87 | 120 |
-| Ver solicitud | 13.46 | 6.89 | 8 | 12 | 18 | 23 |
-| Chat | 34.92 | 23.57 | 16 | 28 | 53 | 69 |
-| Ver sesión | 16.38 | 9.81 | 10 | 12 | 23 | 29 |
-| Videollamada | 8.85 | 7.40 | 4 | 6 | 10 | 21 |
-| **Tiempo total** | **193.38** | **61.64** | 131 | 182 | 248 | 274 |
+| Iniciar sesión | 41.31 | 23.85 ||
+| **Crear solicitud** | **78.46** | **40.93** |
+| Ver solicitud | 13.46 | 6.89 |
+| Chat | 34.92 | 23.57 | 16 |
+| Ver sesión | 16.38 | 9.81 |
+| Videollamada | 8.85 | 7.40 |
+| **Tiempo total** | **193.38** | **61.64** |
 
 ---
 
-### 4.2 Interpretación profesional
+### 4.2 Interpretación
 
 **🟩 Operaciones rápidas (mediana < 15s)**  
 - Ver solicitud, Ver sesión, Videollamada  
@@ -146,7 +146,7 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
 ➡️ Mayor fricción del sistema. La variabilidad alta (σ=40.9) indica que usuarios con menor familiaridad tardan mucho más.
 
 **Gráfica comparativa — Tiempo promedio con variabilidad**  
-![Tiempos promedio](Artefactos/promedio%20de%20tiempo%20por%20tareas.png)
+[Tiempos promedio](Artefactos/promedio%20de%20tiempo%20por%20tareas.png)
 
 ---
 
@@ -154,7 +154,7 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
 
 ### ✔ Fortalezas
 - Chat y Videollamada son **confiables y estables**.
-- UI/visuals muy bien recibidos (**≥4.5/5**).
+- UI muy bien recibido (**≥4.5/5**).
 - Alto potencial de adopción: **todos lo recomendarían**.
 
 ### ⚠ Prioridades de mejora
@@ -179,3 +179,28 @@ Se midieron tiempos en segundos por tarea para evaluar eficiencia y fricción co
  Validamos la propuesta de valor: estudiantes completan el flujo completo en 3.2 minutos y califican la UX con 4.5/5. Chat y videollamada operan con estabilidad alta y bajo error. La principal fricción del producto se concentra en “Crear solicitud”, tanto en errores como en tiempo, lo que lo vuelve prioridad del siguiente sprint. Optimizar este módulo puede reducir el tiempo total del flujo en 30–40%, aumentar satisfacción y disminuir errores tempranos, acelerando adopción institucional.
 
 ---
+
+## 8. Mapas de calor
+
+# 🔥 Resumen Súper Compacto de Mapas de Calor – PeerHive (Móvil)
+
+[Mapa 1](Artefactos/mapa1.png)
+[Mapa 2](Artefactos/mapa2.png)
+
+
+##  Interacción
+- Los usuarios solo tocan **las celdas con sesiones** y la **tarjeta de información**.  
+- El menú inferior sí recibe interacción.  
+- Los controles del calendario (mes, flechas) casi **no se usan**.
+
+##  Atención Visual
+- La vista se concentra en **el centro del calendario** y en la **tarjeta de sesión**.  
+- El header superior casi **no recibe atención**.
+
+##  Conclusión
+Los usuarios van directo a:
+1. **Buscar la sesión**,  
+2. **Ver sus detalles**,  
+3. **Navegar desde la barra inferior**.  
+
+El área superior y los controles del calendario **no se descubren fácilmente** → requieren mayor peso visual o rediseño.
