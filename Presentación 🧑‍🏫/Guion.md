@@ -27,12 +27,6 @@ We didn't just say people needed help; we diagnosed the root of the issue with e
 ### B. PeerHive 🐝: The Solution that Earns Credits (And Avoids Traffic)
 Our solution, PeerHive, is a flexible tutoring platform that becomes the perfect academic matchmaker:
 
-| Role | Action |
-| :--- | :--- |
-| Learner (1st - 4th semester) | Posts their question and, most importantly, their time availability. |
-| Tutor (+180 credits) | Offers their knowledge by posting their free hours to earn credits. |
-| The Platform | Creates the perfect match, establishing a mutual support system where everyone wins. |
-
 ### C. Innovation Factor: Flexibility, Our New Obsession!
 * **Matching Schedules:** Our key differentiator. Unlike traditional systems, we focus on matching students’ real and non-conventional schedules.
 * **Answering a Real Need:** We're not solving imaginary problems; we are attacking the issues of work, travel, and lack of time identified by our own community.
@@ -61,9 +55,6 @@ With clear guidelines, we adopted a rigorous and proven working methodology:
 But during Sprint 2, we realized a crucial detail: schedule flexibility was useless if the help lacked quality.
 We asked a question that changed everything: Who should be a tutor? Is having free time enough?
 
-> NARRATOR (on camera, firm tone):
-> And here, our goal evolved. We decided PeerHive wouldn't just be a "tutoring" website, but a system for **reliable tutoring**.
-
 To guarantee quality:
 * **Minimum Requirement:** A tutor must be in 5th semester or higher.
 * **Academic Credentialing:** Not only that. They must have sufficient credits and an academic history that proves they are in good standing.
@@ -82,8 +73,7 @@ The Third Deliverable (Sprint 3) was the phase where we moved past planning and 
 ### B. The Security Pivot: From Buttons to Recordings
 In this testing phase, we discovered a critical weakness in our "Engineer's Lock":
 
-> (0:50 - 1:05) NARRATOR (concerned but resolute tone):
-> We realized the Check-In and Check-Out buttons weren't secure enough. They only validated time, but didn't offer a robust way to verify that tutors were actually giving advice. They could check in and check out without talking to anyone.
+We realized the Check-In and Check-Out buttons weren't secure enough. They only validated time, but didn't offer a robust way to verify that tutors were actually giving advice. They could check in and check out without talking to anyone.
 
 So, the idea of using a robust, readily available tool emerged: **Microsoft Teams**. The new requirement is for the tutor to **record the session**, so the system can transcribe the content, and the file is automatically saved to a private Teams channel. This verifies both the duration and the content, guaranteeing documentary proof of the service provided.
 
