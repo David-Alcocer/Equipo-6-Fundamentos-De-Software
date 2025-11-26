@@ -79,6 +79,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Todo el equipo                                                      |
 
 5. Capacitación Git/GitHub – Fundamentos
+
 | Campo              | Detalle                                                    |
 | ------------------ | ---------------------------------------------------------- |
 | **Fecha**          | Viernes, 10 de octubre de 2025                             |
@@ -94,6 +95,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | David Alcocer, Todo el equipo                              |
 
 6. Capacitación Git/GitHub – Buenas Prácticas
+
 | Campo              | Detalle                                          |
 | ------------------ | ------------------------------------------------ |
 | **Fecha**          | Sábado, 11 de octubre de 2025                    |
@@ -110,6 +112,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 
 🧩 Sprint 2 – Registro de Reuniones
 1. Kick-off del Sprint y Planificación
+
 | Campo              | Detalle                                              |
 | ------------------ | ---------------------------------------------------- |
 | **Fecha**          | Sábado, 18 de octubre                                |
@@ -125,6 +128,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Todo el equipo                                       |
 
 2. Sincronización Técnica
+
 | Campo              | Detalle                                          |
 | ------------------ | ------------------------------------------------ |
 | **Fecha**          | Miércoles, 22 de octubre                         |
@@ -139,6 +143,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Todo el equipo                                   |
 
 3. Discovery y Análisis
+
 | Campo              | Detalle                                              |
 | ------------------ | ---------------------------------------------------- |
 | **Fecha**          | Jueves, 23 de octubre                                |
@@ -154,6 +159,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Todo el equipo                                       |
 
 4. Validación con Cliente (Prototipo v1)
+
 | Campo              | Detalle                              |
 | ------------------ | ------------------------------------ |
 | **Fecha**          | Lunes, 27 de octubre                 |
@@ -169,6 +175,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Leonardo San Martin, David Alcocer   |
 
 5. Iteración y Plan de Testing (Prototipo v2)
+
 | Campo              | Detalle                                      |
 | ------------------ | -------------------------------------------- |
 | **Fecha**          | Martes, 28 de octubre                        |
@@ -185,6 +192,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 
 🧩 Sprint 3 – Registro de Reuniones
 1. Organización de repositorio.
+
 | **Campo**          | **Detalle**                                                                                                |
 | ------------------ | ---------------------------------------------------------------------------------------------------------- |
 | **Fecha**          | jueves, 4 de noviembre                                                                                     |
@@ -200,6 +208,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | David Alcocer                                                                                              |
 
 2. Depuración de requerimientos.
+
 | **Campo**          | **Detalle**                                                                                                                                                                       |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fecha**          | martes, 11 de octubre                                                                                                                                                             |
@@ -215,6 +224,7 @@ Las siguientes reuniones fueron cruciales para la validación y dirección estra
 | **Responsables**   | Leonardo San Martin, David Alcocer                                                                                                                                                |
 
 Weekly con Profesor Cambranes – Avances del Proyecto
+
 | **Campo**          | **Detalle**                                                                                                                                                                             |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fecha**          | miércoles, 12 de noviembre                                                                                                                                                              |
@@ -231,6 +241,7 @@ Weekly con Profesor Cambranes – Avances del Proyecto
 
 🧩 Sprint 4 – Registro de Reuniones
 1. Mock Up final.
+
 | **Campo**          | **Detalle**                                                                                                     |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- |
 | **Fecha**          | jueves, 13 de octubre                                                                                           |
@@ -246,6 +257,7 @@ Weekly con Profesor Cambranes – Avances del Proyecto
 | **Responsables**   | Leonardo San Martin                                                                                             |
 
 Weekly con Profesor Cambranes – Avances v2
+
 | **Campo**          | **Detalle**                                                                                              |
 | ------------------ | -------------------------------------------------------------------------------------------------------- |
 | **Fecha**          | miércoles, 19 de noviembre                                                                               |
@@ -261,6 +273,7 @@ Weekly con Profesor Cambranes – Avances v2
 | **Responsables**   | Leonardo San Martin                                                                                      |
 
 2. Prueba de usuarios.
+
 | **Campo**          | **Detalle**                                                                                                                                                   |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fecha**          | lunes, 23 de octubre                                                                                                                                          |
