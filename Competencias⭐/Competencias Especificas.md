@@ -34,3 +34,44 @@ El trabajo en PeerHive promueve la **comunicación profesional** y la **especial
 ###  Impacto Final
 
 La **integración de los conocimientos teóricos** con la **práctica en un proyecto real como PeerHive** nos permite ofrecer una solución innovadora a un problema tangible de nuestra comunidad. Esta trayectoria **enriquece de forma significativa** nuestra formación como Ingenieros de Software.
+
+---
+# 📘 Competencias Específicas en los últimos 3 sprints (3, 4, 5)
+
+## 1. **Ingeniería de Requerimientos**
+Durante estos sprints se refinaron los requerimientos conforme el sistema crecía. Se ajustaron historias de usuario, criterios de aceptación y el backlog en GitHub Projects para alinear las nuevas funciones (roles, calendario, reportes) con el objetivo real del sistema.
+
+## 2. **Diseño de Software**
+La arquitectura del proyecto evolucionó a una SPA modular. Se reorganizaron componentes (`admin`, `chat`, `asesor`, `calendar`) y se actualizaron diagramas y flujos para soportar nuevas funciones. Los prototipos UX/UI se refinaron con base en los roles y su lógica real.
+
+
+## 3. **Integración de APIs (conceptual/simulada)**
+Se desarrolló una API simulada para la creación de reuniones en Microsoft Teams. Se añadió validación de enlaces, flujo de reuniones y sincronización con calendarios, permitiendo emular integraciones corporativas reales.
+
+## 4. **Pruebas y Validación**
+Cada nueva función se probó manualmente: tickets, sesiones, chat, calendario, panel admin. Se depuraron errores de UI, roles, permisos y flujos completos. Los sprints incluyeron iteraciones constantes de corrección.
+
+## 5. **Gestión de Versionamiento y Configuración**
+Se fortaleció el uso de Git mediante ramas por issue, PRs, revisiones, merges y control del progreso con GitHub Projects. Esto permitió mantener el desarrollo organizado y trazable sprint por sprint.
+
+# 🚀 Competencias Técnicas Adicionales
+
+## A. **Simulación de Microservicios**
+Se implementaron funciones que simulan endpoints backend, como la creación de reuniones, permitiendo probar flujos realistas sin servidor.
+
+## B. **Gestión Avanzada de Roles**
+Se construyó un sistema profesional de permisos que controla cada acción del usuario según su rol.
+
+## C. **UX/UI Avanzado**
+Se integró modo claro/oscuro, componentes reutilizables y una interfaz más coherente y accesible.
+
+## D. **Comunicación Asincrónica (Mensajería)**
+Se consolidó el chat por ticket y el chat directo, manejando múltiples hilos de conversación y estados del usuario.
+
+## F. **Conceptos de CI/CD**
+El equipo adoptó el uso de workflows y pipelines básicos de GitHub como introducción al desarrollo continuo.
+
+
+# 🧩 Conclusión
+Los sprints 3, 4 y 5 consolidaron el proyecto como una aplicación profesional, integrando **10 mpetencias técnicas** que combinan teoría de la carrera LIS–UADY con prácticas reales de la industria.  
+El sistema evolucionó a una Mock up profesional calendario, chats, reuniones simuladas, reportes y trazabilidad completa, demostrando una aplicación integral de la ingeniería de software.
