@@ -158,3 +158,53 @@ Ademas, los cambios reflejados en las historias de usuario, priorizacion y requi
 
 Conclusión de la tarea de prototipos: sign up y login
 se subieron los wireframes y proximos a revisión
+
+**Para la siguiente fecha de sprint**
+- realizar mejoras en color, diseño, UX/UI [¬/]
+- implementación de AI figma [X]
+
+
+
+📅 **Fecha:** 25 de noviembre de 2025  
+- Ultimos cambios del diseño y usabilidad al prototipo
+
+## 🔹 Qué cambió / Qué se rediseñó
+
+| Área / Componente | Cambio / Mejora propuesta |
+|-------------------|---------------------------|
+| **Estructura general & arquitectura de navegación** | Se reestructuró la navegación: menú más claro, jerarquía de páginas refinada y rutas reorganizadas para mejorar el flujo de usuario. |
+| **Interfaz visual (UI)** | Actualización de estilos: nuevas fuentes, colores, espaciados y uso de iconografía moderna y limpia. |
+| **Diseño responsivo / Móvil** | Mejora en la experiencia móvil: mayor adaptabilidad, legibilidad, espaciados táctiles y usabilidad optimizada. |
+| **Flujos de usuario (UX)** | Simplificación de flujos críticos como registro, login y navegación entre secciones, permitiendo un acceso más rápido a funciones clave. |
+| **Feedback visual y estados de UI** | Inclusión de estados visuales (hover, error, confirmación), mensajes más claros y validaciones mejoradas. |
+| **Prototipado de componentes clave** | Desarrollo de wireframes y mockups refinados para módulos esenciales como login, solicitudes, chat, calendario y perfil. |
+
+---
+
+## 🎯 Por qué se hicieron esos cambios (justificación)
+
+- Para mejorar la **usabilidad** y reducir la fricción en el uso diario.  
+- Para asegurar que la interfaz funcione correctamente en una variedad de dispositivos, especialmente móviles.  
+- Para ofrecer una experiencia **más profesional, moderna y coherente** UX/UI.   
+
+---
+
+## ✅ Qué problemas se solucionan / Qué mejoras trae
+
+- Menús y funcionalidades más intuitivas → **menos confusión del usuario**.  
+- Mejor **legibilidad** y **accesibilidad**, incluso en pantallas pequeñas.  
+- Flujos de registro, solicitudes y navegación más fluidos → **menor tiempo**.  
+- Reducción de errores visuales: validaciones claras.   
+
+---
+
+## 🧩 Impacto para el usuario final
+
+- Experiencia más **agradable, clara y coherente**.  
+- Navegación más sencilla y con pasos reducidos para llegar a funcionalidades importantes.  
+- Mejor desempeño y visualización en **dispositivos móviles**.  
+- Interfaz más profesional que brinda **mayor confianza** en el sistema.  
+- Menor incertidumbre durante la interacción gracias a mejores ayudas visuales
+
+---
+
