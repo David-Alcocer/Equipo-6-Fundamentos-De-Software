@@ -43,9 +43,11 @@
 5- [⭐ Competencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90)
    - [Genericas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Genericas.md)
    - [Especificas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
+   - [Critica constructiva](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
+   - [Actividades extra](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
   
 6- [Diseño](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Dise%C3%B1o)
-   - [Mock up](https://venerable-dodol-ad2cfb.netlify.app//)
+   - [Mock up](https://peerhive-app.netlify.app/)
    - [wireframes](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Dise%C3%B1o/wireframes%20base)
    - [prototipo 1](https://www.figma.com/proto/MzYcOXkX42vubYmrf3KQvW/dise%C3%B1o?page-id=7%3A513&node-id=11-24233&viewport=500%2C1206%2C0.23&t=8v1bpaNZFSRvojwA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A24233)
    - [Analisis de comentarios](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Segunda-Entrega-(Proyecto)/Dise%C3%B1o/Recoleccion%20de%20comentarios/Formulario%20de%20recoleccion%20de%20comentarios/Resumen%20de%20la%20recoleccion.md)
@@ -53,10 +55,11 @@
    - [Validacion](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Dise%C3%B1o/Validacion%20del%20cliente.md)
    - [codigo](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Dise%C3%B1o/Artefactos%20de%20codigo)
 
-7- [Pruebas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/214-resultados-de-pruebas-de-usuario/Pruebas)
-   - [Resultados](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/214-resultados-de-pruebas-de-usuario/Pruebas/pruebas.md)
-   - [Encuestas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/214-resultados-de-pruebas-de-usuario/Pruebas/Encuestas.md)
-   - [evidencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/214-resultados-de-pruebas-de-usuario/Pruebas/Artefactos)
+7- [Pruebas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Pruebas)
+   - [Resultados estudiantes](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Pruebas/Reporte%20de%20pruebas.md)
+   - [Resultados asesores ](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Pruebas/Reporte%20de%20pruebas%20asesores.md)
+   - [Encuestas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Pruebas/Encuestas.md)
+   - [evidencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Pruebas/Evidencia%20de%20pruebas.md)
    
 
 8- [🌿 Ramas por Entrega](#-ramas-por-entrega)
