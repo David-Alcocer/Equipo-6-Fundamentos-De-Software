@@ -21,6 +21,8 @@
   - [Objetivos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Objetivos.md)
   - [Propuesta de valor](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Propuesta%20de%20valor.md)
   - [Cambios](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Producto%20%F0%9F%93%96/Resumen%20de%20cambios.md)
+ - [Evolución de producto](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Producto%20📖/Evolución%20de%20Producto.md)
+  
     
 2- [💻 Requisitos](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB)
   - [Requisitos Funcionales](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Requisitos%20%F0%9F%92%BB/Historias%20De%20Usario%20y%20RNF.md)
@@ -45,7 +47,8 @@
    - [Especificas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
    - [Critica constructiva](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
    - [Actividades extra](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias%E2%AD%90/Competencias%20Especificas.md)
-  
+  - [Crítica Constructiva](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Competencias⭐/Crítica%20Constructiva.md)
+
 6- [Diseño](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Dise%C3%B1o)
    - [Mock up](https://peerhive-app.netlify.app/)
    - [wireframes](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/tree/Tercera-Entrega-(Proyecto)/Dise%C3%B1o/wireframes%20base)
@@ -61,10 +64,7 @@
    - [Encuestas](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Pruebas/Encuestas.md)
    - [evidencias](https://github.com/David-Alcocer/Equipo-6-Fundamentos-De-Software/blob/Tercera-Entrega-(Proyecto)/Pruebas/Evidencia%20de%20pruebas.md)
    
-
 8- [🌿 Ramas por Entrega](#-ramas-por-entrega)
-
-9- [🙋 Contribuidores](#-contribuidores)
 
 ---
 
