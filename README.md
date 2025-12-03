@@ -1,7 +1,7 @@
 # 📌 Proyecto de Fundamentos de Software: PeerHive
 
 <p align="center">
-  <img src="Imagenes/PeerHiveLogo.png" width="240" alt="Logo PeerHive">
+  <img src="Imagenes/PeerHive.png" width="240" alt="Logo PeerHive">
 </p>
 
 <!-- Botón al branch main -->
